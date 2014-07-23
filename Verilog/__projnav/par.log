@@ -1,0 +1,3 @@
+Place & Route Module temac1_top . . .
+PAR command line: par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+PAR completed successfully

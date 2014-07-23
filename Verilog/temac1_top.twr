@@ -1,0 +1,241 @@
+--------------------------------------------------------------------------------
+Release 6.3.03i Trace G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml temac1_top
+temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+
+
+Design file:              temac1_top.ncd
+Physical constraint file: temac1_top.pcf
+Device,speed:             xc2vp30,-7 (PRODUCTION 1.90 2004-11-02)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+WARNING:Timing:2666 - Constraint ignored: PATH "FROM U_CLK TO D_CLK"  TIG ;
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_GMII_MII_RX_RESET_I_RESET_OUT" 
+MAXDELAY = 6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.956ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_GMII_MII_TX_RESET_I_RESET_OUT" 
+MAXDELAY = 6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   3.350ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_RX_RESET_I_RESET_OUT" MAXDELAY = 6.100 
+nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   4.782ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_TX_RESET_I_RESET_OUT" MAXDELAY = 6.100 
+nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   3.132ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_TX_RESET_I_RESET_OUT_6" MAXDELAY = 
+6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   2.747ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_TX_RESET_I_RESET_OUT_5" MAXDELAY = 
+6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.175ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_TX_RESET_I_RESET_OUT_7" MAXDELAY = 
+6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.215ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_TX_RESET_I_RESET_OUT_3" MAXDELAY = 
+6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.305ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_TX_RESET_I_RESET_OUT_4" MAXDELAY = 
+6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.286ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_TX_RESET_I_RESET_OUT_2" MAXDELAY = 
+6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.565ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "trimac_core/BU2/U0/TRIMAC_INST_SYNC_TX_RESET_I_RESET_OUT_1" MAXDELAY = 
+6.100 nS ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.479ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_J_TO_J = MAXDELAY FROM TIMEGRP "J_CLK" TO TIMEGRP "J_CLK" 30 nS  ; 
+
+ 6755 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   7.250ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" TO TIMEGRP "J_CLK" 15 nS  ; 
+
+ 18 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.361ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" TO TIMEGRP "U_CLK" 15 nS  ; 
+
+ 1 item analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   1.414ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "FROM U_CLK TO D_CLK"  TIG ;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "FROM J_CLK TO D_CLK"  TIG ;
+
+ 481 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PATH "FROM D_CLK TO J_CLK"  TIG ;
+
+ 816 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_clk100 = PERIOD TIMEGRP "clk100"  10 nS   HIGH 50.000000 % ;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_rx_clk = PERIOD TIMEGRP "rx_clock"  8 nS   HIGH 50.000000 % ;
+
+ 1947 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   4.812ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_rx_clk_core = PERIOD TIMEGRP "rx_clock_core"  8 nS   HIGH 50.000000 % ;
+
+ 3064 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   4.231ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_tx_clk_gmii = PERIOD TIMEGRP "tx_clock_gmii"  8 nS   HIGH 50.000000 % ;
+
+ 738 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   5.242ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_tx_clk_core = PERIOD TIMEGRP "tx_clock_core"  8 nS   HIGH 50.000000 % ;
+
+ 7518 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   7.634ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_camclk = PERIOD TIMEGRP "camclk" TS_clk100 * 1.000000  HIGH 50.000 % ;
+
+ 22692 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   9.547ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock clk100
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk100         |   10.296|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock gmii_rx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+gmii_rx_clk    |    5.708|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock mii_tx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+mii_tx_clk     |    5.972|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 44030 paths, 11 nets, and 16116 connections
+
+Design statistics:
+   Minimum period:   9.547ns (Maximum frequency: 104.745MHz)
+   Maximum path delay from/to any node:   7.250ns
+   Maximum net delay:   4.782ns
+
+
+Analysis completed Thu Feb 10 03:21:49 2005
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 147 MB

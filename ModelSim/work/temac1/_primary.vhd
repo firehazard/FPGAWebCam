@@ -1,0 +1,40 @@
+library verilog;
+use verilog.vl_types.all;
+entity temac1 is
+    port(
+        rxcoreclk       : in     vl_logic;
+        phyemacrxdv     : in     vl_logic;
+        phyemacrxer     : in     vl_logic;
+        emacclienttxretransmit: out    vl_logic;
+        reset           : in     vl_logic;
+        emacclientrxgoodframe: out    vl_logic;
+        emacclientrxdvld: out    vl_logic;
+        emacphytxen     : out    vl_logic;
+        emacphytxer     : out    vl_logic;
+        phyemaccol      : in     vl_logic;
+        corehassgmii    : in     vl_logic;
+        clientemacpausereq: in     vl_logic;
+        phyemaccrs      : in     vl_logic;
+        emacclientrxbadframe: out    vl_logic;
+        emacclienttxcollision: out    vl_logic;
+        rxgmiimiiclk    : in     vl_logic;
+        txgmiimiiclk    : in     vl_logic;
+        emacclientrxstatsvld: out    vl_logic;
+        speedis100      : out    vl_logic;
+        emacclienttxstatsvld: out    vl_logic;
+        speedis10100    : out    vl_logic;
+        clientemactxdvld: in     vl_logic;
+        txcoreclk       : in     vl_logic;
+        emacclienttxack : out    vl_logic;
+        clientemactxunderrun: in     vl_logic;
+        emacclientrxd   : out    vl_logic_vector(7 downto 0);
+        clientemactxifgdelay: in     vl_logic_vector(7 downto 0);
+        emacclientrxstats: out    vl_logic_vector(26 downto 0);
+        tieemacconfigvec: in     vl_logic_vector(66 downto 0);
+        emacclienttxstats: out    vl_logic_vector(31 downto 0);
+        clientemacpauseval: in     vl_logic_vector(15 downto 0);
+        emacphytxd      : out    vl_logic_vector(7 downto 0);
+        clientemactxd   : in     vl_logic_vector(7 downto 0);
+        phyemacrxd      : in     vl_logic_vector(7 downto 0)
+    );
+end temac1;

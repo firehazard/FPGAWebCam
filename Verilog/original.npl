@@ -1,0 +1,42 @@
+JDF G
+// Created by Project Navigator ver 1.0
+PROJECT original
+DESIGN original
+DEVFAM virtex2p
+DEVFAMTIME 0
+DEVICE xc2vp30
+DEVICETIME 0
+DEVPKG ff896
+DEVPKGTIME 0
+DEVSPEED -7
+DEVSPEEDTIME 1105858427
+DEVTOPLEVELMODULETYPE HDL
+TOPLEVELMODULETYPETIME 0
+DEVSYNTHESISTOOL XST (VHDL/Verilog)
+SYNTHESISTOOLTIME 0
+DEVSIMULATOR Modelsim
+SIMULATORTIME 1105860884
+DEVGENERATEDSIMULATIONMODEL Verilog
+GENERATEDSIMULATIONMODELTIME 0
+SOURCE clk_half.v
+SOURCE temac1_mod.v
+SOURCE camtop.v
+SOURCE fakeov8610.v
+SOURCE video_timer.v
+SOURCE packetizer.v
+SOURCE edge_detect.v
+SOURCE pcpacket.v
+SOURCE resetsync.v
+SOURCE synchronizer.v
+SOURCE counter.v
+SOURCE smallfifo.v
+SOURCE bigfifo.v
+SOURCE clkgen.v
+SOURCE ff.v
+SOURCE temac1_top.v
+DEPASSOC temac1_top temac1_top.ucf
+[Normal]
+p_CompxlibOutputDir=xstvlg, virtex2p, Design.t_compLibraries, 1105860418, C:\Modeltech_5.7a\xilinx_libs\
+p_CompxlibTargetSimulator=xstvlg, virtex2p, Design.t_compLibraries, 1105860418, ModelSim SE
+[STRATEGY-LIST]
+Normal=True

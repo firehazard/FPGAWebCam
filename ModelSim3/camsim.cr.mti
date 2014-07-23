@@ -1,0 +1,156 @@
+C:/EE109/Lab3/ModelSim3/resetsync.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/resetsync.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module resetsync
+
+Top level modules:
+	resetsync
+
+} {} {}} C:/EE109/Lab3/ModelSim3/temac1_mod.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/temac1_mod.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module temac1
+
+Top level modules:
+	temac1
+
+} {} {}} C:/EE109/Lab3/ModelSim3/sccb.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/sccb.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module sccb
+
+Top level modules:
+	sccb
+
+} {} {}} C:/EE109/Lab3/ModelSim3/temac1.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/temac1.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module temac1
+
+Top level modules:
+	temac1
+
+} {} {}} C:/EE109/Lab3/ModelSim3/pcpacket.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/pcpacket.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module pcpacket
+
+Top level modules:
+	pcpacket
+
+} {} {}} C:/EE109/Lab3/ModelSim3/camtop.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/camtop.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module camtop
+
+Top level modules:
+	camtop
+
+} {} {}} C:/EE109/Lab3/ModelSim3/inputfifo.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/inputfifo.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module inputfifo
+
+Top level modules:
+	inputfifo
+
+} {} {}} C:/EE109/Lab3/ModelSim3/demo_tb2.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/demo_tb2.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/EE109/Lab3/ModelSim3/clkgen.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/clkgen.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module clkgen
+
+Top level modules:
+	clkgen
+
+} {} {}} C:/EE109/Lab3/ModelSim3/ff.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/ff.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module dff
+-- Compiling module dffr
+-- Compiling module dffre
+-- Compiling module dffrei
+-- Compiling module dffar
+
+Top level modules:
+	dff
+	dffr
+	dffre
+	dffrei
+	dffar
+
+} {} {}} C:/EE109/Lab3/ModelSim3/temac1_top.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/temac1_top.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module temac1_top
+
+Top level modules:
+	temac1_top
+
+} {} {}} C:/EE109/Lab3/ModelSim3/edge_detect.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/edge_detect.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module edge_detect
+
+Top level modules:
+	edge_detect
+
+} {} {}} C:/EE109/Lab3/ModelSim3/bigfifo.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/bigfifo.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module bigfifo
+
+Top level modules:
+	bigfifo
+
+} {} {}} C:/EE109/Lab3/ModelSim3/synchronizer.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/synchronizer.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module synchronizer
+
+Top level modules:
+	synchronizer
+
+} {} {}} C:/EE109/Lab3/ModelSim3/big_tb.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/big_tb.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/EE109/Lab3/ModelSim3/video_timer.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/video_timer.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module video_timer
+
+Top level modules:
+	video_timer
+
+} {} {}} C:/EE109/Lab3/ModelSim3/counter.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/counter.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/EE109/Lab3/ModelSim3/packetizer.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/packetizer.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module packetizer
+
+Top level modules:
+	packetizer
+
+} {} {}} C:/EE109/Lab3/ModelSim3/fakeov8610.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/fakeov8610.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module fakeov8610
+
+Top level modules:
+	fakeov8610
+
+} {} {}} C:/EE109/Lab3/ModelSim3/clk_half.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/clk_half.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module clk_half
+
+Top level modules:
+	clk_half
+
+} {} {}} C:/EE109/Lab3/ModelSim3/outputfifo.v {1 {vlog -work work C:/EE109/Lab3/ModelSim3/outputfifo.v
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module outputfifo
+
+Top level modules:
+	outputfifo
+
+} {} {}}

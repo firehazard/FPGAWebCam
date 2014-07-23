@@ -1,0 +1,13 @@
+Release 6.3.03i - ngdbuild G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild fifosinputfifo.edn 
+
+WARNING:NgdBuild:257 - Launcher: Could not find the file
+   "C:\EE109\Lab3\ModelSim\sccbtesting\fifosinputfifo" with extension "edn" in
+   the search path.  The filename extension will be ignored.
+ERROR:NgdBuild:28 - Top-level input design file "fifosinputfifo.edn" cannot be
+   found or created. Please make sure the source file exists and is of a
+   recognized netlist format (e.g., ngo, ngc, edif, edn, or edf).
+
+Writing NGDBUILD log file "fifosinputfifo.bld"...

@@ -1,0 +1,4 @@
+Mapping Module temac1_top . . .
+MAP command line:
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+Mapping Module temac1_top: DONE

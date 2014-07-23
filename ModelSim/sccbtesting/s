@@ -1,0 +1,5 @@
+vsim work.sccb_testbench
+log -r /*
+view structure signals wave
+run 5ms
+do w

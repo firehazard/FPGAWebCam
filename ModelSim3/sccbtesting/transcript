@@ -1,0 +1,1303 @@
+# Reading C:/Modeltech_5.7a/tcl/vsim/pref.tcl 
+# //  ModelSim SE Viewer 5.7a Dec 15 2002 
+# //
+# //  Copyright Model Technology, a Mentor Graphics Corporation company, 2003
+# //                         All Rights Reserved.
+# //                   UNPUBLISHED, LICENSED SOFTWARE.
+# //         CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+# //        PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS.
+# //
+#  OpenFile "C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf" 
+# Loading project sccbsim
+do s
+# vsim work.sccb_testbench 
+# Loading work.sccb_testbench
+# Loading work.sccb
+# Loading work.counter
+# Loading work.dffre
+# Loading work.dff
+# .structure .signals .wave
+run 1us
+destroy .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dffre
+# Loading work.dff
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'd'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'q'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(114): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+run 1us
+do w2
+destroy .wave
+quit -sim
+dow2
+# invalid command name "dow2"
+do w2
+destroy .wave
+do s
+# vsim work.sccb_testbench 
+# Loading work.sccb_testbench
+# Loading work.sccb
+# Loading work.counter
+# Loading work.dffre
+# Loading work.dff
+# .structure .signals .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dffre
+# Loading work.dff
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'd'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'q'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(114): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dffre
+# Loading work.dff
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'd'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'q'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(114): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dffre
+# Loading work.dff
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'd'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'q'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(114): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+# Compile of pcpacket.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dffre
+# Loading work.dff
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'd'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(46): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'q'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(114): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/rxresest"
+# Executing ONERROR command at macro ./w2 line 25
+destroy .wave
+quit -sim
+# Compile of pcpacket.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dffre
+# Loading work.dff
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(42): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'd'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(42): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'q'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(116): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/rxresest"
+# Executing ONERROR command at macro ./w2 line 25
+destroy .wave
+quit -sim
+# Compile of pcpacket.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(37): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'd'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(37): [PCDPC] - Port size (1 or 1) does not match connection size (3) for port 'q'.
+#         Region: /pcpacket_testbench/dut/masterfsm
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/rxresest"
+# Executing ONERROR command at macro ./w2 line 25
+destroy .wave
+quit -sim
+# Compile of pcpacket.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/rxresest"
+# Executing ONERROR command at macro ./w2 line 25
+destroy .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/rxresest"
+# Executing ONERROR command at macro ./w2 line 25
+write format wave -window .wave C:/EE109/Lab3/ModelSim/sccbtesting/w2
+destroy .wave
+quit -sim
+# Compile of sccb.v was successful.
+# Compile of ff.v was successful.
+# Compile of counter.v was successful.
+# Compile of pcpacket.v was successful.
+# Compile of edge_detect.v was successful.
+# Compile of outputfifo.v was successful.
+# Compile of inputfifo.v was successful.
+# Compile of packetizer.v was successful.
+# Compile of camtop.v was successful.
+# Compile of pcpacket_tb.v was successful.
+# 10 compiles, 0 failed with no errors. 
+# Compile of pcpacket_tb.v failed with 1 errors.
+# Compile of pcpacket_tb.v failed with 1 errors.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+do w2
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v failed with 1 errors.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v failed with 1 errors.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+write format wave -window .wave C:/EE109/Lab3/ModelSim/sccbtesting/w2
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/detectvalidedge
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(119): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+# Compile of pcpacket.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/intemp"
+# Executing ONERROR command at macro ./w2 line 16
+destroy .wave
+quit -sim
+# Compile of pcpacket.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/intemp"
+# Executing ONERROR command at macro ./w2 line 16
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v failed with 1 errors.
+# Compile of pcpacket_tb.v failed with 1 errors.
+# Compile of sccb.v was successful.
+# Compile of ff.v was successful.
+# Compile of counter.v was successful.
+# Compile of pcpacket.v was successful.
+# Compile of edge_detect.v was successful.
+# Compile of outputfifo.v was successful.
+# Compile of inputfifo.v was successful.
+# Compile of packetizer.v was successful.
+# Compile of camtop.v was successful.
+# Compile of pcpacket_tb.v was successful.
+# 10 compiles, 0 failed with no errors. 
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/intemp"
+# Executing ONERROR command at macro ./w2 line 16
+destroy .wave
+# Compile of pcpacket_tb.v was successful.
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/intemp"
+# Executing ONERROR command at macro ./w2 line 16
+destroy .wave
+# Compile of pcpacket_tb.v was successful.
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/intemp"
+# Executing ONERROR command at macro ./w2 line 16
+destroy .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+# ERROR: No objects found matching "/pcpacket_testbench/dut/intemp"
+# Executing ONERROR command at macro ./w2 line 16
+write format wave -window .wave C:/EE109/Lab3/ModelSim/sccbtesting/w2
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+# Compile of pcpacket_tb.v was successful.
+# Compile of pcpacket.v was successful.
+do s
+# vsim work.sccb_testbench 
+# Loading work.sccb_testbench
+# Loading work.sccb
+# Loading work.counter
+# Loading work.dffre
+# Loading work.dff
+# .structure .signals .wave
+quit -sim
+destroy wave
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .structure
+destroy .signals
+quit -sim
+# Compile of pcpacket.v was successful.
+destroy .wave
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s
+# vsim work.sccb_testbench 
+# Loading work.sccb_testbench
+# Loading work.sccb
+# Loading work.counter
+# Loading work.dffre
+# Loading work.dff
+# .structure .signals .wave
+destroy .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+destroy .signals
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+write format wave -window .wave C:/EE109/Lab3/ModelSim/sccbtesting/w2
+quit -sim
+quit -sim
+# Compile of sccb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+# Compile of pcpacket.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v(118): [PCDPC] - Port size (8 or 8) does not match connection size (1) for port 'din'.
+#         Region: /pcpacket_testbench/dut/outfifo
+# .structure .signals .wave
+write format wave -window .wave C:/EE109/Lab3/ModelSim/sccbtesting/w2
+destroy .wave
+quit -sim
+# Compile of pcpacket.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# .structure .signals .wave
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# .structure .signals .wave
+write format wave -window .wave C:/EE109/Lab3/ModelSim/sccbtesting/w2
+destroy .wave
+quit -sim
+# Compile of pcpacket_tb.v was successful.
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# .structure .signals .wave
+destroy .wave
+quit -sim
+project open C:/EE109/Lab3/ModelSim/camsim.mpf
+# Loading project camsim
+do sim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/camsim.mpf
+# Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.testbench work.glbl 
+# Loading work.testbench
+# Loading work.temac1_top
+# Loading work.clk_half
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.BUFG
+# ** Warning: (vsim-3010) [TSCALE] - Module 'BUFG' has a `timescale directive in effect, but previous modules do not.
+#         Region: /testbench/dut/clkbuff1
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.INV
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.FDDRRSE
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.OBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUFG
+# Loading work.temac1
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ONE
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ZERO
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT3
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_BUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_MUX2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_FF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_XOR2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_AND2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SFF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_RAMB16_S36_S36
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SRLC16E
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_OR2
+# Loading work.clkgen
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clkgen' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/gen40
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.DCM
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_divide_by_2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_maximum_period_check
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_lost
+# Loading work.camtop
+# ** Warning: (vsim-3009) [TSCALE] - Module 'camtop' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera
+# Loading work.resetsync
+# ** Warning: (vsim-3009) [TSCALE] - Module 'resetsync' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/stxreset
+# Loading work.fakeov8610
+# Loading work.video_timer
+# Loading work.dffrei
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffrei' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffxstart1
+# Loading work.dffre
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffre' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/serialCount
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffgodff
+# Loading work.pcpacket
+# ** Warning: (vsim-3009) [TSCALE] - Module 'pcpacket' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming
+# Loading work.counter
+# ** Warning: (vsim-3009) [TSCALE] - Module 'counter' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/count
+# Loading work.synchronizer
+# ** Warning: (vsim-3009) [TSCALE] - Module 'synchronizer' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/syncpackcount
+# Loading work.smallfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'smallfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/fifoshift
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.packetizer
+# ** Warning: (vsim-3009) [TSCALE] - Module 'packetizer' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/makepackets
+# Loading work.edge_detect
+# ** Warning: (vsim-3009) [TSCALE] - Module 'edge_detect' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/makepackets/vsyncpulse
+# Loading work.dff
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dff' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/makepackets/vsyncpulse/dff1
+# Loading work.bigfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'bigfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/myfifo
+# Loading work.glbl
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim/demo_tb2.v(103): [TFMPC] - Too few port connections. Expected 24, found 20.
+#         Region: /testbench/dut
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/demo_tb2.v(103): [PCDPC] - Port size (4 or 4) does not match connection size (8) for port 'gmii_txd'.
+#         Region: /testbench/dut
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/demo_tb2.v(103): [PCDPC] - Port size (4 or 4) does not match connection size (8) for port 'gmii_rxd'.
+#         Region: /testbench/dut
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim/temac1_top.v(374): [TFMPC] - Too few port connections. Expected 34, found 30.
+#         Region: /testbench/dut/trimac_core
+# ** Warning: (vsim-3015) C:/EE109/Lab3/ModelSim/temac1_top.v(374): [PCDPC] - Port size (8 or 8) does not match connection size (4) for port 'phyemacrxd'.
+#         Region: /testbench/dut/trimac_core
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut3_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut4_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut2_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.mux
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.ffsrce
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.sffsrce
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim/camtop.v(110): [TFMPC] - Too few port connections. Expected 13, found 12.
+#         Region: /testbench/dut/camera/fakecamera
+# ** Warning: (vsim-WLF-5000) Log file vsim.wlf currently in use.
+# File in use by: EE109-3  Hostname: EE109-3  ProcessID: 1532
+# ** Warning: (vsim-WLF-5001) Could not open log file vsim.wlf.  Using C:\DOCUME~1\Tom\LOCALS~1\Temp\wlft2.wlf instead.
+quit -sim
+# reading modelsim.ini

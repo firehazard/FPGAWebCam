@@ -1,0 +1,128 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 0.56 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.02 / 0.58 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: camtop.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : camtop.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : camtop
+Output Format                      : NGC
+Target Device                      : xc2vp30-7-ff896
+
+---- Source Options
+Top Module Name                    : camtop
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : camtop.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "resetsync.v"
+Module <resetsync> compiled
+Compiling source file "video_timer.v"
+Module <video_timer> compiled
+Compiling source file "ff.v"
+Module <dff> compiled
+Module <dffr> compiled
+Module <dffre> compiled
+Module <dffrei> compiled
+Module <dffar> compiled
+Compiling source file "fakeov8610.v"
+Module <fakeov8610> compiled
+Compiling source file "counter.v"
+Module <counter> compiled
+Compiling source file "synchronizer.v"
+Module <synchronizer> compiled
+Compiling source file "smallfifo.v"
+Module <smallfifo> compiled
+Compiling source file "pcpacket.v"
+Module <pcpacket> compiled
+Compiling source file "edge_detect.v"
+Module <edge_detect> compiled
+Compiling source file "packetizer.v"
+ERROR:HDLCompilers:28 - packetizer.v line 117 'reset' has not been declared
+Module <packetizer> compiled
+Compiling source file "bigfifo.v"
+Module <bigfifo> compiled
+Compiling source file "camtop.v"
+Module <camtop> compiled
+Analysis of file <camtop.prj> failed.
+--> 
+
+Total memory usage is 47448 kilobytes
+
+

@@ -1,0 +1,34 @@
+Release 6.3.03i - ngdbuild G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -i
+-p xc2vp30-ff896-7 camtop.ngc camtop.ngd 
+
+Reading NGO file "Y:/private/EE109/Lab2HW/temac/camtop.ngc" ...
+Reading component libraries for design expansion...
+Launcher: "bigfifo.ngo" is up to date.
+Loading design module "y:\private\ee109\lab2hw\temac\_ngo\bigfifo.ngo"...
+fifo_generator_v2_0, Coregen 6.3.03i_ip4
+Loading design module
+"Y:\private\EE109\Lab2HW\temac/bigfifo_fifo_generator_v2_0_as_1.ngc"...
+fifo_generator_v2_0, Coregen 6.3.03i_ip4
+Launcher: "smallfifo.ngo" is up to date.
+Loading design module "y:\private\ee109\lab2hw\temac\_ngo\smallfifo.ngo"...
+async_fifo_v6_1, Coregen 6.3.03i_ip4
+
+Checking timing specifications ...
+Checking expanded design ...
+WARNING:NgdBuild:440 - FF primitive 'incoming_fifoshift/BU150' has unconnected
+   output pin
+WARNING:NgdBuild:440 - FF primitive 'incoming_fifoshift/BU345' has unconnected
+   output pin
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   2
+
+Total memory usage is 46444 kilobytes
+
+Writing NGD file "camtop.ngd" ...
+
+Writing NGDBUILD log file "camtop.bld"...

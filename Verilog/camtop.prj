@@ -1,0 +1,12 @@
+verilog work resetsync.v
+verilog work video_timer.v
+verilog work ff.v
+verilog work fakeov8610.v
+verilog work counter.v
+verilog work synchronizer.v
+verilog work smallfifo.v
+verilog work pcpacket.v
+verilog work edge_detect.v
+verilog work packetizer.v
+verilog work bigfifo.v
+verilog work camtop.v

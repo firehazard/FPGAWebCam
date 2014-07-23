@@ -1,0 +1,47 @@
+# Xilinx CORE Generator 6.3.03i; Cores Update # 4
+# Username = EE109-3
+# COREGenPath = C:\Xilinx\coregen
+# ProjectPath = Y:\private\EE109\Lab2HW\bigfifo\
+# ExpandedProjectPath = Y:\private\EE109\Lab2HW\bigfifo
+# OverwriteFiles = False
+# Core name: smallfifo
+# Number of Primitives in design: 203
+# Number of CLBs used in design cannot be determined when there is no RPMed logic
+# Number of Slices used in design cannot be determined when there is no RPMed logic
+# Number of LUT sites used in design: 58
+# Number of LUTs used in design: 58
+# Number of REG used in design: 92
+# Number of SRL16s used in design: 0
+# Number of Distributed RAM primitives used in design: 0
+# Number of Block Memories used in design: 1
+# Number of Dedicated Multipliers used in design: 0
+# Number of HU_SETs used: 0
+# 
+SET BusFormat = BusFormatAngleBracketNotRipped
+SET SimulationOutputProducts = Verilog
+SET XilinxFamily = Virtex2P
+SET OutputOption = DesignFlow
+SET DesignFlow = Verilog
+SET FlowVendor = Other
+SET FormalVerification = None
+SELECT Asynchronous_FIFO Virtex2P Xilinx,_Inc. 6.1
+CSET read_error_sense = active_high
+CSET read_count_width = 2
+CSET write_acknowledge = false
+CSET create_rpm = false
+CSET read_acknowledge = false
+CSET read_count = false
+CSET write_error = false
+CSET almost_full_flag = false
+CSET almost_empty_flag = false
+CSET memory_type = block
+CSET read_error = false
+CSET fifo_depth = 255
+CSET component_name = smallfifo
+CSET input_data_width = 8
+CSET write_count = false
+CSET write_acknowledge_sense = active_high
+CSET read_acknowledge_sense = active_high
+CSET write_error_sense = active_high
+CSET write_count_width = 2
+GENERATE

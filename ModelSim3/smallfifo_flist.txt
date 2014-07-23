@@ -1,0 +1,6 @@
+# Output products list for <smallfifo>
+smallfifo.edn
+smallfifo.veo
+smallfifo.v
+smallfifo.xco
+smallfifo.xcp

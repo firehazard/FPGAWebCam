@@ -1,0 +1,178 @@
+# Set the part type to: 4vlx15ff668-10 if Virtex4, 3s4000fg900-5 if Spartan3, 2v1000fg456-4 if Virtex2, xc2vp7-ff896-5 if Virtex2P
+#CONFIG PART = 2vp7-ff896-5 ;
+CONFIG PART = 2vp30-ff896-7;
+
+
+NET "clk100" LOC = "AJ15";
+NET "clk100" IOSTANDARD = LVCMOS25;
+NET "clk100" TNM_NET = "clk100";
+TIMESPEC "TS_clk100" = PERIOD "clk100" 10.00 ns HIGH 50 %;
+  
+NET "gmii_txd<0>" LOC = "J7";
+NET "gmii_txd<1>" LOC = "J8";
+NET "gmii_txd<2>" LOC = "C1";
+NET "gmii_txd<3>" LOC = "C2";
+NET "gmii_tx_er" LOC = "H2";
+NET "mii_tx_clk" LOC = "D3";
+NET "gmii_tx_en" LOC = "C4";
+
+NET "gmii_txd<?>" IOSTANDARD = LVTTL;
+NET "gmii_txd<?>" DRIVE = 8;
+NET "gmii_txd<?>" SLEW = SLOW;
+
+NET "gmii_tx_er" IOSTANDARD = LVTTL;
+NET "gmii_tx_er" DRIVE = 8;
+NET "gmii_tx_er" SLEW = SLOW;
+
+NET "mii_tx_clk" IOSTANDARD = LVTTL;
+
+NET "gmii_tx_en" IOSTANDARD = LVTTL;
+NET "gmii_tx_en" DRIVE = 8;
+NET "gmii_tx_en" SLEW = SLOW;
+
+NET "gmii_rxd<0>" LOC = "K6";
+NET "gmii_rxd<1>" LOC = "K5";
+NET "gmii_rxd<2>" LOC = "J1";
+NET "gmii_rxd<3>" LOC = "K1";
+NET "gmii_rx_dv" LOC = "M7";
+NET "gmii_rx_er" LOC = "J2";
+NET "gmii_rx_clk" LOC = "M8";
+
+NET "gmii_rxd<?>" IOSTANDARD = LVTTL;
+NET "gmii_rx_er" IOSTANDARD = LVTTL;
+NET "gmii_rx_clk" IOSTANDARD = LVTTL;
+NET "gmii_rx_dv" IOSTANDARD = LVTTL;
+
+
+NET "phy_reset" LOC = "G6";
+NET "gmii_crs" LOC = "C5";
+NET "gmii_col" LOC = "D5";
+
+
+NET "phy_reset" IOSTANDARD = LVTTL;
+NET "phy_reset" DRIVE = 8;
+NET "phy_reset" SLEW = SLOW;
+
+NET "gmii_crs" IOSTANDARD = LVTTL;
+NET "gmii_col" IOSTANDARD = LVTTL;
+
+
+NET "reset" LOC = "AH5";
+NET "reset" IOSTANDARD = LVTTL;
+
+
+
+NET "LED_0" LOC = "AC4";
+NET "LED_1" LOC = "AC3";
+NET "LED_2" LOC = "AA6";
+NET "LED_3" LOC = "AA5";
+
+NET "LED_0" IOSTANDARD = LVTTL;
+NET "LED_1" IOSTANDARD = LVTTL;
+NET "LED_2" IOSTANDARD = LVTTL;
+NET "LED_3" IOSTANDARD = LVTTL;
+
+NET "LED_0" DRIVE = 12;
+NET "LED_1" DRIVE = 12;
+NET "LED_2" DRIVE = 12;
+NET "LED_3" DRIVE = 12;
+
+NET "LED_0" SLEW = SLOW;
+NET "LED_1" SLEW = SLOW;
+NET "LED_2" SLEW = SLOW;
+NET "LED_3" SLEW = SLOW;
+
+ 
+
+
+############################################################
+# Reset path constraints                                   #
+#  These constraints add a measure of protection against   #
+#  metastability and skew in the reset nets.               #
+############################################################
+NET "trimac_core?BU2?U0?TRIMAC_INST?SYNC_RX_RESET_I_RESET_OUT*" MAXDELAY = 6100 ps;
+NET "trimac_core?BU2?U0?TRIMAC_INST?SYNC_TX_RESET_I_RESET_OUT*" MAXDELAY = 6100 ps;
+NET "trimac_core?BU2?U0?TRIMAC_INST?SYNC_GMII_MII_RX_RESET_I_RESET_OUT*" MAXDELAY = 6100 ps;
+NET "trimac_core?BU2?U0?TRIMAC_INST?SYNC_GMII_MII_TX_RESET_I_RESET_OUT*" MAXDELAY = 6100 ps;
+
+############################################################
+# External GMII Constraints                                #
+############################################################
+
+# GMII Transmitter Constraints:  place flip-flops in IOB   
+INST "gmii_txd_reg*"    IOB = true;
+INST "gmii_tx_en_reg"   IOB = true;
+INST "gmii_tx_er_reg"   IOB = true;
+
+
+# GMII Receiver Constraints:  place flip-flops in IOB      
+INST "gmii_rxd_reg*"    IOB = true;
+INST "gmii_rx_dv_reg"   IOB = true;
+INST "gmii_rx_er_reg"   IOB = true;
+
+# GMII IOSTANDARD Constraints: the LVTTL I/O Standard is the           
+# default for Spartan2E, VirtexE and Virtex2 devices: the     
+# following constraints may be added without harm.  LVTTL is 
+# not the default I/O Standard for Virtex4, Virtex2Pro and  
+# Spartan3 devices: use the following constraints with the
+# device IO Banking rules.                                                  
+
+INST "gmii_txd<?>"     IOSTANDARD = LVTTL;
+INST "gmii_tx_en"      IOSTANDARD = LVTTL;
+INST "gmii_tx_er"      IOSTANDARD = LVTTL;
+
+INST "gmii_rxd<?>"     IOSTANDARD = LVTTL;
+INST "gmii_rx_dv"      IOSTANDARD = LVTTL;
+INST "gmii_rx_er"      IOSTANDARD = LVTTL;
+
+INST "gmii_tx_clk"     IOSTANDARD = LVTTL;
+INST "gmii_rx_clk"     IOSTANDARD = LVTTL;
+
+INST "gmii_txd<?>" SLEW = FAST;
+INST "gmii_tx_en"  SLEW = FAST;
+INST "gmii_tx_er"  SLEW = FAST;
+INST "gmii_tx_clk" SLEW = FAST;
+
+
+############################################################
+# Clock period Constraints                                 #
+############################################################
+# Receiver clock period constraints: please do not relax
+NET "gmii_rx_clk*" TNM_NET = "clk_rx";
+TIMEGRP "rx_clock"         = "clk_rx";
+TIMESPEC "TS_rx_clk"       = PERIOD "rx_clock" 8 ns HIGH 50 %;
+
+NET "rx_clk_int" TNM_NET   = "clk_rx_core";
+TIMEGRP "rx_clock_core"    = "clk_rx_core";
+TIMESPEC "TS_rx_clk_core"  = PERIOD "rx_clock_core" 8 ns HIGH 50 %;
+
+# Transmitter clock period constraints: please do not relax
+NET "gtx_clk*" TNM_NET      = "clk_tx";
+TIMEGRP "tx_clock"         = "clk_tx";
+#TIMESPEC "TS_tx_clk"       = PERIOD "tx_clock" 8000 ps HIGH 50 %;
+
+NET "tx_gmii_mii_clk*" TNM_NET = "clk_tx_gmii";
+TIMEGRP "tx_clock_gmii"        = "clk_tx_gmii";
+TIMESPEC "TS_tx_clk_gmii"      = PERIOD "tx_clock_gmii" 8 ns HIGH 50 %;
+
+NET "tx_clk_int" TNM_NET  = "clk_tx_core";
+TIMEGRP "tx_clock_core"   = "clk_tx_core";
+TIMESPEC "TS_tx_clk_core" = PERIOD "tx_clock_core" 8 ns HIGH 50 %;
+
+
+
+
+############################################################
+# Crossing of Clock Domain Constraints: please do not edit #
+############################################################
+# Flow Control logic reclocking
+INST "trimac_core?BU2?U0?TRIMAC_INST?FLOW_RX_PAUSE_GOOD_FRAME_TO_TX"   TNM="flow_rx_to_tx";
+INST "trimac_core?BU2?U0?TRIMAC_INST?FLOW_RX_PAUSE_PAUSE_REQ_TO_TX"    TNM="flow_rx_to_tx";
+INST "trimac_core?BU2?U0?TRIMAC_INST?FLOW_RX_PAUSE_PAUSE_VALUE_TO_TX*" TNM="flow_rx_to_tx";
+
+
+
+
+
+
+

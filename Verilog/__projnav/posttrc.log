@@ -1,0 +1,4 @@
+Post Route Timing Report for Module temac1_top . . .
+TRACE command line and options:
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+Post Route Timing Report for Module temac1_top : DONE

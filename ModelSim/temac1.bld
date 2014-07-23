@@ -1,0 +1,32 @@
+Release 6.3.03i - ngdbuild G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild temac1.edn 
+
+WARNING:NgdBuild:257 - Launcher: Could not find the file
+   "Y:\private\EE109\Lab2\simulate\temac1" with extension "edn" in the search
+   path.  The filename extension will be ignored.
+Launcher: The source netlist for "temac1.ngo" was not found; the current NGO
+file will be used and no new NGO description will be compiled.  This probably
+means that the source netlist was moved or deleted.
+Reading NGO file "Y:/private/EE109/Lab2/simulate/temac1.ngo" ...
+tri_mode_eth_mac_v1_1, Coregen 6.3.03i_ip4
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+ERROR:NgdBuild:604 - logical block 'BU2' with type 'temac1_trimac_gen_1' could
+   not be resolved. A pin name misspelling can cause this, a missing edif or ngc
+   file, or the misspelling of a type name. Symbol 'temac1_trimac_gen_1' is not
+   supported in target 'virtex2p'.
+
+NGDBUILD Design Results Summary:
+  Number of errors:     1
+  Number of warnings:   1
+
+Total memory usage is 41328 kilobytes
+
+
+One or more errors were found during NGDBUILD.  No NGD file will be written.
+
+Writing NGDBUILD log file "temac1.bld"...

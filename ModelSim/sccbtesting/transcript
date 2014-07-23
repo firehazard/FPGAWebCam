@@ -1,0 +1,58 @@
+# Reading C:/Modeltech_5.7a/tcl/vsim/pref.tcl 
+# //  ModelSim SE Viewer 5.7a Dec 15 2002 
+# //
+# //  Copyright Model Technology, a Mentor Graphics Corporation company, 2003
+# //                         All Rights Reserved.
+# //                   UNPUBLISHED, LICENSED SOFTWARE.
+# //         CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+# //        PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS.
+# //
+#  OpenFile "C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf" 
+# Loading project sccbsim
+# Compile of sccb.v was successful.
+# Compile of ff.v was successful.
+# Compile of counter.v was successful.
+# Compile of pcpacket.v was successful.
+# Compile of edge_detect.v was successful.
+# Compile of outputfifo.v was successful.
+# Compile of inputfifo.v was successful.
+# Compile of packetizer.v was successful.
+# Compile of camtop.v was successful.
+# Compile of pcpacket_tb.v was successful.
+# 10 compiles, 0 failed with no errors. 
+do s
+# vsim work.sccb_testbench 
+# Loading work.sccb_testbench
+# Loading work.sccb
+# Loading work.counter
+# Loading work.dffre
+# Loading work.dff
+# .structure .signals .wave
+destroy .wave
+quit -sim
+do s2
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim/sccbtesting/sccbsim.mpf
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.pcpacket_testbench 
+# Loading work.pcpacket_testbench
+# Loading work.pcpacket
+# Loading work.dff
+# Loading work.dffre
+# Loading work.edge_detect
+# Loading work.sccb
+# Loading work.counter
+# Loading work.inputfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# ** Warning: (vsim-3010) [TSCALE] - Module 'SYNC_FIFO_V5_0' has a `timescale directive in effect, but previous modules do not.
+#         Region: /pcpacket_testbench/dut/infifo/inst
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /pcpacket_testbench/dut/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# .structure .signals .wave
+destroy .wave
+quit -sim

@@ -1,0 +1,153 @@
+`define CHILL		      3'b001
+`define SEND_ADDRS 	  3'b000
+`define SEND_DATA  	  3'b010
+`define SEND_CONTROL  3'b011
+`define SEND_DUMMY    3'b100
+
+`define ADDR_COUNT_MAX 16'd26   //changed from 13 (need to half clk) -td
+`define CONTROL_COUNT_MAX 16'd2 //changed from 1 (need to half clk) -td
+`define DUMMY_COUNT_MAX 16'd2   //changed from 1 (need to half clk) -td
+
+module packetizer(
+		clk, rst,
+		cameraData, 
+		camera_href, // camera data valid		
+		cameraVSync,
+		cameraHSync,
+
+		outFifo,
+		FIFOdata_valid,
+		fifo_read_en, goodframe, badframe
+		);  
+
+	input clk;
+	input rst;	
+	input [7:0] cameraData;
+	input camera_href;
+	input cameraVSync;
+	input cameraHSync;
+
+	output [8:0] outFifo; // output fifo data
+	output FIFOdata_valid;
+	output fifo_read_en;
+	output goodframe, badframe;
+        assign goodframe=1'b1;
+        assign badframe=1'b0;
+   
+
+	////////////////////
+	//      FSMs      //
+	////////////////////
+
+	wire [2:0] currentState;	
+	wire [2:0] nextStateWire;
+	reg [2:0] nextState;		   
+	assign nextStateWire = nextState;
+
+	reg dataToFifo_valid;
+
+	dffr #(3) ffone(nextStateWire, rst, clk, currentState);
+	
+	// counter for header info	
+	wire [15:0] addressCount;
+	wire [15:0] nextCount = (addressCount==`ADDR_COUNT_MAX ? 16'd0 : addressCount + 1);
+	
+	reg resetCounterReg;
+	wire resetCounter;
+	assign resetCounter = resetCounterReg;
+	wire enCounter;
+	assign enCounter = (currentState==`SEND_ADDRS | currentState==`SEND_DATA | currentState==`SEND_CONTROL);
+	dffre #(16) ffctr(nextCount, enCounter, rst|resetCounter, clk, addressCount);
+	wire [15:0] data_length;
+	assign data_length = 16'd20;
+	
+
+
+
+	always @(posedge clk or camera_href or rst or addressCount) begin	   
+		case({rst, currentState})
+			{4'b1xxx}: begin
+			   	   dataToFifo_valid=0;
+			   	   nextState = `SEND_ADDRS;
+			   	   resetCounterReg = 1;
+				   end
+			// todo: all 1's or all 0's (byte determining control or data packet)
+			// todo: length based on next packet = data or address
+			//		idea: use video timer? row counter?
+			//		      yes, row counter reset on vsync
+			{1'b0, `CHILL} : begin
+				dataToFifo_valid=0;				
+				nextState = (camera_href ? `SEND_DATA : 
+				             cameraVSync ? `SEND_CONTROL : `CHILL);
+				resetCounterReg = 1;
+				   end
+			{1'b0, `SEND_ADDRS} : begin
+				dataToFifo_valid=1;
+				// max counter length, go to next state
+				nextState = (addressCount==`ADDR_COUNT_MAX ? `CHILL : `SEND_ADDRS);
+				resetCounterReg = (addressCount==`ADDR_COUNT_MAX);
+				end
+			{1'b0, `SEND_DATA} : begin
+				dataToFifo_valid=1;
+				nextState = (camera_href ? `SEND_DATA: `SEND_ADDRS);
+				resetCounterReg = (~camera_href);
+				end
+			{1'b0, `SEND_CONTROL}: begin
+			   	dataToFifo_valid=1;
+				nextState = (addressCount==`CONTROL_COUNT_MAX ? `SEND_ADDRS : `SEND_CONTROL);
+				resetCounterReg = (addressCount==`CONTROL_COUNT_MAX);
+			        end
+			 {1'b0, `SEND_DUMMY}: begin //we need to know when a packet ends... send dummy sends a signal that says so
+			   	dataToFifo_valid=1;
+				nextState = (addressCount==`DUMMY_COUNT_MAX ? `SEND_ADDRS : `SEND_DUMMY);
+				resetCounterReg = (addressCount==`DUMMY_COUNT_MAX);
+			        end
+			default: begin
+				dataToFifo_valid=0;
+				nextState=`SEND_ADDRS;
+				resetCounterReg=1;
+				end
+	   	endcase	 
+	end
+
+	// row counter
+	wire [9:0] rowCount;	
+	// todo: need pulse generator for hsync
+	dffre #(10) rowcounter(rowCount+10'd1,hsync,rst,clk,rowCount);
+
+	// FIFO out MUX
+
+	// header
+	wire [7:0] headerStart [13:0];
+	assign headerStart[0] = 8'hD; // dest addr
+	assign headerStart[1] = 8'hA;
+	assign headerStart[2] = 8'd1;
+	assign headerStart[3] = 8'd2;
+	assign headerStart[4] = 8'd3;
+	assign headerStart[5] = 8'd4;
+	assign headerStart[6] = 8'd5;	// src addr
+	assign headerStart[7] = 8'hA;
+	assign headerStart[8] = 8'd1;
+	assign headerStart[9] = 8'd2;
+	assign headerStart[10]= 8'd3;
+	assign headerStart[11]= 8'd4;
+	// length 
+	assign headerStart[12]= vsync? 8'b11111111:8'b00000000;
+	assign headerStart[13]= 8'd64;
+	
+	wire countdiv2 = addressCount>>1;
+
+
+	assign outFifo = (currentState == `CHILL ? 9'b0 :
+			 (currentState == `SEND_ADDRS ? {1'b1, headerStart[countdiv2]} :					
+			 (currentState == `SEND_DATA ? {1'b1, cameraData} : 
+			 (currentState == `SEND_CONTROL ? {1'b1, 8'hFF} : 
+			 (currentState == `SEND_DUMMY? 9'd0: 9'd0)))));
+	
+	assign FIFOdata_valid =  ((currentState==`SEND_ADDRS)
+					   | (currentState==`SEND_DATA & camera_href)					   
+					   | (currentState==`SEND_CONTROL)
+					   );
+
+	assign fifo_read_en = (currentState==`SEND_DATA | currentState==`SEND_CONTROL);				
+endmodule

@@ -1,0 +1,1 @@
+set allSynthModules {clk_half.MOD temac1.MOD clkgen.MOD resetsync.MOD video_timer.MOD dffrei.MOD dffre.MOD dffr.MOD fakeov8610.MOD counter.MOD synchronizer.MOD smallfifo.MOD pcpacket.MOD dff.MOD edge_detect.MOD packetizer.MOD bigfifo.MOD camtop.MOD temac1_top.MOD}

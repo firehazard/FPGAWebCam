@@ -1,0 +1,77 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -divider {Top Level Signals}
+add wave -noupdate -format Logic -label {MASTER RESET (ACTIVE LOW)} /testbench/dut/reset
+add wave -noupdate -format Logic -label {GMII RX CLK} /testbench/gmii_rx_clk
+add wave -noupdate -format Logic -label {RX CORE CLK} /testbench/dut/rx_clk
+add wave -noupdate -format Logic -label {TX CORE CLK} /testbench/dut/tx_clk
+add wave -noupdate -format Logic -label {CAM CLK 40 MHz} /testbench/dut/camera/camclk40
+add wave -noupdate -format Logic -label {CAM CLK 20 MHz} /testbench/dut/camera/camclk20
+add wave -noupdate -color Gold -format Literal -label {RX DATA IN} -radix hexadecimal /testbench/dut/gmii_rxd_reg
+add wave -noupdate -color Gold -format Logic -label {RX DATA VALID IN} /testbench/dut/gmii_rx_dv_reg
+add wave -noupdate -format Logic -label {RX DATA ERROR IN} /testbench/dut/gmii_rx_er_reg
+add wave -noupdate -format Literal -label {RX DATA OUT} -radix hexadecimal /testbench/dut/rx_data_int
+add wave -noupdate -color Gray60 -format Logic -label {RX DATA VALID OUT} /testbench/dut/rx_data_valid_int
+add wave -noupdate -color Gold -format Literal -label {TX_DATA OUT} -radix hexadecimal /testbench/dut/gmii_txd
+add wave -noupdate -color Gold -format Logic -label {TX_DATA OUT VALID} /testbench/dut/gmii_tx_en
+add wave -noupdate -color {Lime Green} -format Literal -label {TX DATA IN} -radix hexadecimal /testbench/dut/tx_data_int
+add wave -noupdate -format Logic -label {TX DATA VALID IN} /testbench/dut/tx_data_valid_int
+add wave -noupdate -color Yellow -format Logic -label {TX ACK} /testbench/dut/camera/tx_ack
+add wave -noupdate -divider {Camera Top Signals}
+add wave -noupdate -format Literal -label {FIFO READ ENABLE STATE} /testbench/dut/camera/state
+add wave -noupdate -format Logic -label {FIFO DRAIN ENABLE} /testbench/dut/camera/readenable
+add wave -noupdate -color Salmon -format Literal -label {DATA FROM FIFO} -radix hexadecimal /testbench/dut/camera/tx_data
+add wave -noupdate -color Gold -format Literal -label {PACKETIZER DATA TO FIFO} -radix hexadecimal /testbench/dut/camera/cam_data_to_fifo
+add wave -noupdate -color Gold -format Logic -label {PACKETIZER DATA TO FIFO VALID} /testbench/dut/camera/cam_data_valid_to_fifo
+add wave -noupdate -color Aquamarine -format Logic -label HREF /testbench/dut/camera/href
+add wave -noupdate -color Aquamarine -format Logic -label HSYNC /testbench/dut/camera/hsync
+add wave -noupdate -color Aquamarine -format Logic -label VSYNC /testbench/dut/camera/vsync
+add wave -noupdate -divider Packetizer
+add wave -noupdate -color Gold -format Literal -label {DATA FROM CAM} -radix hexadecimal /testbench/dut/camera/makepackets/cameraData
+add wave -noupdate -color Gold -format Literal -label {DATA TO FIFO} -radix hexadecimal /testbench/dut/camera/makepackets/outFifo
+add wave -noupdate -color Gold -format Logic -label {DATA TO FIFO VALID} /testbench/dut/camera/makepackets/FIFOdata_valid
+add wave -noupdate -color Blue -format Literal -label {Next State} -radix unsigned /testbench/dut/camera/makepackets/nextState
+add wave -noupdate -color Gray40 -format Literal -label {Data Length} -radix unsigned /testbench/dut/camera/makepackets/data_length
+add wave -noupdate -color Gray80 -format Literal -label {Address Count} -radix unsigned /testbench/dut/camera/makepackets/addressCount
+add wave -noupdate -divider PCPacket
+add wave -noupdate -format Logic /testbench/dut/camera/incoming/reset
+add wave -noupdate -format Logic /testbench/dut/camera/incoming/rxclk
+add wave -noupdate -format Logic /testbench/dut/camera/incoming/camclk
+add wave -noupdate -format Logic /testbench/dut/camera/incoming/pccamvalid
+add wave -noupdate -format Literal -radix hexadecimal /testbench/dut/camera/incoming/pccamdata
+add wave -noupdate -format Literal -radix hexadecimal /testbench/dut/camera/incoming/rx_data
+add wave -noupdate -format Logic /testbench/dut/camera/incoming/rx_valid
+add wave -noupdate -format Logic /testbench/dut/camera/incoming/pccamvalid
+add wave -noupdate -format Logic /testbench/dut/camera/incoming/fifoEmpty
+add wave -noupdate -format Literal /testbench/dut/camera/incoming/serialCount
+add wave -noupdate -divider {Fake Camera Signals}
+add wave -noupdate -format Logic /testbench/dut/camera/fakecamera/go
+add wave -noupdate -format Logic /testbench/dut/camera/fakecamera/xclk
+add wave -noupdate -format Literal /testbench/dut/camera/fakecamera/serialIn
+add wave -noupdate -format Logic /testbench/dut/camera/fakecamera/serial_write_en
+add wave -noupdate -format Literal -radix decimal /testbench/dut/camera/incoming/cpackcount
+add wave -noupdate -format Literal -radix hexadecimal /testbench/dut/camera/fakecamera/ov_href_start
+add wave -noupdate -format Literal -radix hexadecimal /testbench/dut/camera/fakecamera/ov_href_stop
+add wave -noupdate -format Literal -radix hexadecimal /testbench/dut/camera/fakecamera/ov_front_porch
+add wave -noupdate -format Literal -radix hexadecimal /testbench/dut/camera/fakecamera/ov_back_porch
+add wave -noupdate -format Logic -radix hexadecimal /testbench/dut/camera/fakecamera/start_signal
+add wave -noupdate -format Logic -radix hexadecimal /testbench/dut/camera/fakecamera/stop_signal
+add wave -noupdate -format Literal /testbench/dut/camera/fakecamera/enCtr
+add wave -noupdate -format Logic /testbench/dut/camera/fakecamera/reset_b
+add wave -noupdate -format Logic /testbench/dut/camera/fakecamera/ovtimer/vsync
+add wave -noupdate -format Logic /testbench/dut/camera/fakecamera/vsync
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {66802649 ps} 0}
+WaveRestoreZoom {0 ps} {138200640 ps}
+configure wave -namecolwidth 333
+configure wave -valuecolwidth 99
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0

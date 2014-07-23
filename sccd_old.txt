@@ -1,0 +1,21 @@
+	assign sccb_d =
+		// main FSM output (setup)
+		// write output 
+		(wstate==`WRITE_P1_ID ? camid:
+		//(wstate==`WRITE_P1_X ? WHATEVER_X_IS : 
+		(wstate==`WRITE_P2_SUBADDR ? write_addr[bit_ctr] : 
+		//(wstate==`WRITE_P2_X ? WHATEVER_X_IS : 
+		(wstate==`WRITE_P3_DATA ? write_data[bit_ctr]:
+		//(wstate==`WRITE_P3_X ? WHATEVER_X_IS : 
+		// read output
+		(readstate==`READ_REQ_P1_ID ? camid:
+		//(readstate==`READ_REQ_P1_X ? WHATEVER_X_IS :
+		(readstate==`READ_REQ_P2_REG ? read_addr[bit_ctr] : 
+		//(readstate==`READ_REQ_P2_X ? WHATEVER_THIS_X_IS : 
+		(readstate==`READ_REQ_P2_END ? 1'b1 : 
+		(readstate==`READ_GET_P1_INIT ? 1'b0: 
+		(readstate==`READ_GET_P1_ID ? camid:
+		//(readstate==`READ_GET_P1_X ? WHATEVER_THIS_X_IS : 
+		(readstate==`READ_GET_P2_DATA ? 1'bZ: 1'b1
+		//(readstate==`READ_GET_P2_X ? :			
+			)))))))));

@@ -1,0 +1,3 @@
+set ADucfFile {temac1_top.ucf}
+set AD {}
+set ADcdcFile {chipPcToFPGA.cdc}

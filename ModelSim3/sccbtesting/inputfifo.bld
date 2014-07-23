@@ -1,0 +1,25 @@
+Release 6.3.03i - ngdbuild G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild fifos/inputfifo.edn 
+
+Launcher: Executing edif2ngd "fifos\inputfifo.edn" "inputfifo.ngo"
+INFO:NgdBuild - Release 6.3.03i - edif2ngd G.38
+INFO:NgdBuild - Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+Writing the design to "inputfifo.ngo"...
+Reading NGO file "C:/EE109/Lab3/ModelSim/sccbtesting/inputfifo.ngo" ...
+sync_fifo_v5_0, Coregen 6.3.03i
+Reading component libraries for design expansion...
+
+Checking timing specifications ...
+Checking expanded design ...
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 43076 kilobytes
+
+Writing NGD file "inputfifo.ngd" ...
+
+Writing NGDBUILD log file "inputfifo.bld"...

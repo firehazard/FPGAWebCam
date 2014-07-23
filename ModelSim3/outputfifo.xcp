@@ -1,0 +1,22 @@
+# Xilinx CORE Generator 6.3.03i
+SELECT Asynchronous_FIFO Virtex2P Xilinx,_Inc. 6.0
+CSET read_error_sense = active_high
+CSET read_count_width = 7
+CSET write_acknowledge = false
+CSET create_rpm = false
+CSET read_acknowledge = false
+CSET read_count = true
+CSET write_error = false
+CSET almost_full_flag = false
+CSET almost_empty_flag = false
+CSET memory_type = block
+CSET read_error = false
+CSET fifo_depth = 127
+CSET component_name = outputfifo
+CSET input_data_width = 8
+CSET write_count = false
+CSET write_acknowledge_sense = active_high
+CSET read_acknowledge_sense = active_high
+CSET write_error_sense = active_high
+CSET write_count_width = 2
+GENERATE

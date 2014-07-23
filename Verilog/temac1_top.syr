@@ -1,0 +1,1233 @@
+Release 6.3.03i - xst G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to __projnav
+CPU : 0.00 / 1.61 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 1.64 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: temac1_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+  5) Advanced HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+     7.1) Device utilization summary
+     7.2) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : temac1_top.prj
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+Verilog Include Directory          : 
+
+---- Target Parameters
+Output File Name                   : temac1_top
+Output Format                      : NGC
+Target Device                      : xc2vp30-7-ff896
+
+---- Source Options
+Top Module Name                    : temac1_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+Resource Sharing                   : YES
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Equivalent register Removal        : YES
+Slice Packing                      : YES
+Pack IO Registers into IOBs        : auto
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : NO
+Global Optimization                : AllClockNets
+RTL Output                         : Yes
+Write Timing Constraints           : NO
+Hierarchy Separator                : _
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+lso                                : temac1_top.lso
+Read Cores                         : YES
+cross_clock_analysis               : NO
+verilog2001                        : YES
+Optimize Instantiated Primitives   : NO
+tristate2logic                     : No
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling source file "clk_half.v"
+Module <clk_half> compiled
+Compiling source file "temac1_mod.v"
+Module <temac1> compiled
+Compiling source file "clkgen.v"
+Module <clkgen> compiled
+Compiling source file "resetsync.v"
+Module <resetsync> compiled
+Compiling source file "video_timer.v"
+Module <video_timer> compiled
+Compiling source file "ff.v"
+Module <dff> compiled
+Module <dffr> compiled
+Module <dffre> compiled
+Module <dffrei> compiled
+Module <dffar> compiled
+Compiling source file "fakeov8610.v"
+Module <fakeov8610> compiled
+Compiling source file "counter.v"
+Module <counter> compiled
+Compiling source file "synchronizer.v"
+Module <synchronizer> compiled
+Compiling source file "smallfifo.v"
+Module <smallfifo> compiled
+Compiling source file "pcpacket.v"
+Module <pcpacket> compiled
+Compiling source file "edge_detect.v"
+Module <edge_detect> compiled
+Compiling source file "packetizer.v"
+Module <packetizer> compiled
+Compiling source file "bigfifo.v"
+Module <bigfifo> compiled
+Compiling source file "camtop.v"
+Module <camtop> compiled
+Compiling source file "temac1_top.v"
+Module <temac1_top> compiled
+No errors in compilation
+Analysis of file <temac1_top.prj> succeeded.
+ 
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing top module <temac1_top>.
+Module <temac1_top> is correct for synthesis.
+ 
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <ibufg_gtx_clk> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <ibufg_gtx_clk> in unit <temac1_top>.
+    Set user-defined property "INIT =  0" for instance <gmii_tx_clk_ddr_iob> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_tx_clk> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_tx_clk> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_tx_clk> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_tx_clk> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_tx_en> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_tx_en> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_tx_en> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_tx_en> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_tx_er> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_tx_er> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_tx_er> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_tx_er> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_col> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_col> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_crs> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_crs> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_txd0> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_txd0> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_txd0> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_txd0> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_txd1> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_txd1> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_txd1> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_txd1> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_txd2> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_txd2> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_txd2> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_txd2> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_txd3> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_txd3> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_txd3> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_txd3> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_txd4> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_txd4> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_txd4> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_txd4> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_txd5> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_txd5> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_txd5> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_txd5> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_txd6> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_txd6> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_txd6> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_txd6> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_txd7> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <drive_gmii_txd7> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_txd7> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <drive_gmii_txd7> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <ibufg_gmii_rx_clk> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <ibufg_gmii_rx_clk> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <ibufg_mii_tx_clk> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <ibufg_mii_tx_clk> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rx_dv> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rx_dv> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rx_er> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rx_er> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rxd0> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rxd0> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rxd1> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rxd1> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rxd2> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rxd2> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rxd3> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rxd3> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rxd4> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rxd4> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rxd5> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rxd5> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rxd6> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rxd6> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <drive_gmii_rxd7> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <drive_gmii_rxd7> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <reset_i> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <reset_i> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <rx_clk_o> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <rx_clk_o> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <rx_clk_o> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <rx_clk_o> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_clk_o> in unit <temac1_top>.
+    Set user-defined property "DRIVE =  12" for instance <tx_clk_o> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_clk_o> in unit <temac1_top>.
+    Set user-defined property "SLEW =  SLOW" for instance <tx_clk_o> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_ifg_delay_i0> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_ifg_delay_i0> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_ifg_delay_i1> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_ifg_delay_i1> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_ifg_delay_i2> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_ifg_delay_i2> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_ifg_delay_i3> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_ifg_delay_i3> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_ifg_delay_i4> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_ifg_delay_i4> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_ifg_delay_i5> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_ifg_delay_i5> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_ifg_delay_i6> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_ifg_delay_i6> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <tx_ifg_delay_i7> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <tx_ifg_delay_i7> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_req_i> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_req_i> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i0> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i0> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i1> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i1> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i2> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i2> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i3> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i3> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i4> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i4> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i5> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i5> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i6> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i6> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i7> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i7> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i8> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i8> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i9> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i9> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i10> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i10> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i11> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i11> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i12> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i12> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i13> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i13> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i14> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i14> in unit <temac1_top>.
+    Set user-defined property "CAPACITANCE =  DONT_CARE" for instance <pause_val_i15> in unit <temac1_top>.
+    Set user-defined property "IOSTANDARD =  DEFAULT" for instance <pause_val_i15> in unit <temac1_top>.
+    Set property "max_fanout = 1000" for signal <rx_clk_int>.
+    Set user-defined property "KEEP =  true" for signal <tx_data_int>.
+    Set user-defined property "KEEP =  true" for signal <tx_data_valid_int>.
+    Set user-defined property "KEEP =  true" for signal <tx_underrun_int>.
+    Set property "resynthesize = true" for unit <temac1_top>.
+Analyzing module <clk_half>.
+Module <clk_half> is correct for synthesis.
+ 
+    Set user-defined property "ASYNC_REG =  TRUE" for signal <reg1_out>.
+Analyzing module <BUFG>.
+Analyzing module <IBUF>.
+Analyzing module <INV>.
+Analyzing module <FDDRRSE>.
+Analyzing module <OBUF>.
+Analyzing module <IBUFG>.
+Analyzing module <temac1>.
+Generating a Black Box for module <temac1>.
+ 
+Analyzing module <clkgen>.
+Module <clkgen> is correct for synthesis.
+ 
+    Set user-defined property "CLKFX_DIVIDE =  1" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "CLKIN_DIVIDE_BY_2 =  FALSE" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "CLKOUT_PHASE_SHIFT =  NONE" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "CLK_FEEDBACK =  1X" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "DESKEW_ADJUST =  SYSTEM_SYNCHRONOUS" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "DSS_MODE =  NONE" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "DUTY_CYCLE_CORRECTION =  TRUE" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "FACTORY_JF =  C080" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "PHASE_SHIFT =  0" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "STARTUP_WAIT =  FALSE" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "CLKDV_DIVIDE =  5" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "CLKFX_MULTIPLY =  2" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "DLL_FREQUENCY_MODE =  LOW" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "DFS_FREQUENCY_MODE =  LOW" for instance <clk_dcm_inst1> in unit <clkgen>.
+    Set user-defined property "CLKIN_PERIOD =  10" for instance <clk_dcm_inst1> in unit <clkgen>.
+Analyzing module <DCM>.
+Analyzing module <camtop>.
+Module <camtop> is correct for synthesis.
+ 
+camtop.v line 74: Cannot find <rx_pre_reset> in module <camtop>, property <ASYNC_REG> with Value <TRUE> is ignored.
+camtop.v line 75: Cannot find <tx_pre_reset> in module <camtop>, property <ASYNC_REG> with Value <TRUE> is ignored.
+Analyzing module <resetsync>.
+WARNING:Xst:1464 - resetsync.v line 8: Exactly equal expression will be synthesized as an equal expression, simulation mismatch is possible.
+Module <resetsync> is correct for synthesis.
+ 
+Analyzing module <fakeov8610>.
+Module <fakeov8610> is correct for synthesis.
+ 
+Analyzing module <video_timer>.
+WARNING:Xst:916 - video_timer.v line 121: Delay is ignored for synthesis.
+WARNING:Xst:916 - video_timer.v line 122: Delay is ignored for synthesis.
+WARNING:Xst:916 - video_timer.v line 123: Delay is ignored for synthesis.
+WARNING:Xst:916 - video_timer.v line 124: Delay is ignored for synthesis.
+WARNING:Xst:916 - video_timer.v line 125: Delay is ignored for synthesis.
+WARNING:Xst:915 - Message (916) is reported only 5 times for each module.
+Module <video_timer> is correct for synthesis.
+ 
+Analyzing module <dffrei>.
+Module <dffrei> is correct for synthesis.
+ 
+Analyzing module <dffrei_1>.
+Module <dffrei_1> is correct for synthesis.
+ 
+Analyzing module <dffrei_2>.
+Module <dffrei_2> is correct for synthesis.
+ 
+Analyzing module <dffrei_3>.
+Module <dffrei_3> is correct for synthesis.
+ 
+Analyzing module <dffre>.
+Module <dffre> is correct for synthesis.
+ 
+Analyzing module <dffr_1>.
+Module <dffr_1> is correct for synthesis.
+ 
+Analyzing module <pcpacket>.
+Module <pcpacket> is correct for synthesis.
+ 
+Analyzing module <counter>.
+Module <counter> is correct for synthesis.
+ 
+Analyzing module <dffre_1>.
+Module <dffre_1> is correct for synthesis.
+ 
+Analyzing module <synchronizer>.
+Module <synchronizer> is correct for synthesis.
+ 
+Analyzing module <counter_1>.
+Module <counter_1> is correct for synthesis.
+ 
+Analyzing module <dffre_2>.
+Module <dffre_2> is correct for synthesis.
+ 
+Analyzing module <smallfifo>.
+Generating a Black Box for module <smallfifo>.
+ 
+Analyzing module <packetizer>.
+WARNING:Xst:905 - packetizer.v line 75: The signals <cameraVSync> are missing in the sensitivity list of always block.
+Module <packetizer> is correct for synthesis.
+ 
+Analyzing module <dffr_2>.
+Module <dffr_2> is correct for synthesis.
+ 
+Analyzing module <counter_2>.
+Module <counter_2> is correct for synthesis.
+ 
+Analyzing module <counter_3>.
+Module <counter_3> is correct for synthesis.
+ 
+Analyzing module <dffre_3>.
+Module <dffre_3> is correct for synthesis.
+ 
+Analyzing module <edge_detect>.
+Module <edge_detect> is correct for synthesis.
+ 
+Analyzing module <dff>.
+Module <dff> is correct for synthesis.
+ 
+Analyzing module <counter_4>.
+Module <counter_4> is correct for synthesis.
+ 
+Analyzing module <dffre_4>.
+Module <dffre_4> is correct for synthesis.
+ 
+Analyzing module <dffr>.
+Module <dffr> is correct for synthesis.
+ 
+Analyzing module <bigfifo>.
+Generating a Black Box for module <bigfifo>.
+ 
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <dffre_4>.
+    Related source file is ff.v.
+    Found 4-bit register for signal <q>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <dffre_4> synthesized.
+
+
+Synthesizing Unit <dff>.
+    Related source file is ff.v.
+    Found 1-bit register for signal <q<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <dff> synthesized.
+
+
+Synthesizing Unit <dffre_3>.
+    Related source file is ff.v.
+    Found 2-bit register for signal <q>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <dffre_3> synthesized.
+
+
+Synthesizing Unit <counter_4>.
+    Related source file is counter.v.
+    Found 4-bit adder for signal <$n0000> created at line 7.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_4> synthesized.
+
+
+Synthesizing Unit <edge_detect>.
+    Related source file is edge_detect.v.
+Unit <edge_detect> synthesized.
+
+
+Synthesizing Unit <counter_3>.
+    Related source file is counter.v.
+    Found 2-bit adder for signal <$n0000> created at line 7.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_3> synthesized.
+
+
+Synthesizing Unit <counter_2>.
+    Related source file is counter.v.
+    Found 8-bit adder for signal <$n0000> created at line 7.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_2> synthesized.
+
+
+Synthesizing Unit <dffr_2>.
+    Related source file is ff.v.
+    Found 3-bit register for signal <q>.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+Unit <dffr_2> synthesized.
+
+
+Synthesizing Unit <dffre_2>.
+    Related source file is ff.v.
+    Found 5-bit register for signal <q>.
+    Summary:
+	inferred   5 D-type flip-flop(s).
+Unit <dffre_2> synthesized.
+
+
+Synthesizing Unit <dffre_1>.
+    Related source file is ff.v.
+    Found 6-bit register for signal <q>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <dffre_1> synthesized.
+
+
+Synthesizing Unit <counter_1>.
+    Related source file is counter.v.
+    Found 5-bit adder for signal <$n0000> created at line 7.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter_1> synthesized.
+
+
+Synthesizing Unit <synchronizer>.
+    Related source file is synchronizer.v.
+Unit <synchronizer> synthesized.
+
+
+Synthesizing Unit <counter>.
+    Related source file is counter.v.
+    Found 6-bit adder for signal <$n0000> created at line 7.
+    Summary:
+	inferred   1 Adder/Subtracter(s).
+Unit <counter> synthesized.
+
+
+Synthesizing Unit <dffr_1>.
+    Related source file is ff.v.
+    Found 1-bit register for signal <q<0>>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <dffr_1> synthesized.
+
+
+Synthesizing Unit <dffre>.
+    Related source file is ff.v.
+    Found 8-bit register for signal <q>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <dffre> synthesized.
+
+
+Synthesizing Unit <dffrei_3>.
+    Related source file is ff.v.
+    Found 1-bit register for signal <q<0>>.
+    Found 1 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <dffrei_3> synthesized.
+
+
+Synthesizing Unit <dffrei_2>.
+    Related source file is ff.v.
+    Found 2-bit register for signal <q>.
+    Found 2 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+	inferred   2 Multiplexer(s).
+Unit <dffrei_2> synthesized.
+
+
+Synthesizing Unit <dffrei_1>.
+    Related source file is ff.v.
+    Found 8-bit register for signal <q>.
+    Found 8 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+	inferred   8 Multiplexer(s).
+Unit <dffrei_1> synthesized.
+
+
+Synthesizing Unit <dffrei>.
+    Related source file is ff.v.
+    Found 3-bit register for signal <q>.
+    Found 3 1-bit 2-to-1 multiplexers.
+    Summary:
+	inferred   3 D-type flip-flop(s).
+	inferred   3 Multiplexer(s).
+Unit <dffrei> synthesized.
+
+
+Synthesizing Unit <video_timer>.
+    Related source file is video_timer.v.
+    Found 1-bit register for signal <vsync>.
+    Found 12-bit register for signal <pix_counter>.
+    Found 10-bit register for signal <line_counter>.
+    Found 1-bit register for signal <hsync>.
+    Found 10-bit adder for signal <$n0006> created at line 155.
+    Found 12-bit adder for signal <$n0007> created at line 158.
+    Found 1-bit register for signal <hs_state>.
+    Found 1-bit register for signal <vs_state>.
+    Summary:
+	inferred  26 D-type flip-flop(s).
+	inferred   2 Adder/Subtracter(s).
+Unit <video_timer> synthesized.
+
+
+Synthesizing Unit <dffr>.
+    Related source file is ff.v.
+    Found 2-bit register for signal <q>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <dffr> synthesized.
+
+
+Synthesizing Unit <packetizer>.
+    Related source file is packetizer.v.
+WARNING:Xst:646 - Signal <flip<0>> is assigned but never used.
+    Found 16x8-bit ROM for signal <addressMuxOut>.
+    Found 1-bit register for signal <camclk20reg>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   1 D-type flip-flop(s).
+Unit <packetizer> synthesized.
+
+
+Synthesizing Unit <pcpacket>.
+    Related source file is pcpacket.v.
+    Found 6-bit comparator greater for signal <$n0002> created at line 25.
+    Found 6-bit comparator greater for signal <$n0009> created at line 29.
+    Found 6-bit comparator less for signal <$n0010> created at line 29.
+    Found 5-bit comparator greater for signal <$n0011> created at line 31.
+    Summary:
+	inferred   4 Comparator(s).
+Unit <pcpacket> synthesized.
+
+
+Synthesizing Unit <fakeov8610>.
+    Related source file is fakeov8610.v.
+WARNING:Xst:1780 - Signal <vsync> is never used or assigned.
+WARNING:Xst:646 - Signal <ov_pix_cntr<11>> is assigned but never used.
+    Found finite state machine <FSM_0> for signal <href_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 7                                              |
+    | Inputs             | 4                                              |
+    | Outputs            | 1                                              |
+    | Clock              | xclk (rising_edge)                             |
+    | Reset              | reset_b (negative)                             |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | 001                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit adder for signal <$n0011> created at line 280.
+    Found 10-bit comparator equal for signal <href_back_porch>.
+    Found 10-bit comparator equal for signal <href_front_porch>.
+    Found 1-bit register for signal <href_reg>.
+    Found 11-bit comparator equal for signal <href_start>.
+    Found 11-bit comparator equal for signal <href_stop>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Adder/Subtracter(s).
+	inferred   4 Comparator(s).
+Unit <fakeov8610> synthesized.
+
+
+Synthesizing Unit <resetsync>.
+    Related source file is resetsync.v.
+    Found 1-bit register for signal <prer2>.
+    Found 1-bit register for signal <r2r>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <resetsync> synthesized.
+
+
+Synthesizing Unit <camtop>.
+    Related source file is camtop.v.
+WARNING:Xst:646 - Signal <reset20> is assigned but never used.
+    Found 1-bit register for signal <camclk20reg>.
+    Found 17-bit comparator greater for signal <fifoready>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <camtop> synthesized.
+
+
+Synthesizing Unit <clkgen>.
+    Related source file is clkgen.v.
+WARNING:Xst:646 - Signal <clk40> is assigned but never used.
+WARNING:Xst:646 - Signal <dcm1_locked> is assigned but never used.
+WARNING:Xst:646 - Signal <clk_div5> is assigned but never used.
+Unit <clkgen> synthesized.
+
+
+Synthesizing Unit <clk_half>.
+    Related source file is clk_half.v.
+    Found 1-bit register for signal <reg1_out>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <clk_half> synthesized.
+
+
+Synthesizing Unit <temac1_top>.
+    Related source file is temac1_top.v.
+WARNING:Xst:646 - Signal <gtx_clk_ibufg> is assigned but never used.
+WARNING:Xst:646 - Signal <tx_collision_int> is assigned but never used.
+WARNING:Xst:646 - Signal <rx_bad_frame_int> is assigned but never used.
+WARNING:Xst:646 - Signal <rx_good_frame_int> is assigned but never used.
+WARNING:Xst:1780 - Signal <tx_underrun_int> is never used or assigned.
+WARNING:Xst:646 - Signal <tx_retransmit_int> is assigned but never used.
+    Found 1-bit register for signal <gmii_rx_dv_reg>.
+    Found 1-bit register for signal <gmii_rx_er_reg>.
+    Found 8-bit register for signal <gmii_rxd_reg>.
+    Found 1-bit register for signal <gmii_tx_en_reg>.
+    Found 1-bit register for signal <gmii_tx_er_reg>.
+    Found 8-bit register for signal <gmii_txd_reg>.
+    Summary:
+	inferred  20 D-type flip-flop(s).
+Unit <temac1_top> synthesized.
+
+WARNING:Xst:524 - All outputs of the instance <sreset20> of the block <resetsync> are unconnected in block <camtop>.
+   This instance will be removed from the design along with all underlying logic
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Advanced RAM inference ...
+Advanced multiplier inference ...
+Advanced Registered AddSub inference ...
+Selecting encoding for FSM_0 ...
+Optimizing FSM <FSM_0> on signal <href_state> with one-hot encoding.
+WARNING:Xst:524 - All outputs of the instance <vpcounter> of the block <counter_4> are unconnected in block <packetizer>.
+   This instance will be removed from the design along with all underlying logic
+Dynamic shift register inference ...
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# FSMs                             : 1
+# ROMs                             : 1
+ 16x8-bit ROM                      : 1
+# Adders/Subtractors               : 8
+ 12-bit adder                      : 1
+ 10-bit adder                      : 1
+ 6-bit adder                       : 1
+ 8-bit adder                       : 2
+ 5-bit adder                       : 2
+ 2-bit adder                       : 1
+# Registers                        : 50
+ 8-bit register                    : 8
+ 1-bit register                    : 30
+ 2-bit register                    : 4
+ 10-bit register                   : 1
+ 12-bit register                   : 1
+ 3-bit register                    : 3
+ 6-bit register                    : 1
+ 5-bit register                    : 2
+# Comparators                      : 9
+ 17-bit comparator greater         : 1
+ 10-bit comparator equal           : 2
+ 11-bit comparator equal           : 2
+ 5-bit comparator greater          : 1
+ 6-bit comparator less             : 1
+ 6-bit comparator greater          : 2
+# Multiplexers                     : 10
+ 3-bit 2-to-1 multiplexer          : 2
+ 8-bit 2-to-1 multiplexer          : 4
+ 2-bit 2-to-1 multiplexer          : 2
+ 1-bit 2-to-1 multiplexer          : 2
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Launcher: "temac1.ngo" is up to date.
+Reading core <temac1_trimac_gen_1.ngc>.
+Reading Secure Unit <temac1_trimac_gen_1>.
+Launcher: "smallfifo.ngo" is up to date.
+Launcher: "bigfifo.ngo" is up to date.
+Reading core <bigfifo_fifo_generator_v2_0_as_1.ngc>.
+WARNING:Xst:1474 - Core <temac1_trimac_gen_1> was not loaded for <BU2> as one or more ports did not line up with component declaration.  Declared input port <clientemactxifgdelay(7)> was not found in the core.  Please make sure that component declaration ports are consistent with the core ports including direction and bus-naming conventions.
+Loading core <temac1> for timing and area information for instance <trimac_core>.
+Loading core <smallfifo> for timing and area information for instance <fifoshift>.
+WARNING:Xst:1474 - Core <bigfifo_fifo_generator_v2_0_as_1> was not loaded for <BU2> as one or more ports did not line up with component declaration.  Declared input port <prog_empty_thresh(16)> was not found in the core.  Please make sure that component declaration ports are consistent with the core ports including direction and bus-naming conventions.
+Loading core <bigfifo> for timing and area information for instance <myfifo>.
+WARNING:Xst:1291 - FF/Latch <hsync> is unconnected in block <ovtimer>.
+WARNING:Xst:1291 - FF/Latch <hs_state> is unconnected in block <ovtimer>.
+
+Optimizing unit <temac1_top> ...
+
+Optimizing unit <video_timer> ...
+
+Optimizing unit <fakeov8610> ...
+
+Optimizing unit <counter> ...
+
+Optimizing unit <counter_1> ...
+
+Optimizing unit <counter_2> ...
+
+Optimizing unit <pcpacket> ...
+
+Optimizing unit <packetizer> ...
+
+Optimizing unit <camtop> ...
+Loading device for application Xst from file '2vp30.nph' in environment C:/Xilinx.
+
+Mapping all equations...
+WARNING:Xst:1291 - FF/Latch <camera_fakecamera_ovtimer_hsync> is unconnected in block <temac1_top>.
+WARNING:Xst:1291 - FF/Latch <camera_fakecamera_ovtimer_hs_state> is unconnected in block <temac1_top>.
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block temac1_top, actual ratio is 1.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : temac1_top.ngr
+Top Level Output File Name         : temac1_top
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 60
+
+Macro Statistics :
+# ROMs                             : 1
+#      16x8-bit ROM                : 1
+# Registers                        : 47
+#      1-bit register              : 27
+#      10-bit register             : 1
+#      12-bit register             : 1
+#      2-bit register              : 4
+#      3-bit register              : 3
+#      5-bit register              : 2
+#      6-bit register              : 1
+#      8-bit register              : 8
+# Multiplexers                     : 10
+#      2-to-1 multiplexer          : 10
+# Adders/Subtractors               : 5
+#      10-bit adder                : 1
+#      12-bit adder                : 1
+#      6-bit adder                 : 1
+#      8-bit adder                 : 2
+# Comparators                      : 9
+#      10-bit comparator equal     : 2
+#      11-bit comparator equal     : 2
+#      17-bit comparator greater   : 1
+#      5-bit comparator greater    : 1
+#      6-bit comparator greater    : 2
+#      6-bit comparator less       : 1
+
+Cell Usage :
+# BELS                             : 540
+#      GND                         : 3
+#      INV                         : 1
+#      LUT1                        : 55
+#      LUT2                        : 37
+#      LUT2_L                      : 15
+#      LUT3                        : 28
+#      LUT3_D                      : 2
+#      LUT3_L                      : 14
+#      LUT4                        : 197
+#      LUT4_D                      : 6
+#      LUT4_L                      : 17
+#      MUXCY                       : 96
+#      MUXCY_D                     : 2
+#      MUXCY_L                     : 4
+#      MUXF5                       : 4
+#      VCC                         : 2
+#      XORCY                       : 57
+# FlipFlops/Latches                : 239
+#      FD                          : 2
+#      FDC                         : 74
+#      FDCE                        : 49
+#      FDE                         : 44
+#      FDP                         : 14
+#      FDPE                        : 11
+#      FDR                         : 9
+#      FDRE                        : 34
+#      FDRS                        : 1
+#      FDS                         : 1
+# RAMS                             : 1
+#      RAMB16_S9_S9                : 1
+# Clock Buffers                    : 4
+#      BUFG                        : 4
+# IO Buffers                       : 60
+#      IBUF                        : 41
+#      IBUFG                       : 1
+#      OBUF                        : 18
+# DCMs                             : 1
+#      DCM                         : 1
+# Others                           : 3
+#      bigfifo_fifo_generator_v2_0_as_1: 1
+#      FDDRRSE                     : 1
+#      temac1_trimac_gen_1         : 1
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 2vp30ff896-7 
+
+ Number of Slices:                     235  out of  13696     1%  
+ Number of Slice Flip Flops:           239  out of  27392     0%  
+ Number of 4 input LUTs:               371  out of  27392     1%  
+ Number of bonded IOBs:                 60  out of    556    10%  
+ Number of BRAMs:                        1  out of    136     0%  
+ Number of GCLKs:                        4  out of     16    25%  
+ Number of DCMs:                         1  out of      8    12%  
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+gmii_rx_clk                        | IBUFG+BUFG             | 11    |
+mii_tx_clk                         | IBUF+BUFG              | 13    |
+divide2_reg1_out:Q                 | BUFG                   | 52    |
+clk100                             | gen40_clk_dcm_inst1:CLK0| 161   |
+divide_reg1_out:Q                  | BUFG                   | 4     |
+camera_incoming_fifoshift/GND:G    | NONE                   | 2     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -7
+
+   Minimum period: 4.398ns (Maximum Frequency: 227.376MHz)
+   Minimum input arrival time before clock: 3.338ns
+   Maximum output required time after clock: 4.732ns
+   Maximum combinational path delay: 3.980ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'gmii_rx_clk'
+Delay:               1.333ns (Levels of Logic = 1)
+  Source:            divide2_reg1_out (FF)
+  Destination:       divide2_reg1_out (FF)
+  Source Clock:      gmii_rx_clk rising
+  Destination Clock: gmii_rx_clk rising
+
+  Data Path: divide2_reg1_out to divide2_reg1_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.370   0.480  divide2_reg1_out (divide2_reg1_out)
+     LUT1:I0->O            1   0.275   0.000  divide2_reg1_out_inv1 (divide2_reg1_out_inv)
+     FDC:D                     0.208          divide2_reg1_out
+    ----------------------------------------
+    Total                      1.333ns (0.853ns logic, 0.480ns route)
+                                       (64.0% logic, 36.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'mii_tx_clk'
+Delay:               1.333ns (Levels of Logic = 1)
+  Source:            divide_reg1_out (FF)
+  Destination:       divide_reg1_out (FF)
+  Source Clock:      mii_tx_clk rising
+  Destination Clock: mii_tx_clk rising
+
+  Data Path: divide_reg1_out to divide_reg1_out
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.370   0.480  divide_reg1_out (divide_reg1_out)
+     LUT1:I0->O            1   0.275   0.000  divide_reg1_out_inv1 (divide_reg1_out_inv)
+     FDC:D                     0.208          divide_reg1_out
+    ----------------------------------------
+    Total                      1.333ns (0.853ns logic, 0.480ns route)
+                                       (64.0% logic, 36.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'divide2_reg1_out:Q'
+Delay:               3.598ns (Levels of Logic = 4)
+  Source:            camera_incoming_count_count_reg_q_5 (FF)
+  Destination:       camera_incoming_fifoshift/BU139 (FF)
+  Source Clock:      divide2_reg1_out:Q rising
+  Destination Clock: divide2_reg1_out:Q rising
+
+  Data Path: camera_incoming_count_count_reg_q_5 to camera_incoming_fifoshift/BU139
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             5   0.370   0.510  camera_incoming_count_count_reg_q_5 (camera_incoming_count_count_reg_q_5)
+     LUT2:I0->O            1   0.275   0.360  camera_incoming_fifowriteen45 (CHOICE646)
+     LUT4:I0->O            3   0.275   0.490  camera_incoming_fifowriteen48 (camera_incoming_fifowriteen)
+     begin scope: 'camera_incoming_fifoshift'
+     LUT4:I0->O           24   0.275   0.780  BU194 (N1303)
+     FDPE:CE                   0.263          BU139
+    ----------------------------------------
+    Total                      3.598ns (1.458ns logic, 2.140ns route)
+                                       (40.5% logic, 59.5% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'clk100'
+Delay:               4.398ns (Levels of Logic = 5)
+  Source:            camera_incoming_countSerial_count_reg_q_0 (FF)
+  Destination:       camera_fakecamera_ffxstart1_q_0 (FF)
+  Source Clock:      clk100 rising
+  Destination Clock: clk100 rising
+
+  Data Path: camera_incoming_countSerial_count_reg_q_0 to camera_fakecamera_ffxstart1_q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q             6   0.370   0.520  camera_incoming_countSerial_count_reg_q_0 (camera_incoming_countSerial_count_reg_q_0)
+     LUT3_L:I0->LO         1   0.275   0.100  camera_incoming_pccamvalid_SW0 (N19852)
+     LUT4:I0->O           14   0.275   0.680  camera_incoming_pccamvalid (camera_pccamvalid)
+     LUT4_D:I0->LO         1   0.275   0.100  camera_fakecamera_Ker12226 (N21627)
+     LUT2:I1->O            4   0.275   0.500  camera_fakecamera_Ker122421 (camera_fakecamera_N12244)
+     LUT4:I1->O            3   0.275   0.490  camera_fakecamera_ffxend1__n00031 (camera_fakecamera_ffxend1__n0003)
+     FDE:CE                    0.263          camera_fakecamera_ffxend1_q_0
+    ----------------------------------------
+    Total                      4.398ns (2.008ns logic, 2.390ns route)
+                                       (45.7% logic, 54.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default period analysis for Clock 'divide_reg1_out:Q'
+Delay:               1.988ns (Levels of Logic = 2)
+  Source:            camera_state_reg_q_1 (FF)
+  Destination:       camera_state_reg_q_1 (FF)
+  Source Clock:      divide_reg1_out:Q rising
+  Destination Clock: divide_reg1_out:Q rising
+
+  Data Path: camera_state_reg_q_1 to camera_state_reg_q_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.370   0.500  camera_state_reg_q_1 (camera_state_reg_q_1)
+     LUT4:I0->O            1   0.275   0.360  camera_next_state<1>_SW0 (N19477)
+     LUT4:I2->O            1   0.275   0.000  camera_next_state<1> (camera_next_state<1>)
+     FDR:D                     0.208          camera_state_reg_q_1
+    ----------------------------------------
+    Total                      1.988ns (1.128ns logic, 0.860ns route)
+                                       (56.7% logic, 43.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'gmii_rx_clk'
+Offset:              1.446ns (Levels of Logic = 1)
+  Source:            gmii_rx_er (PAD)
+  Destination:       gmii_rx_er_reg (FF)
+  Destination Clock: gmii_rx_clk rising
+
+  Data Path: gmii_rx_er to gmii_rx_er_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.878   0.360  drive_gmii_rx_er (gmii_rx_er_ibuf)
+     FDC:D                     0.208          gmii_rx_er_reg
+    ----------------------------------------
+    Total                      1.446ns (1.086ns logic, 0.360ns route)
+                                       (75.1% logic, 24.9% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'mii_tx_clk'
+Offset:              0.568ns (Levels of Logic = 1)
+  Source:            trimac_core/BU2:emacphytxen (PAD)
+  Destination:       gmii_tx_en_reg (FF)
+  Destination Clock: mii_tx_clk rising
+
+  Data Path: trimac_core/BU2:emacphytxen to gmii_tx_en_reg
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    temac1_trimac_gen_1:emacphytxen    1   0.000   0.000  BU2 (emacphytxen)
+     end scope: 'trimac_core'
+     FDC:D                     0.208          gmii_tx_en_reg
+    ----------------------------------------
+    Total                      0.568ns (0.568ns logic, 0.000ns route)
+                                       (100.0% logic, 0.0% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'divide_reg1_out:Q'
+Offset:              2.713ns (Levels of Logic = 11)
+  Source:            camera_myfifo/BU2:wr_data_count(0) (PAD)
+  Destination:       camera_state_reg_q_0 (FF)
+  Destination Clock: divide_reg1_out:Q rising
+
+  Data Path: camera_myfifo/BU2:wr_data_count(0) to camera_state_reg_q_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    bigfifo_fifo_generator_v2_0_as_1:wr_data_count(0)    1   0.000   0.000  BU2 (wr_data_count<0>)
+     end scope: 'camera_myfifo'
+     LUT2:I0->O            1   0.275   0.000  camera_norlut (camera_N9842)
+     MUXCY:S->O            1   0.334   0.000  camera_norcy (camera_nor_cyo)
+     MUXCY:CI->O           1   0.036   0.000  camera_Andcy (camera_And_cyo)
+     MUXCY:CI->O           1   0.036   0.000  camera_norcy_rn_0 (camera_nor_cyo1)
+     MUXCY:CI->O           1   0.036   0.000  camera_Andcy_rn_0 (camera_And_cyo1)
+     MUXCY:CI->O           1   0.036   0.000  camera_norcy_rn_1 (camera_nor_cyo2)
+     MUXCY:CI->O           1   0.036   0.000  camera_norcy_rn_2 (camera_nor_cyo3)
+     MUXCY:CI->O           1   0.416   0.360  camera_norcy_rn_3 (camera_nor_cyo4)
+     LUT4:I1->O            1   0.275   0.000  camera_next_state<0>42_F (N21562)
+     MUXF5:I0->O           1   0.303   0.000  camera_next_state<0>42 (camera_next_state<0>)
+     FDR:D                     0.208          camera_state_reg_q_0
+    ----------------------------------------
+    Total                      2.713ns (2.353ns logic, 0.360ns route)
+                                       (86.7% logic, 13.3% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET IN BEFORE for Clock 'divide2_reg1_out:Q'
+Offset:              3.338ns (Levels of Logic = 4)
+  Source:            trimac_core/BU2:emacclientrxdvld (PAD)
+  Destination:       camera_incoming_fifoshift/BU139 (FF)
+  Destination Clock: divide2_reg1_out:Q rising
+
+  Data Path: trimac_core/BU2:emacclientrxdvld to camera_incoming_fifoshift/BU139
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+    temac1_trimac_gen_1:emacclientrxdvld   11   0.000   0.000  BU2 (emacclientrxdvld)
+     end scope: 'trimac_core'
+     LUT2:I1->O            1   0.275   0.360  camera_incoming_fifowriteen45 (CHOICE646)
+     LUT4:I0->O            3   0.275   0.490  camera_incoming_fifowriteen48 (camera_incoming_fifowriteen)
+     begin scope: 'camera_incoming_fifoshift'
+     LUT4:I0->O           24   0.275   0.780  BU194 (N1303)
+     FDPE:CE                   0.263          BU139
+    ----------------------------------------
+    Total                      3.338ns (1.708ns logic, 1.630ns route)
+                                       (51.2% logic, 48.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'gmii_rx_clk'
+Offset:              4.330ns (Levels of Logic = 2)
+  Source:            divide2_reg1_out (FF)
+  Destination:       rx_clk (PAD)
+  Source Clock:      gmii_rx_clk rising
+
+  Data Path: divide2_reg1_out to rx_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.370   0.480  divide2_reg1_out (divide2_reg1_out)
+     BUFG:I->O            53   0.050   0.838  clkbuff2 (rx_clk_int)
+     OBUF:I->O                 2.592          rx_clk_o (rx_clk)
+    ----------------------------------------
+    Total                      4.330ns (3.012ns logic, 1.318ns route)
+                                       (69.6% logic, 30.4% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'divide2_reg1_out:Q'
+Offset:              4.237ns (Levels of Logic = 3)
+  Source:            camera_incoming_fifoshift/BU380 (FF)
+  Destination:       LED_0 (PAD)
+  Source Clock:      divide2_reg1_out:Q rising
+
+  Data Path: camera_incoming_fifoshift/BU380 to LED_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDPE:C->Q            12   0.370   0.640  BU380 (full)
+     end scope: 'camera_incoming_fifoshift'
+     LUT1:I0->O            1   0.275   0.360  LED_01 (LED_0_OBUF)
+     OBUF:I->O                 2.592          LED_0_OBUF (LED_0)
+    ----------------------------------------
+    Total                      4.237ns (3.237ns logic, 1.000ns route)
+                                       (76.4% logic, 23.6% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'divide_reg1_out:Q'
+Offset:              4.732ns (Levels of Logic = 3)
+  Source:            camera_state_reg_q_1 (FF)
+  Destination:       LED_2 (PAD)
+  Source Clock:      divide_reg1_out:Q rising
+
+  Data Path: camera_state_reg_q_1 to LED_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              4   0.370   0.500  camera_state_reg_q_1 (camera_state_reg_q_1)
+     LUT2:I0->O            1   0.275   0.360  camera_tx_data_valid1 (tx_data_valid_int)
+     LUT1:I0->O            1   0.275   0.360  LED_21 (LED_2_OBUF)
+     OBUF:I->O                 2.592          LED_2_OBUF (LED_2)
+    ----------------------------------------
+    Total                      4.732ns (3.512ns logic, 1.220ns route)
+                                       (74.2% logic, 25.8% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'mii_tx_clk'
+Offset:              4.002ns (Levels of Logic = 2)
+  Source:            divide_reg1_out (FF)
+  Destination:       tx_clk (PAD)
+  Source Clock:      mii_tx_clk rising
+
+  Data Path: divide_reg1_out to tx_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.370   0.480  divide_reg1_out (divide_reg1_out)
+     BUFG:I->O             5   0.050   0.510  clkbuff3 (tx_clk_int)
+     OBUF:I->O                 2.592          tx_clk_o (tx_clk)
+    ----------------------------------------
+    Total                      4.002ns (3.012ns logic, 0.990ns route)
+                                       (75.3% logic, 24.7% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk100'
+Offset:              3.955ns (Levels of Logic = 6)
+  Source:            camera_makepackets_controlcounter_count_reg_q_3 (FF)
+  Destination:       camera_myfifo/BU2:din(1) (PAD)
+  Source Clock:      clk100 rising
+
+  Data Path: camera_makepackets_controlcounter_count_reg_q_3 to camera_myfifo/BU2:din(1)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            23   0.370   0.770  camera_makepackets_controlcounter_count_reg_q_3 (camera_makepackets_controlcounter_count_reg_q_3)
+     LUT4:I1->O            1   0.275   0.360  camera_makepackets_outFifo<1>84 (CHOICE366)
+     LUT4:I3->O            1   0.275   0.360  camera_makepackets_outFifo<1>113 (CHOICE369)
+     LUT4:I0->O            1   0.275   0.360  camera_makepackets_outFifo<1>128 (CHOICE370)
+     LUT4:I0->O            1   0.275   0.360  camera_makepackets_outFifo<1>171_SW0 (N21526)
+     LUT4:I3->O            0   0.275   0.000  camera_makepackets_outFifo<1>171 (camera_cam_data_to_fifo<1>)
+     begin scope: 'camera_myfifo'
+    bigfifo_fifo_generator_v2_0_as_1:din(1)        0.000          BU2
+    ----------------------------------------
+    Total                      3.955ns (1.745ns logic, 2.210ns route)
+                                       (44.1% logic, 55.9% route)
+
+-------------------------------------------------------------------------
+Timing constraint: Default path analysis
+Delay:               3.980ns (Levels of Logic = 2)
+  Source:            reset (PAD)
+  Destination:       phy_reset (PAD)
+
+  Data Path: reset to phy_reset
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             5   0.878   0.510  reset_i (phy_reset_OBUF)
+     OBUF:I->O                 2.592          phy_reset_OBUF (phy_reset)
+    ----------------------------------------
+    Total                      3.980ns (3.470ns logic, 0.510ns route)
+                                       (87.2% logic, 12.8% route)
+
+=========================================================================
+CPU : 61.11 / 63.97 s | Elapsed : 61.00 / 64.00 s
+ 
+--> 
+
+Total memory usage is 127256 kilobytes
+
+

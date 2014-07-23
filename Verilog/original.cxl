@@ -1,0 +1,6954 @@
+compxlib.log: compxlib Program Version 6.3i, Xilinx Inc
+
+
+Source Tools => [using PATH env]
+output directory :-
+   (verilog) : C:\Modeltech_5.7a\xilinx_libs
+
+checking dependencies...
+
+Compiling Library : unisim 
+Copying C:/Modeltech_5.7a/win32/../modelsim.ini to modelsim.ini
+Modifying modelsim.ini
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND2
+
+Top level modules:
+	AND2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND2B1
+
+Top level modules:
+	AND2B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND2B2
+
+Top level modules:
+	AND2B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND3
+
+Top level modules:
+	AND3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND3B1
+
+Top level modules:
+	AND3B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND3B2
+
+Top level modules:
+	AND3B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND3B3
+
+Top level modules:
+	AND3B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND4
+
+Top level modules:
+	AND4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND4B1
+
+Top level modules:
+	AND4B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND4B2
+
+Top level modules:
+	AND4B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND4B3
+
+Top level modules:
+	AND4B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND4B4
+
+Top level modules:
+	AND4B4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND5
+
+Top level modules:
+	AND5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND5B1
+
+Top level modules:
+	AND5B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND5B2
+
+Top level modules:
+	AND5B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND5B3
+
+Top level modules:
+	AND5B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND5B4
+
+Top level modules:
+	AND5B4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module AND5B5
+
+Top level modules:
+	AND5B5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BSCAN_FPGACORE
+
+Top level modules:
+	BSCAN_FPGACORE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BSCAN_SPARTAN2
+
+Top level modules:
+	BSCAN_SPARTAN2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BSCAN_SPARTAN3
+
+Top level modules:
+	BSCAN_SPARTAN3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BSCAN_VIRTEX
+
+Top level modules:
+	BSCAN_VIRTEX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BSCAN_VIRTEX2
+
+Top level modules:
+	BSCAN_VIRTEX2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BSCAN_VIRTEX4
+
+Top level modules:
+	BSCAN_VIRTEX4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUF
+
+Top level modules:
+	BUF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFCF
+
+Top level modules:
+	BUFCF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFE
+
+Top level modules:
+	BUFE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFG
+
+Top level modules:
+	BUFG
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFGCE
+
+Top level modules:
+	BUFGCE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFGCE_1
+
+Top level modules:
+	BUFGCE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFGCTRL
+
+Top level modules:
+	BUFGCTRL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFGDLL
+
+Top level modules:
+	BUFGDLL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFGMUX
+
+Top level modules:
+	BUFGMUX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFGMUX_1
+
+Top level modules:
+	BUFGMUX_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFGMUX_VIRTEX4
+
+Top level modules:
+	BUFGMUX_VIRTEX4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFGP
+
+Top level modules:
+	BUFGP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFIO
+
+Top level modules:
+	BUFIO
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFR
+
+Top level modules:
+	BUFR
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BUFT
+
+Top level modules:
+	BUFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAPTURE_FPGACORE
+
+Top level modules:
+	CAPTURE_FPGACORE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAPTURE_SPARTAN2
+
+Top level modules:
+	CAPTURE_SPARTAN2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAPTURE_SPARTAN3
+
+Top level modules:
+	CAPTURE_SPARTAN3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAPTURE_VIRTEX
+
+Top level modules:
+	CAPTURE_VIRTEX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAPTURE_VIRTEX2
+
+Top level modules:
+	CAPTURE_VIRTEX2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAPTURE_VIRTEX4
+
+Top level modules:
+	CAPTURE_VIRTEX4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CLKDLL
+-- Compiling module clkdll_maximum_period_check
+
+Top level modules:
+	CLKDLL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CLKDLLE
+-- Compiling module clkdlle_maximum_period_check
+
+Top level modules:
+	CLKDLLE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CLKDLLHF
+-- Compiling module clkdllhf_maximum_period_check
+
+Top level modules:
+	CLKDLLHF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CONFIG
+
+Top level modules:
+	CONFIG
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCC_FPGACORE
+
+Top level modules:
+	DCC_FPGACORE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCIRESET
+
+Top level modules:
+	DCIRESET
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCM
+-- Compiling module dcm_clock_divide_by_2
+-- Compiling module dcm_maximum_period_check
+-- Compiling module dcm_clock_lost
+
+Top level modules:
+	DCM
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCM_ADV
+-- Compiling module dcm_adv_clock_divide_by_2
+-- Compiling module dcm_adv_maximum_period_check
+-- Compiling module dcm_adv_clock_lost
+
+Top level modules:
+	DCM_ADV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCM_BASE
+
+Top level modules:
+	DCM_BASE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCM_PS
+
+Top level modules:
+	DCM_PS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DSP48
+
+Top level modules:
+	DSP48
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module EMAC
+
+Top level modules:
+	EMAC
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FD
+
+Top level modules:
+	FD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDC
+
+Top level modules:
+	FDC
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDCE
+
+Top level modules:
+	FDCE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDCE_1
+
+Top level modules:
+	FDCE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDCP
+
+Top level modules:
+	FDCP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDCPE
+
+Top level modules:
+	FDCPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDCPE_1
+
+Top level modules:
+	FDCPE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDCP_1
+
+Top level modules:
+	FDCP_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDC_1
+
+Top level modules:
+	FDC_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDDRCPE
+
+Top level modules:
+	FDDRCPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDDRRSE
+
+Top level modules:
+	FDDRRSE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDE
+
+Top level modules:
+	FDE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDE_1
+
+Top level modules:
+	FDE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDP
+
+Top level modules:
+	FDP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDPE
+
+Top level modules:
+	FDPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDPE_1
+
+Top level modules:
+	FDPE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDP_1
+
+Top level modules:
+	FDP_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDR
+
+Top level modules:
+	FDR
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDRE
+
+Top level modules:
+	FDRE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDRE_1
+
+Top level modules:
+	FDRE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDRS
+
+Top level modules:
+	FDRS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDRSE
+
+Top level modules:
+	FDRSE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDRSE_1
+
+Top level modules:
+	FDRSE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDRS_1
+
+Top level modules:
+	FDRS_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDR_1
+
+Top level modules:
+	FDR_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDS
+
+Top level modules:
+	FDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDSE
+
+Top level modules:
+	FDSE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDSE_1
+
+Top level modules:
+	FDSE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FDS_1
+
+Top level modules:
+	FDS_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FD_1
+
+Top level modules:
+	FD_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FIFO16
+
+Top level modules:
+	FIFO16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FMAP
+
+Top level modules:
+	FMAP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FRAME_ECC_VIRTEX4
+
+Top level modules:
+	FRAME_ECC_VIRTEX4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GND
+
+Top level modules:
+	GND
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT
+
+Top level modules:
+	GT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10
+
+Top level modules:
+	GT10
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_10GE_4
+
+Top level modules:
+	GT10_10GE_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_10GE_8
+
+Top level modules:
+	GT10_10GE_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_10GFC_4
+
+Top level modules:
+	GT10_10GFC_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_10GFC_8
+
+Top level modules:
+	GT10_10GFC_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_AURORAX_4
+
+Top level modules:
+	GT10_AURORAX_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_AURORAX_8
+
+Top level modules:
+	GT10_AURORAX_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_AURORA_1
+
+Top level modules:
+	GT10_AURORA_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_AURORA_2
+
+Top level modules:
+	GT10_AURORA_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_AURORA_4
+
+Top level modules:
+	GT10_AURORA_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_CUSTOM
+
+Top level modules:
+	GT10_CUSTOM
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_INFINIBAND_1
+
+Top level modules:
+	GT10_INFINIBAND_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_INFINIBAND_2
+
+Top level modules:
+	GT10_INFINIBAND_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_INFINIBAND_4
+
+Top level modules:
+	GT10_INFINIBAND_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_OC192_4
+
+Top level modules:
+	GT10_OC192_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_OC192_8
+
+Top level modules:
+	GT10_OC192_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_OC48_1
+
+Top level modules:
+	GT10_OC48_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_OC48_2
+
+Top level modules:
+	GT10_OC48_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_OC48_4
+
+Top level modules:
+	GT10_OC48_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_PCI_EXPRESS_1
+
+Top level modules:
+	GT10_PCI_EXPRESS_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_PCI_EXPRESS_2
+
+Top level modules:
+	GT10_PCI_EXPRESS_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_PCI_EXPRESS_4
+
+Top level modules:
+	GT10_PCI_EXPRESS_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_XAUI_1
+
+Top level modules:
+	GT10_XAUI_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_XAUI_2
+
+Top level modules:
+	GT10_XAUI_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_XAUI_4
+
+Top level modules:
+	GT10_XAUI_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT11
+
+Top level modules:
+	GT11
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT11CLK
+
+Top level modules:
+	GT11CLK
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT11CLK_MGT
+
+Top level modules:
+	GT11CLK_MGT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT11_CUSTOM
+
+Top level modules:
+	GT11_CUSTOM
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_AURORA_1
+
+Top level modules:
+	GT_AURORA_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_AURORA_2
+
+Top level modules:
+	GT_AURORA_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_AURORA_4
+
+Top level modules:
+	GT_AURORA_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_CUSTOM
+
+Top level modules:
+	GT_CUSTOM
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_ETHERNET_1
+
+Top level modules:
+	GT_ETHERNET_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_ETHERNET_2
+
+Top level modules:
+	GT_ETHERNET_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_ETHERNET_4
+
+Top level modules:
+	GT_ETHERNET_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_FIBRE_CHAN_1
+
+Top level modules:
+	GT_FIBRE_CHAN_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_FIBRE_CHAN_2
+
+Top level modules:
+	GT_FIBRE_CHAN_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_FIBRE_CHAN_4
+
+Top level modules:
+	GT_FIBRE_CHAN_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_INFINIBAND_1
+
+Top level modules:
+	GT_INFINIBAND_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_INFINIBAND_2
+
+Top level modules:
+	GT_INFINIBAND_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_INFINIBAND_4
+
+Top level modules:
+	GT_INFINIBAND_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_XAUI_1
+
+Top level modules:
+	GT_XAUI_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_XAUI_2
+
+Top level modules:
+	GT_XAUI_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_XAUI_4
+
+Top level modules:
+	GT_XAUI_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF
+
+Top level modules:
+	IBUF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS
+
+Top level modules:
+	IBUFDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_BLVDS_25
+
+Top level modules:
+	IBUFDS_BLVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_DIFF_OUT
+
+Top level modules:
+	IBUFDS_DIFF_OUT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LDT_25
+
+Top level modules:
+	IBUFDS_LDT_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVDSEXT_25
+
+Top level modules:
+	IBUFDS_LVDSEXT_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVDSEXT_25_DCI
+
+Top level modules:
+	IBUFDS_LVDSEXT_25_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVDSEXT_33
+
+Top level modules:
+	IBUFDS_LVDSEXT_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVDSEXT_33_DCI
+
+Top level modules:
+	IBUFDS_LVDSEXT_33_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVDS_25
+
+Top level modules:
+	IBUFDS_LVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVDS_25_DCI
+
+Top level modules:
+	IBUFDS_LVDS_25_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVDS_33
+
+Top level modules:
+	IBUFDS_LVDS_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVDS_33_DCI
+
+Top level modules:
+	IBUFDS_LVDS_33_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVPECL_25
+
+Top level modules:
+	IBUFDS_LVPECL_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_LVPECL_33
+
+Top level modules:
+	IBUFDS_LVPECL_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFDS_ULVDS_25
+
+Top level modules:
+	IBUFDS_ULVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG
+
+Top level modules:
+	IBUFG
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS
+
+Top level modules:
+	IBUFGDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_BLVDS_25
+
+Top level modules:
+	IBUFGDS_BLVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_DIFF_OUT
+
+Top level modules:
+	IBUFGDS_DIFF_OUT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LDT_25
+
+Top level modules:
+	IBUFGDS_LDT_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVDSEXT_25
+
+Top level modules:
+	IBUFGDS_LVDSEXT_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVDSEXT_25_DCI
+
+Top level modules:
+	IBUFGDS_LVDSEXT_25_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVDSEXT_33
+
+Top level modules:
+	IBUFGDS_LVDSEXT_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVDSEXT_33_DCI
+
+Top level modules:
+	IBUFGDS_LVDSEXT_33_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVDS_25
+
+Top level modules:
+	IBUFGDS_LVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVDS_25_DCI
+
+Top level modules:
+	IBUFGDS_LVDS_25_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVDS_33
+
+Top level modules:
+	IBUFGDS_LVDS_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVDS_33_DCI
+
+Top level modules:
+	IBUFGDS_LVDS_33_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVPECL_25
+
+Top level modules:
+	IBUFGDS_LVPECL_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_LVPECL_33
+
+Top level modules:
+	IBUFGDS_LVPECL_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFGDS_ULVDS_25
+
+Top level modules:
+	IBUFGDS_ULVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_AGP
+
+Top level modules:
+	IBUFG_AGP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_CTT
+
+Top level modules:
+	IBUFG_CTT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_GTL
+
+Top level modules:
+	IBUFG_GTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_GTLP
+
+Top level modules:
+	IBUFG_GTLP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_GTLP_DCI
+
+Top level modules:
+	IBUFG_GTLP_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_GTL_DCI
+
+Top level modules:
+	IBUFG_GTL_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_I
+
+Top level modules:
+	IBUFG_HSTL_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_II
+
+Top level modules:
+	IBUFG_HSTL_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_III
+
+Top level modules:
+	IBUFG_HSTL_III
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_III_18
+
+Top level modules:
+	IBUFG_HSTL_III_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_III_DCI
+
+Top level modules:
+	IBUFG_HSTL_III_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_III_DCI_18
+
+Top level modules:
+	IBUFG_HSTL_III_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_II_18
+
+Top level modules:
+	IBUFG_HSTL_II_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_II_DCI
+
+Top level modules:
+	IBUFG_HSTL_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_II_DCI_18
+
+Top level modules:
+	IBUFG_HSTL_II_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_IV
+
+Top level modules:
+	IBUFG_HSTL_IV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_IV_18
+
+Top level modules:
+	IBUFG_HSTL_IV_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_IV_DCI
+
+Top level modules:
+	IBUFG_HSTL_IV_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_IV_DCI_18
+
+Top level modules:
+	IBUFG_HSTL_IV_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_I_18
+
+Top level modules:
+	IBUFG_HSTL_I_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_I_DCI
+
+Top level modules:
+	IBUFG_HSTL_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_HSTL_I_DCI_18
+
+Top level modules:
+	IBUFG_HSTL_I_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVCMOS12
+
+Top level modules:
+	IBUFG_LVCMOS12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVCMOS15
+
+Top level modules:
+	IBUFG_LVCMOS15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVCMOS18
+
+Top level modules:
+	IBUFG_LVCMOS18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVCMOS2
+
+Top level modules:
+	IBUFG_LVCMOS2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVCMOS25
+
+Top level modules:
+	IBUFG_LVCMOS25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVCMOS33
+
+Top level modules:
+	IBUFG_LVCMOS33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDCI_15
+
+Top level modules:
+	IBUFG_LVDCI_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDCI_18
+
+Top level modules:
+	IBUFG_LVDCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDCI_25
+
+Top level modules:
+	IBUFG_LVDCI_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDCI_33
+
+Top level modules:
+	IBUFG_LVDCI_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDCI_DV2_15
+
+Top level modules:
+	IBUFG_LVDCI_DV2_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDCI_DV2_18
+
+Top level modules:
+	IBUFG_LVDCI_DV2_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDCI_DV2_25
+
+Top level modules:
+	IBUFG_LVDCI_DV2_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDCI_DV2_33
+
+Top level modules:
+	IBUFG_LVDCI_DV2_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVDS
+
+Top level modules:
+	IBUFG_LVDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVPECL
+
+Top level modules:
+	IBUFG_LVPECL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_LVTTL
+
+Top level modules:
+	IBUFG_LVTTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_PCI33_3
+
+Top level modules:
+	IBUFG_PCI33_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_PCI33_5
+
+Top level modules:
+	IBUFG_PCI33_5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_PCI66_3
+
+Top level modules:
+	IBUFG_PCI66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_PCIX
+
+Top level modules:
+	IBUFG_PCIX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_PCIX66_3
+
+Top level modules:
+	IBUFG_PCIX66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL18_I
+
+Top level modules:
+	IBUFG_SSTL18_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL18_II
+
+Top level modules:
+	IBUFG_SSTL18_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL18_II_DCI
+
+Top level modules:
+	IBUFG_SSTL18_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL18_I_DCI
+
+Top level modules:
+	IBUFG_SSTL18_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL2_I
+
+Top level modules:
+	IBUFG_SSTL2_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL2_II
+
+Top level modules:
+	IBUFG_SSTL2_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL2_II_DCI
+
+Top level modules:
+	IBUFG_SSTL2_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL2_I_DCI
+
+Top level modules:
+	IBUFG_SSTL2_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL3_I
+
+Top level modules:
+	IBUFG_SSTL3_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL3_II
+
+Top level modules:
+	IBUFG_SSTL3_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL3_II_DCI
+
+Top level modules:
+	IBUFG_SSTL3_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUFG_SSTL3_I_DCI
+
+Top level modules:
+	IBUFG_SSTL3_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_AGP
+
+Top level modules:
+	IBUF_AGP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_CTT
+
+Top level modules:
+	IBUF_CTT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_GTL
+
+Top level modules:
+	IBUF_GTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_GTLP
+
+Top level modules:
+	IBUF_GTLP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_GTLP_DCI
+
+Top level modules:
+	IBUF_GTLP_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_GTL_DCI
+
+Top level modules:
+	IBUF_GTL_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_I
+
+Top level modules:
+	IBUF_HSTL_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_II
+
+Top level modules:
+	IBUF_HSTL_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_III
+
+Top level modules:
+	IBUF_HSTL_III
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_III_18
+
+Top level modules:
+	IBUF_HSTL_III_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_III_DCI
+
+Top level modules:
+	IBUF_HSTL_III_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_III_DCI_18
+
+Top level modules:
+	IBUF_HSTL_III_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_II_18
+
+Top level modules:
+	IBUF_HSTL_II_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_II_DCI
+
+Top level modules:
+	IBUF_HSTL_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_II_DCI_18
+
+Top level modules:
+	IBUF_HSTL_II_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_IV
+
+Top level modules:
+	IBUF_HSTL_IV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_IV_18
+
+Top level modules:
+	IBUF_HSTL_IV_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_IV_DCI
+
+Top level modules:
+	IBUF_HSTL_IV_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_IV_DCI_18
+
+Top level modules:
+	IBUF_HSTL_IV_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_I_18
+
+Top level modules:
+	IBUF_HSTL_I_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_I_DCI
+
+Top level modules:
+	IBUF_HSTL_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_HSTL_I_DCI_18
+
+Top level modules:
+	IBUF_HSTL_I_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVCMOS12
+
+Top level modules:
+	IBUF_LVCMOS12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVCMOS15
+
+Top level modules:
+	IBUF_LVCMOS15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVCMOS18
+
+Top level modules:
+	IBUF_LVCMOS18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVCMOS2
+
+Top level modules:
+	IBUF_LVCMOS2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVCMOS25
+
+Top level modules:
+	IBUF_LVCMOS25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVCMOS33
+
+Top level modules:
+	IBUF_LVCMOS33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDCI_15
+
+Top level modules:
+	IBUF_LVDCI_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDCI_18
+
+Top level modules:
+	IBUF_LVDCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDCI_25
+
+Top level modules:
+	IBUF_LVDCI_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDCI_33
+
+Top level modules:
+	IBUF_LVDCI_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDCI_DV2_15
+
+Top level modules:
+	IBUF_LVDCI_DV2_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDCI_DV2_18
+
+Top level modules:
+	IBUF_LVDCI_DV2_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDCI_DV2_25
+
+Top level modules:
+	IBUF_LVDCI_DV2_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDCI_DV2_33
+
+Top level modules:
+	IBUF_LVDCI_DV2_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVDS
+
+Top level modules:
+	IBUF_LVDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVPECL
+
+Top level modules:
+	IBUF_LVPECL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_LVTTL
+
+Top level modules:
+	IBUF_LVTTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_PCI33_3
+
+Top level modules:
+	IBUF_PCI33_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_PCI33_5
+
+Top level modules:
+	IBUF_PCI33_5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_PCI66_3
+
+Top level modules:
+	IBUF_PCI66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_PCIX
+
+Top level modules:
+	IBUF_PCIX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_PCIX66_3
+
+Top level modules:
+	IBUF_PCIX66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL18_I
+
+Top level modules:
+	IBUF_SSTL18_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL18_II
+
+Top level modules:
+	IBUF_SSTL18_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL18_II_DCI
+
+Top level modules:
+	IBUF_SSTL18_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL18_I_DCI
+
+Top level modules:
+	IBUF_SSTL18_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL2_I
+
+Top level modules:
+	IBUF_SSTL2_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL2_II
+
+Top level modules:
+	IBUF_SSTL2_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL2_II_DCI
+
+Top level modules:
+	IBUF_SSTL2_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL2_I_DCI
+
+Top level modules:
+	IBUF_SSTL2_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL3_I
+
+Top level modules:
+	IBUF_SSTL3_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL3_II
+
+Top level modules:
+	IBUF_SSTL3_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL3_II_DCI
+
+Top level modules:
+	IBUF_SSTL3_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IBUF_SSTL3_I_DCI
+
+Top level modules:
+	IBUF_SSTL3_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ICAP_VIRTEX2
+
+Top level modules:
+	ICAP_VIRTEX2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ICAP_VIRTEX4
+
+Top level modules:
+	ICAP_VIRTEX4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IDDR
+
+Top level modules:
+	IDDR
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IDDR2
+
+Top level modules:
+	IDDR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IDELAY
+
+Top level modules:
+	IDELAY
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IDELAYCTRL
+
+Top level modules:
+	IDELAYCTRL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IFDDRCPE
+
+Top level modules:
+	IFDDRCPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IFDDRRSE
+
+Top level modules:
+	IFDDRRSE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module INV
+
+Top level modules:
+	INV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF
+
+Top level modules:
+	IOBUF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUFDS
+
+Top level modules:
+	IOBUFDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUFDS_BLVDS_25
+
+Top level modules:
+	IOBUFDS_BLVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_AGP
+
+Top level modules:
+	IOBUF_AGP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_CTT
+
+Top level modules:
+	IOBUF_CTT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_F_12
+
+Top level modules:
+	IOBUF_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_F_16
+
+Top level modules:
+	IOBUF_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_F_2
+
+Top level modules:
+	IOBUF_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_F_24
+
+Top level modules:
+	IOBUF_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_F_4
+
+Top level modules:
+	IOBUF_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_F_6
+
+Top level modules:
+	IOBUF_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_F_8
+
+Top level modules:
+	IOBUF_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_GTL
+
+Top level modules:
+	IOBUF_GTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_GTLP
+
+Top level modules:
+	IOBUF_GTLP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_GTLP_DCI
+
+Top level modules:
+	IOBUF_GTLP_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_GTL_DCI
+
+Top level modules:
+	IOBUF_GTL_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_I
+
+Top level modules:
+	IOBUF_HSTL_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_II
+
+Top level modules:
+	IOBUF_HSTL_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_III
+
+Top level modules:
+	IOBUF_HSTL_III
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_III_18
+
+Top level modules:
+	IOBUF_HSTL_III_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_II_18
+
+Top level modules:
+	IOBUF_HSTL_II_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_II_DCI
+
+Top level modules:
+	IOBUF_HSTL_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_II_DCI_18
+
+Top level modules:
+	IOBUF_HSTL_II_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_IV
+
+Top level modules:
+	IOBUF_HSTL_IV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_IV_18
+
+Top level modules:
+	IOBUF_HSTL_IV_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_IV_DCI
+
+Top level modules:
+	IOBUF_HSTL_IV_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_IV_DCI_18
+
+Top level modules:
+	IOBUF_HSTL_IV_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_HSTL_I_18
+
+Top level modules:
+	IOBUF_HSTL_I_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12
+
+Top level modules:
+	IOBUF_LVCMOS12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12_F_2
+
+Top level modules:
+	IOBUF_LVCMOS12_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12_F_4
+
+Top level modules:
+	IOBUF_LVCMOS12_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12_F_6
+
+Top level modules:
+	IOBUF_LVCMOS12_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12_F_8
+
+Top level modules:
+	IOBUF_LVCMOS12_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12_S_2
+
+Top level modules:
+	IOBUF_LVCMOS12_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12_S_4
+
+Top level modules:
+	IOBUF_LVCMOS12_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12_S_6
+
+Top level modules:
+	IOBUF_LVCMOS12_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS12_S_8
+
+Top level modules:
+	IOBUF_LVCMOS12_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15
+
+Top level modules:
+	IOBUF_LVCMOS15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_F_12
+
+Top level modules:
+	IOBUF_LVCMOS15_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_F_16
+
+Top level modules:
+	IOBUF_LVCMOS15_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_F_2
+
+Top level modules:
+	IOBUF_LVCMOS15_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_F_4
+
+Top level modules:
+	IOBUF_LVCMOS15_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_F_6
+
+Top level modules:
+	IOBUF_LVCMOS15_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_F_8
+
+Top level modules:
+	IOBUF_LVCMOS15_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_S_12
+
+Top level modules:
+	IOBUF_LVCMOS15_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_S_16
+
+Top level modules:
+	IOBUF_LVCMOS15_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_S_2
+
+Top level modules:
+	IOBUF_LVCMOS15_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_S_4
+
+Top level modules:
+	IOBUF_LVCMOS15_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_S_6
+
+Top level modules:
+	IOBUF_LVCMOS15_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS15_S_8
+
+Top level modules:
+	IOBUF_LVCMOS15_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18
+
+Top level modules:
+	IOBUF_LVCMOS18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_F_12
+
+Top level modules:
+	IOBUF_LVCMOS18_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_F_16
+
+Top level modules:
+	IOBUF_LVCMOS18_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_F_2
+
+Top level modules:
+	IOBUF_LVCMOS18_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_F_4
+
+Top level modules:
+	IOBUF_LVCMOS18_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_F_6
+
+Top level modules:
+	IOBUF_LVCMOS18_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_F_8
+
+Top level modules:
+	IOBUF_LVCMOS18_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_S_12
+
+Top level modules:
+	IOBUF_LVCMOS18_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_S_16
+
+Top level modules:
+	IOBUF_LVCMOS18_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_S_2
+
+Top level modules:
+	IOBUF_LVCMOS18_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_S_4
+
+Top level modules:
+	IOBUF_LVCMOS18_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_S_6
+
+Top level modules:
+	IOBUF_LVCMOS18_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS18_S_8
+
+Top level modules:
+	IOBUF_LVCMOS18_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS2
+
+Top level modules:
+	IOBUF_LVCMOS2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25
+
+Top level modules:
+	IOBUF_LVCMOS25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_F_12
+
+Top level modules:
+	IOBUF_LVCMOS25_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_F_16
+
+Top level modules:
+	IOBUF_LVCMOS25_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_F_2
+
+Top level modules:
+	IOBUF_LVCMOS25_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_F_24
+
+Top level modules:
+	IOBUF_LVCMOS25_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_F_4
+
+Top level modules:
+	IOBUF_LVCMOS25_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_F_6
+
+Top level modules:
+	IOBUF_LVCMOS25_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_F_8
+
+Top level modules:
+	IOBUF_LVCMOS25_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_S_12
+
+Top level modules:
+	IOBUF_LVCMOS25_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_S_16
+
+Top level modules:
+	IOBUF_LVCMOS25_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_S_2
+
+Top level modules:
+	IOBUF_LVCMOS25_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_S_24
+
+Top level modules:
+	IOBUF_LVCMOS25_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_S_4
+
+Top level modules:
+	IOBUF_LVCMOS25_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_S_6
+
+Top level modules:
+	IOBUF_LVCMOS25_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS25_S_8
+
+Top level modules:
+	IOBUF_LVCMOS25_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33
+
+Top level modules:
+	IOBUF_LVCMOS33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_F_12
+
+Top level modules:
+	IOBUF_LVCMOS33_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_F_16
+
+Top level modules:
+	IOBUF_LVCMOS33_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_F_2
+
+Top level modules:
+	IOBUF_LVCMOS33_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_F_24
+
+Top level modules:
+	IOBUF_LVCMOS33_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_F_4
+
+Top level modules:
+	IOBUF_LVCMOS33_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_F_6
+
+Top level modules:
+	IOBUF_LVCMOS33_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_F_8
+
+Top level modules:
+	IOBUF_LVCMOS33_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_S_12
+
+Top level modules:
+	IOBUF_LVCMOS33_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_S_16
+
+Top level modules:
+	IOBUF_LVCMOS33_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_S_2
+
+Top level modules:
+	IOBUF_LVCMOS33_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_S_24
+
+Top level modules:
+	IOBUF_LVCMOS33_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_S_4
+
+Top level modules:
+	IOBUF_LVCMOS33_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_S_6
+
+Top level modules:
+	IOBUF_LVCMOS33_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVCMOS33_S_8
+
+Top level modules:
+	IOBUF_LVCMOS33_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDCI_15
+
+Top level modules:
+	IOBUF_LVDCI_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDCI_18
+
+Top level modules:
+	IOBUF_LVDCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDCI_25
+
+Top level modules:
+	IOBUF_LVDCI_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDCI_33
+
+Top level modules:
+	IOBUF_LVDCI_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDCI_DV2_15
+
+Top level modules:
+	IOBUF_LVDCI_DV2_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDCI_DV2_18
+
+Top level modules:
+	IOBUF_LVDCI_DV2_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDCI_DV2_25
+
+Top level modules:
+	IOBUF_LVDCI_DV2_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDCI_DV2_33
+
+Top level modules:
+	IOBUF_LVDCI_DV2_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVDS
+
+Top level modules:
+	IOBUF_LVDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVPECL
+
+Top level modules:
+	IOBUF_LVPECL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL
+
+Top level modules:
+	IOBUF_LVTTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_F_12
+
+Top level modules:
+	IOBUF_LVTTL_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_F_16
+
+Top level modules:
+	IOBUF_LVTTL_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_F_2
+
+Top level modules:
+	IOBUF_LVTTL_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_F_24
+
+Top level modules:
+	IOBUF_LVTTL_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_F_4
+
+Top level modules:
+	IOBUF_LVTTL_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_F_6
+
+Top level modules:
+	IOBUF_LVTTL_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_F_8
+
+Top level modules:
+	IOBUF_LVTTL_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_S_12
+
+Top level modules:
+	IOBUF_LVTTL_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_S_16
+
+Top level modules:
+	IOBUF_LVTTL_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_S_2
+
+Top level modules:
+	IOBUF_LVTTL_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_S_24
+
+Top level modules:
+	IOBUF_LVTTL_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_S_4
+
+Top level modules:
+	IOBUF_LVTTL_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_S_6
+
+Top level modules:
+	IOBUF_LVTTL_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_LVTTL_S_8
+
+Top level modules:
+	IOBUF_LVTTL_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_PCI33_3
+
+Top level modules:
+	IOBUF_PCI33_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_PCI33_5
+
+Top level modules:
+	IOBUF_PCI33_5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_PCI66_3
+
+Top level modules:
+	IOBUF_PCI66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_PCIX
+
+Top level modules:
+	IOBUF_PCIX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_PCIX66_3
+
+Top level modules:
+	IOBUF_PCIX66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL18_I
+
+Top level modules:
+	IOBUF_SSTL18_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL18_II
+
+Top level modules:
+	IOBUF_SSTL18_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL18_II_DCI
+
+Top level modules:
+	IOBUF_SSTL18_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL2_I
+
+Top level modules:
+	IOBUF_SSTL2_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL2_II
+
+Top level modules:
+	IOBUF_SSTL2_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL2_II_DCI
+
+Top level modules:
+	IOBUF_SSTL2_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL3_I
+
+Top level modules:
+	IOBUF_SSTL3_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL3_II
+
+Top level modules:
+	IOBUF_SSTL3_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_SSTL3_II_DCI
+
+Top level modules:
+	IOBUF_SSTL3_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_S_12
+
+Top level modules:
+	IOBUF_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_S_16
+
+Top level modules:
+	IOBUF_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_S_2
+
+Top level modules:
+	IOBUF_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_S_24
+
+Top level modules:
+	IOBUF_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_S_4
+
+Top level modules:
+	IOBUF_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_S_6
+
+Top level modules:
+	IOBUF_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module IOBUF_S_8
+
+Top level modules:
+	IOBUF_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ISERDES
+
+Top level modules:
+	ISERDES
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module JTAGPPC
+
+Top level modules:
+	JTAGPPC
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module KEEPER
+
+Top level modules:
+	KEEPER
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LD
+
+Top level modules:
+	LD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDC
+
+Top level modules:
+	LDC
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDCE
+
+Top level modules:
+	LDCE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDCE_1
+
+Top level modules:
+	LDCE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDCP
+
+Top level modules:
+	LDCP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDCPE
+
+Top level modules:
+	LDCPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDCPE_1
+
+Top level modules:
+	LDCPE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDCP_1
+
+Top level modules:
+	LDCP_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDC_1
+
+Top level modules:
+	LDC_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDE
+
+Top level modules:
+	LDE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDE_1
+
+Top level modules:
+	LDE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDP
+
+Top level modules:
+	LDP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDPE
+
+Top level modules:
+	LDPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDPE_1
+
+Top level modules:
+	LDPE_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LDP_1
+
+Top level modules:
+	LDP_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LD_1
+
+Top level modules:
+	LD_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT1
+-- Compiling UDP lut1_mux2
+
+Top level modules:
+	LUT1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT1_D
+-- Compiling UDP lut1_d_mux2
+
+Top level modules:
+	LUT1_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT1_L
+-- Compiling UDP lut1_l_mux2
+
+Top level modules:
+	LUT1_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT2
+-- Compiling UDP lut2_mux4
+
+Top level modules:
+	LUT2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT2_D
+-- Compiling UDP lut2_d_mux4
+
+Top level modules:
+	LUT2_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT2_L
+-- Compiling UDP lut2_l_mux4
+
+Top level modules:
+	LUT2_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT3
+-- Compiling UDP lut3_mux4
+
+Top level modules:
+	LUT3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT3_D
+-- Compiling UDP lut3_d_mux4
+
+Top level modules:
+	LUT3_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT3_L
+-- Compiling UDP lut3_l_mux4
+
+Top level modules:
+	LUT3_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT4
+-- Compiling UDP lut4_mux4
+
+Top level modules:
+	LUT4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT4_D
+-- Compiling UDP lut4_d_mux4
+
+Top level modules:
+	LUT4_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LUT4_L
+-- Compiling UDP lut4_l_mux4
+
+Top level modules:
+	LUT4_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT18X18
+
+Top level modules:
+	MULT18X18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT18X18S
+
+Top level modules:
+	MULT18X18S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT18X18SIO
+
+Top level modules:
+	MULT18X18SIO
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_AND
+
+Top level modules:
+	MULT_AND
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXCY
+
+Top level modules:
+	MUXCY
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXCY_D
+
+Top level modules:
+	MUXCY_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXCY_L
+
+Top level modules:
+	MUXCY_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF5
+
+Top level modules:
+	MUXF5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF5_D
+
+Top level modules:
+	MUXF5_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF5_L
+
+Top level modules:
+	MUXF5_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF6
+
+Top level modules:
+	MUXF6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF6_D
+
+Top level modules:
+	MUXF6_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF6_L
+
+Top level modules:
+	MUXF6_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF7
+
+Top level modules:
+	MUXF7
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF7_D
+
+Top level modules:
+	MUXF7_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF7_L
+
+Top level modules:
+	MUXF7_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF8
+
+Top level modules:
+	MUXF8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF8_D
+
+Top level modules:
+	MUXF8_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MUXF8_L
+
+Top level modules:
+	MUXF8_L
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND2
+
+Top level modules:
+	NAND2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND2B1
+
+Top level modules:
+	NAND2B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND2B2
+
+Top level modules:
+	NAND2B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND3
+
+Top level modules:
+	NAND3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND3B1
+
+Top level modules:
+	NAND3B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND3B2
+
+Top level modules:
+	NAND3B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND3B3
+
+Top level modules:
+	NAND3B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND4
+
+Top level modules:
+	NAND4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND4B1
+
+Top level modules:
+	NAND4B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND4B2
+
+Top level modules:
+	NAND4B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND4B3
+
+Top level modules:
+	NAND4B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND4B4
+
+Top level modules:
+	NAND4B4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND5
+
+Top level modules:
+	NAND5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND5B1
+
+Top level modules:
+	NAND5B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND5B2
+
+Top level modules:
+	NAND5B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND5B3
+
+Top level modules:
+	NAND5B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND5B4
+
+Top level modules:
+	NAND5B4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NAND5B5
+
+Top level modules:
+	NAND5B5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR2
+
+Top level modules:
+	NOR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR2B1
+
+Top level modules:
+	NOR2B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR2B2
+
+Top level modules:
+	NOR2B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR3
+
+Top level modules:
+	NOR3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR3B1
+
+Top level modules:
+	NOR3B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR3B2
+
+Top level modules:
+	NOR3B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR3B3
+
+Top level modules:
+	NOR3B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR4
+
+Top level modules:
+	NOR4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR4B1
+
+Top level modules:
+	NOR4B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR4B2
+
+Top level modules:
+	NOR4B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR4B3
+
+Top level modules:
+	NOR4B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR4B4
+
+Top level modules:
+	NOR4B4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR5
+
+Top level modules:
+	NOR5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR5B1
+
+Top level modules:
+	NOR5B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR5B2
+
+Top level modules:
+	NOR5B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR5B3
+
+Top level modules:
+	NOR5B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR5B4
+
+Top level modules:
+	NOR5B4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module NOR5B5
+
+Top level modules:
+	NOR5B5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF
+
+Top level modules:
+	OBUF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS
+
+Top level modules:
+	OBUFDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_BLVDS_25
+
+Top level modules:
+	OBUFDS_BLVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_LDT_25
+
+Top level modules:
+	OBUFDS_LDT_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_LVDSEXT_25
+
+Top level modules:
+	OBUFDS_LVDSEXT_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_LVDSEXT_33
+
+Top level modules:
+	OBUFDS_LVDSEXT_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_LVDS_25
+
+Top level modules:
+	OBUFDS_LVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_LVDS_33
+
+Top level modules:
+	OBUFDS_LVDS_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_LVPECL_25
+
+Top level modules:
+	OBUFDS_LVPECL_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_LVPECL_33
+
+Top level modules:
+	OBUFDS_LVPECL_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFDS_ULVDS_25
+
+Top level modules:
+	OBUFDS_ULVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT
+
+Top level modules:
+	OBUFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS
+
+Top level modules:
+	OBUFTDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_BLVDS_25
+
+Top level modules:
+	OBUFTDS_BLVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_LDT_25
+
+Top level modules:
+	OBUFTDS_LDT_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_LVDSEXT_25
+
+Top level modules:
+	OBUFTDS_LVDSEXT_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_LVDSEXT_33
+
+Top level modules:
+	OBUFTDS_LVDSEXT_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_LVDS_25
+
+Top level modules:
+	OBUFTDS_LVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_LVDS_33
+
+Top level modules:
+	OBUFTDS_LVDS_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_LVPECL_25
+
+Top level modules:
+	OBUFTDS_LVPECL_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_LVPECL_33
+
+Top level modules:
+	OBUFTDS_LVPECL_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFTDS_ULVDS_25
+
+Top level modules:
+	OBUFTDS_ULVDS_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_AGP
+
+Top level modules:
+	OBUFT_AGP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_CTT
+
+Top level modules:
+	OBUFT_CTT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_F_12
+
+Top level modules:
+	OBUFT_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_F_16
+
+Top level modules:
+	OBUFT_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_F_2
+
+Top level modules:
+	OBUFT_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_F_24
+
+Top level modules:
+	OBUFT_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_F_4
+
+Top level modules:
+	OBUFT_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_F_6
+
+Top level modules:
+	OBUFT_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_F_8
+
+Top level modules:
+	OBUFT_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_GTL
+
+Top level modules:
+	OBUFT_GTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_GTLP
+
+Top level modules:
+	OBUFT_GTLP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_GTLP_DCI
+
+Top level modules:
+	OBUFT_GTLP_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_GTL_DCI
+
+Top level modules:
+	OBUFT_GTL_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_I
+
+Top level modules:
+	OBUFT_HSTL_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_II
+
+Top level modules:
+	OBUFT_HSTL_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_III
+
+Top level modules:
+	OBUFT_HSTL_III
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_III_18
+
+Top level modules:
+	OBUFT_HSTL_III_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_III_DCI
+
+Top level modules:
+	OBUFT_HSTL_III_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_III_DCI_18
+
+Top level modules:
+	OBUFT_HSTL_III_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_II_18
+
+Top level modules:
+	OBUFT_HSTL_II_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_II_DCI
+
+Top level modules:
+	OBUFT_HSTL_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_II_DCI_18
+
+Top level modules:
+	OBUFT_HSTL_II_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_IV
+
+Top level modules:
+	OBUFT_HSTL_IV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_IV_18
+
+Top level modules:
+	OBUFT_HSTL_IV_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_IV_DCI
+
+Top level modules:
+	OBUFT_HSTL_IV_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_IV_DCI_18
+
+Top level modules:
+	OBUFT_HSTL_IV_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_I_18
+
+Top level modules:
+	OBUFT_HSTL_I_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_I_DCI
+
+Top level modules:
+	OBUFT_HSTL_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_HSTL_I_DCI_18
+
+Top level modules:
+	OBUFT_HSTL_I_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12
+
+Top level modules:
+	OBUFT_LVCMOS12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12_F_2
+
+Top level modules:
+	OBUFT_LVCMOS12_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12_F_4
+
+Top level modules:
+	OBUFT_LVCMOS12_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12_F_6
+
+Top level modules:
+	OBUFT_LVCMOS12_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12_F_8
+
+Top level modules:
+	OBUFT_LVCMOS12_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12_S_2
+
+Top level modules:
+	OBUFT_LVCMOS12_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12_S_4
+
+Top level modules:
+	OBUFT_LVCMOS12_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12_S_6
+
+Top level modules:
+	OBUFT_LVCMOS12_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS12_S_8
+
+Top level modules:
+	OBUFT_LVCMOS12_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15
+
+Top level modules:
+	OBUFT_LVCMOS15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_F_12
+
+Top level modules:
+	OBUFT_LVCMOS15_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_F_16
+
+Top level modules:
+	OBUFT_LVCMOS15_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_F_2
+
+Top level modules:
+	OBUFT_LVCMOS15_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_F_4
+
+Top level modules:
+	OBUFT_LVCMOS15_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_F_6
+
+Top level modules:
+	OBUFT_LVCMOS15_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_F_8
+
+Top level modules:
+	OBUFT_LVCMOS15_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_S_12
+
+Top level modules:
+	OBUFT_LVCMOS15_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_S_16
+
+Top level modules:
+	OBUFT_LVCMOS15_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_S_2
+
+Top level modules:
+	OBUFT_LVCMOS15_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_S_4
+
+Top level modules:
+	OBUFT_LVCMOS15_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_S_6
+
+Top level modules:
+	OBUFT_LVCMOS15_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS15_S_8
+
+Top level modules:
+	OBUFT_LVCMOS15_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18
+
+Top level modules:
+	OBUFT_LVCMOS18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_F_12
+
+Top level modules:
+	OBUFT_LVCMOS18_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_F_16
+
+Top level modules:
+	OBUFT_LVCMOS18_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_F_2
+
+Top level modules:
+	OBUFT_LVCMOS18_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_F_4
+
+Top level modules:
+	OBUFT_LVCMOS18_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_F_6
+
+Top level modules:
+	OBUFT_LVCMOS18_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_F_8
+
+Top level modules:
+	OBUFT_LVCMOS18_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_S_12
+
+Top level modules:
+	OBUFT_LVCMOS18_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_S_16
+
+Top level modules:
+	OBUFT_LVCMOS18_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_S_2
+
+Top level modules:
+	OBUFT_LVCMOS18_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_S_4
+
+Top level modules:
+	OBUFT_LVCMOS18_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_S_6
+
+Top level modules:
+	OBUFT_LVCMOS18_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS18_S_8
+
+Top level modules:
+	OBUFT_LVCMOS18_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS2
+
+Top level modules:
+	OBUFT_LVCMOS2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25
+
+Top level modules:
+	OBUFT_LVCMOS25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_F_12
+
+Top level modules:
+	OBUFT_LVCMOS25_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_F_16
+
+Top level modules:
+	OBUFT_LVCMOS25_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_F_2
+
+Top level modules:
+	OBUFT_LVCMOS25_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_F_24
+
+Top level modules:
+	OBUFT_LVCMOS25_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_F_4
+
+Top level modules:
+	OBUFT_LVCMOS25_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_F_6
+
+Top level modules:
+	OBUFT_LVCMOS25_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_F_8
+
+Top level modules:
+	OBUFT_LVCMOS25_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_S_12
+
+Top level modules:
+	OBUFT_LVCMOS25_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_S_16
+
+Top level modules:
+	OBUFT_LVCMOS25_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_S_2
+
+Top level modules:
+	OBUFT_LVCMOS25_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_S_24
+
+Top level modules:
+	OBUFT_LVCMOS25_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_S_4
+
+Top level modules:
+	OBUFT_LVCMOS25_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_S_6
+
+Top level modules:
+	OBUFT_LVCMOS25_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS25_S_8
+
+Top level modules:
+	OBUFT_LVCMOS25_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33
+
+Top level modules:
+	OBUFT_LVCMOS33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_F_12
+
+Top level modules:
+	OBUFT_LVCMOS33_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_F_16
+
+Top level modules:
+	OBUFT_LVCMOS33_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_F_2
+
+Top level modules:
+	OBUFT_LVCMOS33_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_F_24
+
+Top level modules:
+	OBUFT_LVCMOS33_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_F_4
+
+Top level modules:
+	OBUFT_LVCMOS33_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_F_6
+
+Top level modules:
+	OBUFT_LVCMOS33_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_F_8
+
+Top level modules:
+	OBUFT_LVCMOS33_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_S_12
+
+Top level modules:
+	OBUFT_LVCMOS33_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_S_16
+
+Top level modules:
+	OBUFT_LVCMOS33_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_S_2
+
+Top level modules:
+	OBUFT_LVCMOS33_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_S_24
+
+Top level modules:
+	OBUFT_LVCMOS33_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_S_4
+
+Top level modules:
+	OBUFT_LVCMOS33_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_S_6
+
+Top level modules:
+	OBUFT_LVCMOS33_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVCMOS33_S_8
+
+Top level modules:
+	OBUFT_LVCMOS33_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDCI_15
+
+Top level modules:
+	OBUFT_LVDCI_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDCI_18
+
+Top level modules:
+	OBUFT_LVDCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDCI_25
+
+Top level modules:
+	OBUFT_LVDCI_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDCI_33
+
+Top level modules:
+	OBUFT_LVDCI_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDCI_DV2_15
+
+Top level modules:
+	OBUFT_LVDCI_DV2_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDCI_DV2_18
+
+Top level modules:
+	OBUFT_LVDCI_DV2_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDCI_DV2_25
+
+Top level modules:
+	OBUFT_LVDCI_DV2_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDCI_DV2_33
+
+Top level modules:
+	OBUFT_LVDCI_DV2_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVDS
+
+Top level modules:
+	OBUFT_LVDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVPECL
+
+Top level modules:
+	OBUFT_LVPECL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL
+
+Top level modules:
+	OBUFT_LVTTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_F_12
+
+Top level modules:
+	OBUFT_LVTTL_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_F_16
+
+Top level modules:
+	OBUFT_LVTTL_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_F_2
+
+Top level modules:
+	OBUFT_LVTTL_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_F_24
+
+Top level modules:
+	OBUFT_LVTTL_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_F_4
+
+Top level modules:
+	OBUFT_LVTTL_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_F_6
+
+Top level modules:
+	OBUFT_LVTTL_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_F_8
+
+Top level modules:
+	OBUFT_LVTTL_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_S_12
+
+Top level modules:
+	OBUFT_LVTTL_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_S_16
+
+Top level modules:
+	OBUFT_LVTTL_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_S_2
+
+Top level modules:
+	OBUFT_LVTTL_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_S_24
+
+Top level modules:
+	OBUFT_LVTTL_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_S_4
+
+Top level modules:
+	OBUFT_LVTTL_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_S_6
+
+Top level modules:
+	OBUFT_LVTTL_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_LVTTL_S_8
+
+Top level modules:
+	OBUFT_LVTTL_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_PCI33_3
+
+Top level modules:
+	OBUFT_PCI33_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_PCI33_5
+
+Top level modules:
+	OBUFT_PCI33_5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_PCI66_3
+
+Top level modules:
+	OBUFT_PCI66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_PCIX
+
+Top level modules:
+	OBUFT_PCIX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_PCIX66_3
+
+Top level modules:
+	OBUFT_PCIX66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL18_I
+
+Top level modules:
+	OBUFT_SSTL18_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL18_II
+
+Top level modules:
+	OBUFT_SSTL18_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL18_II_DCI
+
+Top level modules:
+	OBUFT_SSTL18_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL18_I_DCI
+
+Top level modules:
+	OBUFT_SSTL18_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL2_I
+
+Top level modules:
+	OBUFT_SSTL2_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL2_II
+
+Top level modules:
+	OBUFT_SSTL2_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL2_II_DCI
+
+Top level modules:
+	OBUFT_SSTL2_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL2_I_DCI
+
+Top level modules:
+	OBUFT_SSTL2_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL3_I
+
+Top level modules:
+	OBUFT_SSTL3_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL3_II
+
+Top level modules:
+	OBUFT_SSTL3_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL3_II_DCI
+
+Top level modules:
+	OBUFT_SSTL3_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_SSTL3_I_DCI
+
+Top level modules:
+	OBUFT_SSTL3_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_S_12
+
+Top level modules:
+	OBUFT_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_S_16
+
+Top level modules:
+	OBUFT_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_S_2
+
+Top level modules:
+	OBUFT_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_S_24
+
+Top level modules:
+	OBUFT_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_S_4
+
+Top level modules:
+	OBUFT_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_S_6
+
+Top level modules:
+	OBUFT_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUFT_S_8
+
+Top level modules:
+	OBUFT_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_AGP
+
+Top level modules:
+	OBUF_AGP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_CTT
+
+Top level modules:
+	OBUF_CTT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_F_12
+
+Top level modules:
+	OBUF_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_F_16
+
+Top level modules:
+	OBUF_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_F_2
+
+Top level modules:
+	OBUF_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_F_24
+
+Top level modules:
+	OBUF_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_F_4
+
+Top level modules:
+	OBUF_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_F_6
+
+Top level modules:
+	OBUF_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_F_8
+
+Top level modules:
+	OBUF_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_GTL
+
+Top level modules:
+	OBUF_GTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_GTLP
+
+Top level modules:
+	OBUF_GTLP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_GTLP_DCI
+
+Top level modules:
+	OBUF_GTLP_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_GTL_DCI
+
+Top level modules:
+	OBUF_GTL_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_I
+
+Top level modules:
+	OBUF_HSTL_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_II
+
+Top level modules:
+	OBUF_HSTL_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_III
+
+Top level modules:
+	OBUF_HSTL_III
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_III_18
+
+Top level modules:
+	OBUF_HSTL_III_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_III_DCI
+
+Top level modules:
+	OBUF_HSTL_III_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_III_DCI_18
+
+Top level modules:
+	OBUF_HSTL_III_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_II_18
+
+Top level modules:
+	OBUF_HSTL_II_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_II_DCI
+
+Top level modules:
+	OBUF_HSTL_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_II_DCI_18
+
+Top level modules:
+	OBUF_HSTL_II_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_IV
+
+Top level modules:
+	OBUF_HSTL_IV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_IV_18
+
+Top level modules:
+	OBUF_HSTL_IV_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_IV_DCI
+
+Top level modules:
+	OBUF_HSTL_IV_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_IV_DCI_18
+
+Top level modules:
+	OBUF_HSTL_IV_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_I_18
+
+Top level modules:
+	OBUF_HSTL_I_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_I_DCI
+
+Top level modules:
+	OBUF_HSTL_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_HSTL_I_DCI_18
+
+Top level modules:
+	OBUF_HSTL_I_DCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12
+
+Top level modules:
+	OBUF_LVCMOS12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12_F_2
+
+Top level modules:
+	OBUF_LVCMOS12_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12_F_4
+
+Top level modules:
+	OBUF_LVCMOS12_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12_F_6
+
+Top level modules:
+	OBUF_LVCMOS12_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12_F_8
+
+Top level modules:
+	OBUF_LVCMOS12_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12_S_2
+
+Top level modules:
+	OBUF_LVCMOS12_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12_S_4
+
+Top level modules:
+	OBUF_LVCMOS12_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12_S_6
+
+Top level modules:
+	OBUF_LVCMOS12_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS12_S_8
+
+Top level modules:
+	OBUF_LVCMOS12_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15
+
+Top level modules:
+	OBUF_LVCMOS15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_F_12
+
+Top level modules:
+	OBUF_LVCMOS15_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_F_16
+
+Top level modules:
+	OBUF_LVCMOS15_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_F_2
+
+Top level modules:
+	OBUF_LVCMOS15_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_F_4
+
+Top level modules:
+	OBUF_LVCMOS15_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_F_6
+
+Top level modules:
+	OBUF_LVCMOS15_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_F_8
+
+Top level modules:
+	OBUF_LVCMOS15_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_S_12
+
+Top level modules:
+	OBUF_LVCMOS15_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_S_16
+
+Top level modules:
+	OBUF_LVCMOS15_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_S_2
+
+Top level modules:
+	OBUF_LVCMOS15_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_S_4
+
+Top level modules:
+	OBUF_LVCMOS15_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_S_6
+
+Top level modules:
+	OBUF_LVCMOS15_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS15_S_8
+
+Top level modules:
+	OBUF_LVCMOS15_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18
+
+Top level modules:
+	OBUF_LVCMOS18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_F_12
+
+Top level modules:
+	OBUF_LVCMOS18_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_F_16
+
+Top level modules:
+	OBUF_LVCMOS18_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_F_2
+
+Top level modules:
+	OBUF_LVCMOS18_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_F_4
+
+Top level modules:
+	OBUF_LVCMOS18_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_F_6
+
+Top level modules:
+	OBUF_LVCMOS18_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_F_8
+
+Top level modules:
+	OBUF_LVCMOS18_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_S_12
+
+Top level modules:
+	OBUF_LVCMOS18_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_S_16
+
+Top level modules:
+	OBUF_LVCMOS18_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_S_2
+
+Top level modules:
+	OBUF_LVCMOS18_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_S_4
+
+Top level modules:
+	OBUF_LVCMOS18_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_S_6
+
+Top level modules:
+	OBUF_LVCMOS18_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS18_S_8
+
+Top level modules:
+	OBUF_LVCMOS18_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS2
+
+Top level modules:
+	OBUF_LVCMOS2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25
+
+Top level modules:
+	OBUF_LVCMOS25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_F_12
+
+Top level modules:
+	OBUF_LVCMOS25_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_F_16
+
+Top level modules:
+	OBUF_LVCMOS25_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_F_2
+
+Top level modules:
+	OBUF_LVCMOS25_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_F_24
+
+Top level modules:
+	OBUF_LVCMOS25_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_F_4
+
+Top level modules:
+	OBUF_LVCMOS25_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_F_6
+
+Top level modules:
+	OBUF_LVCMOS25_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_F_8
+
+Top level modules:
+	OBUF_LVCMOS25_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_S_12
+
+Top level modules:
+	OBUF_LVCMOS25_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_S_16
+
+Top level modules:
+	OBUF_LVCMOS25_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_S_2
+
+Top level modules:
+	OBUF_LVCMOS25_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_S_24
+
+Top level modules:
+	OBUF_LVCMOS25_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_S_4
+
+Top level modules:
+	OBUF_LVCMOS25_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_S_6
+
+Top level modules:
+	OBUF_LVCMOS25_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS25_S_8
+
+Top level modules:
+	OBUF_LVCMOS25_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33
+
+Top level modules:
+	OBUF_LVCMOS33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_F_12
+
+Top level modules:
+	OBUF_LVCMOS33_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_F_16
+
+Top level modules:
+	OBUF_LVCMOS33_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_F_2
+
+Top level modules:
+	OBUF_LVCMOS33_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_F_24
+
+Top level modules:
+	OBUF_LVCMOS33_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_F_4
+
+Top level modules:
+	OBUF_LVCMOS33_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_F_6
+
+Top level modules:
+	OBUF_LVCMOS33_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_F_8
+
+Top level modules:
+	OBUF_LVCMOS33_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_S_12
+
+Top level modules:
+	OBUF_LVCMOS33_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_S_16
+
+Top level modules:
+	OBUF_LVCMOS33_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_S_2
+
+Top level modules:
+	OBUF_LVCMOS33_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_S_24
+
+Top level modules:
+	OBUF_LVCMOS33_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_S_4
+
+Top level modules:
+	OBUF_LVCMOS33_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_S_6
+
+Top level modules:
+	OBUF_LVCMOS33_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVCMOS33_S_8
+
+Top level modules:
+	OBUF_LVCMOS33_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDCI_15
+
+Top level modules:
+	OBUF_LVDCI_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDCI_18
+
+Top level modules:
+	OBUF_LVDCI_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDCI_25
+
+Top level modules:
+	OBUF_LVDCI_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDCI_33
+
+Top level modules:
+	OBUF_LVDCI_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDCI_DV2_15
+
+Top level modules:
+	OBUF_LVDCI_DV2_15
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDCI_DV2_18
+
+Top level modules:
+	OBUF_LVDCI_DV2_18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDCI_DV2_25
+
+Top level modules:
+	OBUF_LVDCI_DV2_25
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDCI_DV2_33
+
+Top level modules:
+	OBUF_LVDCI_DV2_33
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVDS
+
+Top level modules:
+	OBUF_LVDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVPECL
+
+Top level modules:
+	OBUF_LVPECL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL
+
+Top level modules:
+	OBUF_LVTTL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_F_12
+
+Top level modules:
+	OBUF_LVTTL_F_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_F_16
+
+Top level modules:
+	OBUF_LVTTL_F_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_F_2
+
+Top level modules:
+	OBUF_LVTTL_F_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_F_24
+
+Top level modules:
+	OBUF_LVTTL_F_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_F_4
+
+Top level modules:
+	OBUF_LVTTL_F_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_F_6
+
+Top level modules:
+	OBUF_LVTTL_F_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_F_8
+
+Top level modules:
+	OBUF_LVTTL_F_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_S_12
+
+Top level modules:
+	OBUF_LVTTL_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_S_16
+
+Top level modules:
+	OBUF_LVTTL_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_S_2
+
+Top level modules:
+	OBUF_LVTTL_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_S_24
+
+Top level modules:
+	OBUF_LVTTL_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_S_4
+
+Top level modules:
+	OBUF_LVTTL_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_S_6
+
+Top level modules:
+	OBUF_LVTTL_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_LVTTL_S_8
+
+Top level modules:
+	OBUF_LVTTL_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_PCI33_3
+
+Top level modules:
+	OBUF_PCI33_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_PCI33_5
+
+Top level modules:
+	OBUF_PCI33_5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_PCI66_3
+
+Top level modules:
+	OBUF_PCI66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_PCIX
+
+Top level modules:
+	OBUF_PCIX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_PCIX66_3
+
+Top level modules:
+	OBUF_PCIX66_3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL18_I
+
+Top level modules:
+	OBUF_SSTL18_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL18_II
+
+Top level modules:
+	OBUF_SSTL18_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL18_II_DCI
+
+Top level modules:
+	OBUF_SSTL18_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL18_I_DCI
+
+Top level modules:
+	OBUF_SSTL18_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL2_I
+
+Top level modules:
+	OBUF_SSTL2_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL2_II
+
+Top level modules:
+	OBUF_SSTL2_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL2_II_DCI
+
+Top level modules:
+	OBUF_SSTL2_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL2_I_DCI
+
+Top level modules:
+	OBUF_SSTL2_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL3_I
+
+Top level modules:
+	OBUF_SSTL3_I
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL3_II
+
+Top level modules:
+	OBUF_SSTL3_II
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL3_II_DCI
+
+Top level modules:
+	OBUF_SSTL3_II_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_SSTL3_I_DCI
+
+Top level modules:
+	OBUF_SSTL3_I_DCI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_S_12
+
+Top level modules:
+	OBUF_S_12
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_S_16
+
+Top level modules:
+	OBUF_S_16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_S_2
+
+Top level modules:
+	OBUF_S_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_S_24
+
+Top level modules:
+	OBUF_S_24
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_S_4
+
+Top level modules:
+	OBUF_S_4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_S_6
+
+Top level modules:
+	OBUF_S_6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OBUF_S_8
+
+Top level modules:
+	OBUF_S_8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ODDR
+
+Top level modules:
+	ODDR
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ODDR2
+
+Top level modules:
+	ODDR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OFDDRCPE
+
+Top level modules:
+	OFDDRCPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OFDDRRSE
+
+Top level modules:
+	OFDDRRSE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OFDDRTCPE
+
+Top level modules:
+	OFDDRTCPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OFDDRTRSE
+
+Top level modules:
+	OFDDRTRSE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR2
+
+Top level modules:
+	OR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR2B1
+
+Top level modules:
+	OR2B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR2B2
+
+Top level modules:
+	OR2B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR3
+
+Top level modules:
+	OR3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR3B1
+
+Top level modules:
+	OR3B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR3B2
+
+Top level modules:
+	OR3B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR3B3
+
+Top level modules:
+	OR3B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR4
+
+Top level modules:
+	OR4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR4B1
+
+Top level modules:
+	OR4B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR4B2
+
+Top level modules:
+	OR4B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR4B3
+
+Top level modules:
+	OR4B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR4B4
+
+Top level modules:
+	OR4B4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR5
+
+Top level modules:
+	OR5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR5B1
+
+Top level modules:
+	OR5B1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR5B2
+
+Top level modules:
+	OR5B2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR5B3
+
+Top level modules:
+	OR5B3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR5B4
+
+Top level modules:
+	OR5B4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OR5B5
+
+Top level modules:
+	OR5B5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ORCY
+
+Top level modules:
+	ORCY
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module OSERDES
+
+Top level modules:
+	OSERDES
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PMCD
+
+Top level modules:
+	PMCD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405
+-- Compiling module FPGA_startup
+
+Top level modules:
+	PPC405
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_ADV
+-- Compiling module FPGA_startup_VIRTEX4
+
+Top level modules:
+	PPC405_ADV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PULLDOWN
+
+Top level modules:
+	PULLDOWN
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PULLUP
+
+Top level modules:
+	PULLUP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM128X1S
+
+Top level modules:
+	RAM128X1S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM128X1S_1
+
+Top level modules:
+	RAM128X1S_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM16X1D
+
+Top level modules:
+	RAM16X1D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM16X1D_1
+
+Top level modules:
+	RAM16X1D_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM16X1S
+
+Top level modules:
+	RAM16X1S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM16X1S_1
+
+Top level modules:
+	RAM16X1S_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM16X2S
+
+Top level modules:
+	RAM16X2S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM16X4S
+
+Top level modules:
+	RAM16X4S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM16X8S
+
+Top level modules:
+	RAM16X8S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM32X1D
+
+Top level modules:
+	RAM32X1D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM32X1D_1
+
+Top level modules:
+	RAM32X1D_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM32X1S
+
+Top level modules:
+	RAM32X1S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM32X1S_1
+
+Top level modules:
+	RAM32X1S_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM32X2S
+
+Top level modules:
+	RAM32X2S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM32X4S
+
+Top level modules:
+	RAM32X4S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM32X8S
+
+Top level modules:
+	RAM32X8S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM64X1D
+
+Top level modules:
+	RAM64X1D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM64X1D_1
+
+Top level modules:
+	RAM64X1D_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM64X1S
+
+Top level modules:
+	RAM64X1S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM64X1S_1
+
+Top level modules:
+	RAM64X1S_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAM64X2S
+
+Top level modules:
+	RAM64X2S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16
+
+Top level modules:
+	RAMB16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S1
+
+Top level modules:
+	RAMB16_S1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S18
+
+Top level modules:
+	RAMB16_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S18_S18
+
+Top level modules:
+	RAMB16_S18_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S18_S36
+
+Top level modules:
+	RAMB16_S18_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S1_S1
+
+Top level modules:
+	RAMB16_S1_S1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S1_S18
+
+Top level modules:
+	RAMB16_S1_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S1_S2
+
+Top level modules:
+	RAMB16_S1_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S1_S36
+
+Top level modules:
+	RAMB16_S1_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S1_S4
+
+Top level modules:
+	RAMB16_S1_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S1_S9
+
+Top level modules:
+	RAMB16_S1_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S2
+
+Top level modules:
+	RAMB16_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S2_S18
+
+Top level modules:
+	RAMB16_S2_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S2_S2
+
+Top level modules:
+	RAMB16_S2_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S2_S36
+
+Top level modules:
+	RAMB16_S2_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S2_S4
+
+Top level modules:
+	RAMB16_S2_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S2_S9
+
+Top level modules:
+	RAMB16_S2_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S36
+
+Top level modules:
+	RAMB16_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S36_S36
+
+Top level modules:
+	RAMB16_S36_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S4
+
+Top level modules:
+	RAMB16_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S4_S18
+
+Top level modules:
+	RAMB16_S4_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S4_S36
+
+Top level modules:
+	RAMB16_S4_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S4_S4
+
+Top level modules:
+	RAMB16_S4_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S4_S9
+
+Top level modules:
+	RAMB16_S4_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S9
+
+Top level modules:
+	RAMB16_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S9_S18
+
+Top level modules:
+	RAMB16_S9_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S9_S36
+
+Top level modules:
+	RAMB16_S9_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB16_S9_S9
+
+Top level modules:
+	RAMB16_S9_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB32_S64_ECC
+
+Top level modules:
+	RAMB32_S64_ECC
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S1
+
+Top level modules:
+	RAMB4_S1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S16
+
+Top level modules:
+	RAMB4_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S16_S16
+
+Top level modules:
+	RAMB4_S16_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S1_S1
+
+Top level modules:
+	RAMB4_S1_S1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S1_S16
+
+Top level modules:
+	RAMB4_S1_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S1_S2
+
+Top level modules:
+	RAMB4_S1_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S1_S4
+
+Top level modules:
+	RAMB4_S1_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S1_S8
+
+Top level modules:
+	RAMB4_S1_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S2
+
+Top level modules:
+	RAMB4_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S2_S16
+
+Top level modules:
+	RAMB4_S2_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S2_S2
+
+Top level modules:
+	RAMB4_S2_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S2_S4
+
+Top level modules:
+	RAMB4_S2_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S2_S8
+
+Top level modules:
+	RAMB4_S2_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S4
+
+Top level modules:
+	RAMB4_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S4_S16
+
+Top level modules:
+	RAMB4_S4_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S4_S4
+
+Top level modules:
+	RAMB4_S4_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S4_S8
+
+Top level modules:
+	RAMB4_S4_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S8
+
+Top level modules:
+	RAMB4_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S8_S16
+
+Top level modules:
+	RAMB4_S8_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RAMB4_S8_S8
+
+Top level modules:
+	RAMB4_S8_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ROM128X1
+
+Top level modules:
+	ROM128X1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ROM16X1
+
+Top level modules:
+	ROM16X1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ROM256X1
+
+Top level modules:
+	ROM256X1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ROM32X1
+
+Top level modules:
+	ROM32X1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ROM64X1
+
+Top level modules:
+	ROM64X1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SRL16
+
+Top level modules:
+	SRL16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SRL16E
+
+Top level modules:
+	SRL16E
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SRL16E_1
+
+Top level modules:
+	SRL16E_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SRL16_1
+
+Top level modules:
+	SRL16_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SRLC16
+
+Top level modules:
+	SRLC16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SRLC16E
+
+Top level modules:
+	SRLC16E
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SRLC16E_1
+
+Top level modules:
+	SRLC16E_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SRLC16_1
+
+Top level modules:
+	SRLC16_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module STARTUP_FPGACORE
+
+Top level modules:
+	STARTUP_FPGACORE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module STARTUP_SPARTAN2
+
+Top level modules:
+	STARTUP_SPARTAN2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module STARTUP_SPARTAN3
+
+Top level modules:
+	STARTUP_SPARTAN3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module STARTUP_VIRTEX
+
+Top level modules:
+	STARTUP_VIRTEX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module STARTUP_VIRTEX2
+
+Top level modules:
+	STARTUP_VIRTEX2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module STARTUP_VIRTEX4
+
+Top level modules:
+	STARTUP_VIRTEX4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module TBLOCK
+
+Top level modules:
+	TBLOCK
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module TIMEGRP
+
+Top level modules:
+	TIMEGRP
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module TIMESPEC
+
+Top level modules:
+	TIMESPEC
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module USR_ACCESS_VIRTEX4
+
+Top level modules:
+	USR_ACCESS_VIRTEX4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module VCC
+
+Top level modules:
+	VCC
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XNOR2
+
+Top level modules:
+	XNOR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XNOR3
+
+Top level modules:
+	XNOR3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XNOR4
+
+Top level modules:
+	XNOR4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XNOR5
+
+Top level modules:
+	XNOR5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XOR2
+
+Top level modules:
+	XOR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XOR3
+
+Top level modules:
+	XOR3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XOR4
+
+Top level modules:
+	XOR4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XOR5
+
+Top level modules:
+	XOR5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XORCY
+
+Top level modules:
+	XORCY
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XORCY_D
+
+Top level modules:
+	XORCY_D
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XORCY_L
+
+Top level modules:
+	XORCY_L
+Compiling Library : simprim 
+Modifying modelsim.ini
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND16
+
+Top level modules:
+	X_AND16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND2
+
+Top level modules:
+	X_AND2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND3
+
+Top level modules:
+	X_AND3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND32
+
+Top level modules:
+	X_AND32
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND4
+
+Top level modules:
+	X_AND4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND5
+
+Top level modules:
+	X_AND5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND6
+
+Top level modules:
+	X_AND6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND7
+
+Top level modules:
+	X_AND7
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND8
+
+Top level modules:
+	X_AND8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_AND9
+
+Top level modules:
+	X_AND9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_BPAD
+
+Top level modules:
+	X_BPAD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_BUF
+
+Top level modules:
+	X_BUF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_BUFGCTRL
+
+Top level modules:
+	X_BUFGCTRL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_BUFGMUX
+
+Top level modules:
+	X_BUFGMUX
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_BUFGMUX_1
+
+Top level modules:
+	X_BUFGMUX_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_BUFR
+
+Top level modules:
+	X_BUFR
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_CKBUF
+
+Top level modules:
+	X_CKBUF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_CLKDLL
+-- Compiling module x_clkdll_maximum_period_check
+
+Top level modules:
+	X_CLKDLL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_CLKDLLE
+-- Compiling module x_clkdlle_maximum_period_check
+
+Top level modules:
+	X_CLKDLLE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_CLK_DIV
+
+Top level modules:
+	X_CLK_DIV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_DCM
+-- Compiling module dcm_clock_divide_by_2
+-- Compiling module dcm_maximum_period_check
+-- Compiling module dcm_clock_lost
+
+Top level modules:
+	X_DCM
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_DCM_ADV
+-- Compiling module dcm_adv_clock_divide_by_2
+-- Compiling module dcm_adv_maximum_period_check
+-- Compiling module dcm_adv_clock_lost
+
+Top level modules:
+	X_DCM_ADV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_DSP48
+
+Top level modules:
+	X_DSP48
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_EMAC
+
+Top level modules:
+	X_EMAC
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_FDD
+-- Compiling UDP ffsrced
+
+Top level modules:
+	X_FDD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_FDDRCPE
+
+Top level modules:
+	X_FDDRCPE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_FDDRRSE
+
+Top level modules:
+	X_FDDRRSE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_FF
+-- Compiling UDP ffsrce
+
+Top level modules:
+	X_FF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_FIFO16
+
+Top level modules:
+	X_FIFO16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_GT
+
+Top level modules:
+	X_GT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_GT10
+
+Top level modules:
+	X_GT10
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_GT11
+
+Top level modules:
+	X_GT11
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_GT11CLK
+
+Top level modules:
+	X_GT11CLK
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_IBUFDS
+
+Top level modules:
+	X_IBUFDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_IDDR
+
+Top level modules:
+	X_IDDR
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_IDDR2
+
+Top level modules:
+	X_IDDR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_IDELAY
+
+Top level modules:
+	X_IDELAY
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_IDELAYCTRL
+
+Top level modules:
+	X_IDELAYCTRL
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_INV
+
+Top level modules:
+	X_INV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_IPAD
+
+Top level modules:
+	X_IPAD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_ISERDES
+
+Top level modules:
+	X_ISERDES
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_KEEPER
+
+Top level modules:
+	X_KEEPER
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LATCH
+-- Compiling UDP latchsr
+
+Top level modules:
+	X_LATCH
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LATCHE
+-- Compiling UDP latchsre
+
+Top level modules:
+	X_LATCHE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LUT2
+-- Compiling UDP x_lut2_mux4
+
+Top level modules:
+	X_LUT2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LUT3
+-- Compiling UDP x_lut3_mux4
+
+Top level modules:
+	X_LUT3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LUT4
+-- Compiling UDP x_lut4_mux4
+
+Top level modules:
+	X_LUT4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LUT5
+-- Compiling UDP x_lut5_mux4
+
+Top level modules:
+	X_LUT5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LUT6
+-- Compiling UDP x_lut6_mux4
+
+Top level modules:
+	X_LUT6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LUT7
+-- Compiling UDP x_lut7_mux4
+
+Top level modules:
+	X_LUT7
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_LUT8
+-- Compiling UDP x_lut8_mux4
+
+Top level modules:
+	X_LUT8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_MULT18X18
+
+Top level modules:
+	X_MULT18X18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_MULT18X18S
+
+Top level modules:
+	X_MULT18X18S
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_MULT18X18SIO
+
+Top level modules:
+	X_MULT18X18SIO
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_MUX2
+-- Compiling UDP mux
+
+Top level modules:
+	X_MUX2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_MUXDDR
+
+Top level modules:
+	X_MUXDDR
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OBUFDS
+
+Top level modules:
+	X_OBUFDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OBUFTDS
+
+Top level modules:
+	X_OBUFTDS
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_ODDR
+
+Top level modules:
+	X_ODDR
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_ODDR2
+
+Top level modules:
+	X_ODDR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_ONE
+
+Top level modules:
+	X_ONE
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OPAD
+
+Top level modules:
+	X_OPAD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR16
+
+Top level modules:
+	X_OR16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR2
+
+Top level modules:
+	X_OR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR3
+
+Top level modules:
+	X_OR3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR32
+
+Top level modules:
+	X_OR32
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR4
+
+Top level modules:
+	X_OR4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR5
+
+Top level modules:
+	X_OR5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR6
+
+Top level modules:
+	X_OR6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR7
+
+Top level modules:
+	X_OR7
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR8
+
+Top level modules:
+	X_OR8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OR9
+
+Top level modules:
+	X_OR9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_OSERDES
+
+Top level modules:
+	X_OSERDES
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_PD
+
+Top level modules:
+	X_PD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_PMCD
+
+Top level modules:
+	X_PMCD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_PPC405
+-- Compiling module FPGA_startup
+
+Top level modules:
+	X_PPC405
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_PPC405_ADV
+-- Compiling module FPGA_startup_VIRTEX4
+
+Top level modules:
+	X_PPC405_ADV
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_PU
+
+Top level modules:
+	X_PU
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16
+
+Top level modules:
+	X_RAMB16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S1
+
+Top level modules:
+	X_RAMB16_S1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S18
+
+Top level modules:
+	X_RAMB16_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S18_S18
+
+Top level modules:
+	X_RAMB16_S18_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S18_S36
+
+Top level modules:
+	X_RAMB16_S18_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S1_S1
+
+Top level modules:
+	X_RAMB16_S1_S1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S1_S18
+
+Top level modules:
+	X_RAMB16_S1_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S1_S2
+
+Top level modules:
+	X_RAMB16_S1_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S1_S36
+
+Top level modules:
+	X_RAMB16_S1_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S1_S4
+
+Top level modules:
+	X_RAMB16_S1_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S1_S9
+
+Top level modules:
+	X_RAMB16_S1_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S2
+
+Top level modules:
+	X_RAMB16_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S2_S18
+
+Top level modules:
+	X_RAMB16_S2_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S2_S2
+
+Top level modules:
+	X_RAMB16_S2_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S2_S36
+
+Top level modules:
+	X_RAMB16_S2_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S2_S4
+
+Top level modules:
+	X_RAMB16_S2_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S2_S9
+
+Top level modules:
+	X_RAMB16_S2_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S36
+
+Top level modules:
+	X_RAMB16_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S36_S36
+
+Top level modules:
+	X_RAMB16_S36_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S4
+
+Top level modules:
+	X_RAMB16_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S4_S18
+
+Top level modules:
+	X_RAMB16_S4_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S4_S36
+
+Top level modules:
+	X_RAMB16_S4_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S4_S4
+
+Top level modules:
+	X_RAMB16_S4_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S4_S9
+
+Top level modules:
+	X_RAMB16_S4_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S9
+
+Top level modules:
+	X_RAMB16_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S9_S18
+
+Top level modules:
+	X_RAMB16_S9_S18
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S9_S36
+
+Top level modules:
+	X_RAMB16_S9_S36
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB16_S9_S9
+
+Top level modules:
+	X_RAMB16_S9_S9
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S1
+
+Top level modules:
+	X_RAMB4_S1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S16
+
+Top level modules:
+	X_RAMB4_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S16_S16
+
+Top level modules:
+	X_RAMB4_S16_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S1_S1
+
+Top level modules:
+	X_RAMB4_S1_S1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S1_S16
+
+Top level modules:
+	X_RAMB4_S1_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S1_S2
+
+Top level modules:
+	X_RAMB4_S1_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S1_S4
+
+Top level modules:
+	X_RAMB4_S1_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S1_S8
+
+Top level modules:
+	X_RAMB4_S1_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S2
+
+Top level modules:
+	X_RAMB4_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S2_S16
+
+Top level modules:
+	X_RAMB4_S2_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S2_S2
+
+Top level modules:
+	X_RAMB4_S2_S2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S2_S4
+
+Top level modules:
+	X_RAMB4_S2_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S2_S8
+
+Top level modules:
+	X_RAMB4_S2_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S4
+
+Top level modules:
+	X_RAMB4_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S4_S16
+
+Top level modules:
+	X_RAMB4_S4_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S4_S4
+
+Top level modules:
+	X_RAMB4_S4_S4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S4_S8
+
+Top level modules:
+	X_RAMB4_S4_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S8
+
+Top level modules:
+	X_RAMB4_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S8_S16
+
+Top level modules:
+	X_RAMB4_S8_S16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMB4_S8_S8
+
+Top level modules:
+	X_RAMB4_S8_S8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMD16
+
+Top level modules:
+	X_RAMD16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMD32
+
+Top level modules:
+	X_RAMD32
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMD64
+
+Top level modules:
+	X_RAMD64
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMS128
+
+Top level modules:
+	X_RAMS128
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMS16
+
+Top level modules:
+	X_RAMS16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMS32
+
+Top level modules:
+	X_RAMS32
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_RAMS64
+
+Top level modules:
+	X_RAMS64
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_SFF
+-- Compiling UDP sffsrce
+
+Top level modules:
+	X_SFF
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_SRL16E
+
+Top level modules:
+	X_SRL16E
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_SRLC16E
+
+Top level modules:
+	X_SRLC16E
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_SUH
+
+Top level modules:
+	X_SUH
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_TRI
+
+Top level modules:
+	X_TRI
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_UPAD
+
+Top level modules:
+	X_UPAD
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR16
+
+Top level modules:
+	X_XOR16
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR2
+
+Top level modules:
+	X_XOR2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR3
+
+Top level modules:
+	X_XOR3
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR32
+
+Top level modules:
+	X_XOR32
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR4
+
+Top level modules:
+	X_XOR4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR5
+
+Top level modules:
+	X_XOR5
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR6
+
+Top level modules:
+	X_XOR6
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR7
+
+Top level modules:
+	X_XOR7
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_XOR8
+
+Top level modules:
+	X_XOR8
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module X_ZERO
+
+Top level modules:
+	X_ZERO
+Compiling Library : smartmodel 
+Modifying modelsim.ini
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCC_FPGACORE_SWIFT
+
+Top level modules:
+	DCC_FPGACORE_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCC_FPGACORE_SWIFT_BIT
+
+Top level modules:
+	DCC_FPGACORE_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module EMAC_SWIFT
+
+Top level modules:
+	EMAC_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module EMAC_SWIFT_BIT
+
+Top level modules:
+	EMAC_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_SWIFT
+
+Top level modules:
+	GT10_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_SWIFT_BIT
+
+Top level modules:
+	GT10_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT11_SWIFT
+
+Top level modules:
+	GT11_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT11_SWIFT_BIT
+
+Top level modules:
+	GT11_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_SWIFT
+
+Top level modules:
+	GT_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_SWIFT_BIT
+
+Top level modules:
+	GT_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_ADV_SWIFT
+
+Top level modules:
+	PPC405_ADV_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_ADV_SWIFT_BIT
+
+Top level modules:
+	PPC405_ADV_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_SWIFT
+
+Top level modules:
+	PPC405_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_SWIFT_BIT
+
+Top level modules:
+	PPC405_SWIFT_BIT
+Compiling Library : smartmodel 
+Modifying modelsim.ini
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCC_FPGACORE_SWIFT
+
+Top level modules:
+	DCC_FPGACORE_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DCC_FPGACORE_SWIFT_BIT
+
+Top level modules:
+	DCC_FPGACORE_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module EMAC_SWIFT
+
+Top level modules:
+	EMAC_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module EMAC_SWIFT_BIT
+
+Top level modules:
+	EMAC_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_SWIFT
+
+Top level modules:
+	GT10_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT10_SWIFT_BIT
+
+Top level modules:
+	GT10_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT11_SWIFT
+
+Top level modules:
+	GT11_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT11_SWIFT_BIT
+
+Top level modules:
+	GT11_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_SWIFT
+
+Top level modules:
+	GT_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module GT_SWIFT_BIT
+
+Top level modules:
+	GT_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_ADV_SWIFT
+
+Top level modules:
+	PPC405_ADV_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_ADV_SWIFT_BIT
+
+Top level modules:
+	PPC405_ADV_SWIFT_BIT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_SWIFT
+
+Top level modules:
+	PPC405_SWIFT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PPC405_SWIFT_BIT
+
+Top level modules:
+	PPC405_SWIFT_BIT
+Compiling Library : XilinxCoreLib 
+Modifying modelsim.ini
+Modifying modelsim.ini
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module XFFT1024_V1_1
+-- Compiling module PE1
+-- Compiling module PE0
+-- Compiling module unbias_round
+-- Compiling module arithmetic_shift
+-- Compiling module cmplx_mult
+-- Compiling module signed_mult
+-- Compiling module dragonfly
+-- Compiling module butterfly
+-- Compiling module inverter
+
+Top level modules:
+	XFFT1024_V1_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SIN_COS_V2_0
+-- Compiling module trig_table
+
+Top level modules:
+	C_SIN_COS_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module VFFT32_V3_0
+-- Compiling module vfft32_mem_address_v2_0
+-- Compiling module vfft32_mem_ctrl_v2_0
+-- Compiling module vfft32_working_memory_v2_0
+-- Compiling module vfft32_input_working_result_memory_v2_0
+-- Compiling module vfft32_result_memory_v2_0
+-- Compiling module vfft32_bfly_buf_fft_v2_0
+-- Compiling module vfft32_phase_factors_v2_0
+-- Compiling module vfft32_hand_shaking_v2_0
+-- Compiling module vfft32_delay_wrapper_v2_0
+-- Compiling module vfft32_bfly_buffer_v2_0
+-- Compiling module vfft32_butterfly_32_v2_0
+-- Compiling module vfft32_butterfly_v2_0
+-- Compiling module vfft32_fft4_32_v2_0
+-- Compiling module vfft32_addr_gen_v2_0
+-- Compiling module vfft32_phase_factor_adgen_v2_0
+-- Compiling module vfft32_dmem_wkg_r_i_v2_0
+-- Compiling module vfft32_mem_wkg_r_i_v2_0
+-- Compiling module vfft32_bflyw0_v2_0
+-- Compiling module vfft32_bflyw_j_v2_0
+-- Compiling module vfft32_conj_reg_v2_0
+-- Compiling module vfft32_complex_reg_conj_v2_0
+-- Compiling module vfft32_complex_mult_v2_0
+-- Compiling module vfft32_state_machine_v2_0
+-- Compiling module vfft32_shift_ram_v2_0
+-- Compiling module vfft32_flip_flop_v2_0
+-- Compiling module vfft32_flip_flop_sclr_v2_0
+-- Compiling module vfft32_flip_flop_sclr_sset_v2_0
+-- Compiling module vfft32_flip_flop_ainit_sclr_v2_0
+-- Compiling module vfft32_srflop_v2_0
+-- Compiling module vfft32_or_a_b_v2_0
+-- Compiling module vfft32_or_a_b_c_v2_0
+-- Compiling module vfft32_and_a_b_v2_0
+-- Compiling module vfft32_and_a_notb_v2_0
+-- Compiling module vfft32_nand_a_b_v2_0
+-- Compiling module vfft32_xor_a_b_v2_0
+-- Compiling module vfft32_pkg_v2_0
+
+Top level modules:
+	VFFT32_V3_0
+	vfft32_xor_a_b_v2_0
+	vfft32_pkg_v2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_VGEN_V1_0
+
+Top level modules:
+	MULT_VGEN_V1_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MEM_DP_BLOCK_V1_0
+
+Top level modules:
+	C_MEM_DP_BLOCK_V1_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_FD_V1_0
+
+Top level modules:
+	C_REG_FD_V1_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module family
+
+Top level modules:
+	family
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SYNC_FIFO_V4_0
+-- Compiling module MEM_BLK_V4_0
+
+Top level modules:
+	SYNC_FIFO_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SYNC_FIFO_V3_0
+-- Compiling module MEM_BLK
+
+Top level modules:
+	SYNC_FIFO_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SYNC_FIFO_V2_0
+-- Compiling module MEM_BLK
+
+Top level modules:
+	SYNC_FIFO_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SYNC_FIFO_V1_0
+-- Compiling module MEM_BLK
+
+Top level modules:
+	SYNC_FIFO_V1_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module TRIG_TABLE_V4_2
+
+Top level modules:
+	TRIG_TABLE_V4_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPE_BHV_V4_2
+
+Top level modules:
+	PIPE_BHV_V4_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SIN_COS_V4_2
+
+Top level modules:
+	C_SIN_COS_V4_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module TRIG_TABLE_V4_1
+
+Top level modules:
+	TRIG_TABLE_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPE_BHV_V4_1
+
+Top level modules:
+	PIPE_BHV_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SIN_COS_V4_1
+
+Top level modules:
+	C_SIN_COS_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module TRIG_TABLE_V4_0
+
+Top level modules:
+	TRIG_TABLE_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SIN_COS_V4_0
+
+Top level modules:
+	C_SIN_COS_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPE_BHV_V4_0
+
+Top level modules:
+	PIPE_BHV_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DIVIDERVHT
+
+Top level modules:
+	DIVIDERVHT
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RS_ENCODER_V4_0
+
+Top level modules:
+	RS_ENCODER_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RS_ENCODER_V3_0
+
+Top level modules:
+	RS_ENCODER_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RS_DECODER_V4_0
+
+Top level modules:
+	RS_DECODER_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RS_DECODER_V3_0
+
+Top level modules:
+	RS_DECODER_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V6_0_SEQ
+
+Top level modules:
+	MULT_GEN_V6_0_SEQ
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V6_0
+
+Top level modules:
+	MULT_GEN_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V6_0_NON_SEQ
+
+Top level modules:
+	MULT_GEN_V6_0_NON_SEQ
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V5_0_SEQ
+
+Top level modules:
+	MULT_GEN_V5_0_SEQ
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V5_0
+
+Top level modules:
+	MULT_GEN_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V5_0_NON_SEQ
+
+Top level modules:
+	MULT_GEN_V5_0_NON_SEQ
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V4_0
+
+Top level modules:
+	MULT_GEN_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MAC_FIR_V1_0
+
+Top level modules:
+	C_MAC_FIR_V1_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LFSR_V3_0
+-- Compiling module LFSR_V3_0_DVUNIT_VER
+
+Top level modules:
+	LFSR_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module LFSR_V2_0
+-- Compiling module LFSR_V2_0_DVUNIT_VER
+
+Top level modules:
+	LFSR_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ENCODE_8B10B_V4_0
+-- Compiling module encode_8b10b_v4_0_base
+
+Top level modules:
+	ENCODE_8B10B_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ENCODE_8B10B_V3_0
+-- Compiling module encode_8b10b_v3_0_base
+
+Top level modules:
+	ENCODE_8B10B_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DECODE_8B10B_V5_0
+-- Compiling module decode_8b10b_v5_0_base
+
+Top level modules:
+	DECODE_8B10B_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DECODE_8B10B_V4_0
+-- Compiling module decode_8b10b_v4_0_base
+
+Top level modules:
+	DECODE_8B10B_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_EFF_V4_1
+
+Top level modules:
+	C_EFF_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DITHER_ADD_V4_1
+
+Top level modules:
+	DITHER_ADD_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DDS_ROUND_V4_1
+
+Top level modules:
+	DDS_ROUND_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DDS_V4_1
+
+Top level modules:
+	C_DDS_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DITHER_V4_1
+
+Top level modules:
+	DITHER_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DDS_V4_0
+
+Top level modules:
+	C_DDS_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DITHER_ADD_V4_0
+
+Top level modules:
+	DITHER_ADD_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DITHER_V4_0
+
+Top level modules:
+	DITHER_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DA_FIR_V8_0
+
+Top level modules:
+	C_DA_FIR_V8_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DA_FIR_V7_0
+
+Top level modules:
+	C_DA_FIR_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DA_FIR_V6_0
+
+Top level modules:
+	C_DA_FIR_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DA_FIR_V5_0
+
+Top level modules:
+	C_DA_FIR_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DA_2D_DCT_V2_0
+
+Top level modules:
+	C_DA_2D_DCT_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DA_1D_DCT_V2_1
+
+Top level modules:
+	C_DA_1D_DCT_V2_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CORDIC_V1_1
+-- Compiling module C_REG_FD_V5_0_V
+-- Compiling module lib_base_reg_fd_cordic_v1_1_v
+-- Compiling module lib_fd_cordic_v1_1_v
+-- Compiling module lib_fd1_cordic_v1_1_v
+-- Compiling module lib_fd1i_cordic_v1_1_v
+-- Compiling module lib_fifo_cordic_v1_1_v
+-- Compiling module cordic_eng_slice_par_v1_1_v
+-- Compiling module cordic_eng_slice_wser_v1_1_v
+-- Compiling module cordic_eng_v1_1_v
+-- Compiling module cordic_inp_format_rotate_v1_1_v
+-- Compiling module cordic_inp_format_translate_v1_1_v
+-- Compiling module cordic_out_format_rotate_v1_1_v
+-- Compiling module cordic_out_format_translate_v1_1_v
+-- Compiling module cordic_rotate_v1_1_v
+-- Compiling module cordic_translate_v1_1_v
+-- Compiling module cordic_sqrt_v1_1_v
+-- Compiling module cordic_main_v1_1_v
+
+Top level modules:
+	CORDIC_V1_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CORDIC_V1_0
+-- Compiling module C_REG_FD_V5_0_V
+-- Compiling module lib_base_reg_fd_cordic_v1_0_v
+-- Compiling module lib_fd_cordic_v1_0_v
+-- Compiling module lib_fd1_cordic_v1_0_v
+-- Compiling module lib_fd1i_cordic_v1_0_v
+-- Compiling module lib_fifo_cordic_v1_0_v
+-- Compiling module cordic_eng_slice_par_v1_0_v
+-- Compiling module cordic_eng_slice_wser_v1_0_v
+-- Compiling module cordic_eng_v1_0_v
+-- Compiling module cordic_inp_format_rotate_v1_0_v
+-- Compiling module cordic_inp_format_translate_v1_0_v
+-- Compiling module cordic_out_format_rotate_v1_0_v
+-- Compiling module cordic_out_format_translate_v1_0_v
+-- Compiling module cordic_rotate_v1_0_v
+-- Compiling module cordic_translate_v1_0_v
+-- Compiling module cordic_sqrt_v1_0_v
+-- Compiling module cordic_main_v1_0_v
+
+Top level modules:
+	CORDIC_V1_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_CIC_V3_0
+
+Top level modules:
+	C_CIC_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAM_V4_0
+
+Top level modules:
+	CAM_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAM_V3_0
+
+Top level modules:
+	CAM_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V6_0
+
+Top level modules:
+	C_DIST_MEM_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V5_1
+
+Top level modules:
+	C_DIST_MEM_V5_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V5_0
+
+Top level modules:
+	C_DIST_MEM_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V4_1
+
+Top level modules:
+	C_DIST_MEM_V4_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V4_0
+
+Top level modules:
+	C_DIST_MEM_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMSP_V5_0
+
+Top level modules:
+	BLKMEMSP_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMSP_V4_0
+
+Top level modules:
+	BLKMEMSP_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMSP_V3_2
+
+Top level modules:
+	BLKMEMSP_V3_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMSP_V3_0
+
+Top level modules:
+	BLKMEMSP_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMDP_V5_0
+
+Top level modules:
+	BLKMEMDP_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMDP_V4_0
+
+Top level modules:
+	BLKMEMDP_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMDP_V3_2
+
+Top level modules:
+	BLKMEMDP_V3_2
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMDP_V3_0
+
+Top level modules:
+	BLKMEMDP_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_BIT_CORRELATOR_V3_0
+
+Top level modules:
+	C_BIT_CORRELATOR_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPELINE_V6_0
+
+Top level modules:
+	PIPELINE_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BUS_V6_0
+
+Top level modules:
+	C_MUX_BUS_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DECODE_BINARY_V6_0
+
+Top level modules:
+	C_DECODE_BINARY_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_RAM_V6_0
+
+Top level modules:
+	C_SHIFT_RAM_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_LD_V6_0
+
+Top level modules:
+	C_REG_LD_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_FD_V6_0
+
+Top level modules:
+	C_REG_FD_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ACCUM_V6_0
+
+Top level modules:
+	C_ACCUM_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BIT_V6_0
+
+Top level modules:
+	C_MUX_BIT_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_BUS_V6_0
+
+Top level modules:
+	C_GATE_BIT_BUS_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFT_V6_0
+
+Top level modules:
+	C_MUX_SLICE_BUFT_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BUS_V6_0
+
+Top level modules:
+	C_GATE_BUS_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFE_V6_0
+
+Top level modules:
+	C_MUX_SLICE_BUFE_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_TWOS_COMP_V6_0
+
+Top level modules:
+	C_TWOS_COMP_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COUNTER_BINARY_V6_0
+
+Top level modules:
+	C_COUNTER_BINARY_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_V6_0
+
+Top level modules:
+	C_GATE_BIT_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COMPARE_V6_0
+
+Top level modules:
+	C_COMPARE_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_FD_V6_0
+
+Top level modules:
+	C_SHIFT_FD_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ADDSUB_V6_0
+
+Top level modules:
+	C_ADDSUB_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COUNTER_BINARY_V5_0
+
+Top level modules:
+	C_COUNTER_BINARY_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DECODE_BINARY_V5_0
+
+Top level modules:
+	C_DECODE_BINARY_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_RAM_V5_0
+
+Top level modules:
+	C_SHIFT_RAM_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_BUS_V5_0
+
+Top level modules:
+	C_GATE_BIT_BUS_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ADDSUB_V5_0
+
+Top level modules:
+	C_ADDSUB_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPELINE_V5_0
+
+Top level modules:
+	PIPELINE_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BUS_V5_0
+
+Top level modules:
+	C_GATE_BUS_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ACCUM_V5_0
+
+Top level modules:
+	C_ACCUM_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COMPARE_V5_0
+
+Top level modules:
+	C_COMPARE_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_LD_V5_0
+
+Top level modules:
+	C_REG_LD_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BUS_V5_0
+
+Top level modules:
+	C_MUX_BUS_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_FD_V5_0
+
+Top level modules:
+	C_REG_FD_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_V5_0
+
+Top level modules:
+	C_GATE_BIT_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_FD_V5_0
+
+Top level modules:
+	C_SHIFT_FD_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFT_V5_0
+
+Top level modules:
+	C_MUX_SLICE_BUFT_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_TWOS_COMP_V5_0
+
+Top level modules:
+	C_TWOS_COMP_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFE_V5_0
+
+Top level modules:
+	C_MUX_SLICE_BUFE_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ACCUM_V5_1
+
+Top level modules:
+	C_ACCUM_V5_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BIT_V5_0
+
+Top level modules:
+	C_MUX_BIT_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BUS_V4_0
+
+Top level modules:
+	C_MUX_BUS_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BUS_V4_0
+
+Top level modules:
+	C_GATE_BUS_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DECODE_BINARY_V4_0
+
+Top level modules:
+	C_DECODE_BINARY_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFE_V4_0
+
+Top level modules:
+	C_MUX_SLICE_BUFE_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_RAM_V4_0
+
+Top level modules:
+	C_SHIFT_RAM_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COUNTER_BINARY_V4_0
+
+Top level modules:
+	C_COUNTER_BINARY_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ACCUM_V4_0
+
+Top level modules:
+	C_ACCUM_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BIT_V4_0
+
+Top level modules:
+	C_MUX_BIT_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_V4_0
+
+Top level modules:
+	C_GATE_BIT_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_FD_V4_0
+
+Top level modules:
+	C_SHIFT_FD_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ADDSUB_V4_0
+
+Top level modules:
+	C_ADDSUB_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPELINE_V4_0
+
+Top level modules:
+	PIPELINE_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_TWOS_COMP_V4_0
+
+Top level modules:
+	C_TWOS_COMP_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_LD_V4_0
+
+Top level modules:
+	C_REG_LD_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_FD_V4_0
+
+Top level modules:
+	C_REG_FD_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_BUS_V4_0
+
+Top level modules:
+	C_GATE_BIT_BUS_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFT_V4_0
+
+Top level modules:
+	C_MUX_SLICE_BUFT_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COMPARE_V4_0
+
+Top level modules:
+	C_COMPARE_V4_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_FD_V3_0
+
+Top level modules:
+	C_REG_FD_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DECODE_BINARY_V3_0
+
+Top level modules:
+	C_DECODE_BINARY_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_V3_0
+
+Top level modules:
+	C_GATE_BIT_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_FD_V3_0
+
+Top level modules:
+	C_SHIFT_FD_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V3_0
+
+Top level modules:
+	C_DIST_MEM_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFT_V3_0
+
+Top level modules:
+	C_MUX_SLICE_BUFT_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_RAM_V3_0
+
+Top level modules:
+	C_SHIFT_RAM_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFE_V3_0
+
+Top level modules:
+	C_MUX_SLICE_BUFE_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ACCUM_V3_0
+
+Top level modules:
+	C_ACCUM_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COMPARE_V3_0
+
+Top level modules:
+	C_COMPARE_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COUNTER_BINARY_V3_0
+
+Top level modules:
+	C_COUNTER_BINARY_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BUS_V3_0
+
+Top level modules:
+	C_MUX_BUS_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_BUS_V3_0
+
+Top level modules:
+	C_GATE_BIT_BUS_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ADDSUB_V3_0
+
+Top level modules:
+	C_ADDSUB_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_TWOS_COMP_V3_0
+
+Top level modules:
+	C_TWOS_COMP_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPELINE_V3_0
+
+Top level modules:
+	PIPELINE_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BUS_V3_0
+
+Top level modules:
+	C_GATE_BUS_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BIT_V3_0
+
+Top level modules:
+	C_MUX_BIT_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_LD_V3_0
+
+Top level modules:
+	C_REG_LD_V3_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPELINE_V2_0
+
+Top level modules:
+	PIPELINE_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BUS_V2_0
+
+Top level modules:
+	C_MUX_BUS_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DECODE_BINARY_V2_0
+
+Top level modules:
+	C_DECODE_BINARY_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_RAM_V2_0
+
+Top level modules:
+	C_SHIFT_RAM_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_LD_V2_0
+
+Top level modules:
+	C_REG_LD_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_FD_V2_0
+
+Top level modules:
+	C_REG_FD_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ACCUM_V2_0
+
+Top level modules:
+	C_ACCUM_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_BUS_V2_0
+
+Top level modules:
+	C_GATE_BIT_BUS_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BIT_V2_0
+
+Top level modules:
+	C_MUX_BIT_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFT_V2_0
+
+Top level modules:
+	C_MUX_SLICE_BUFT_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BUS_V2_0
+
+Top level modules:
+	C_GATE_BUS_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFE_V2_0
+
+Top level modules:
+	C_MUX_SLICE_BUFE_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COUNTER_BINARY_V2_0
+
+Top level modules:
+	C_COUNTER_BINARY_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_TWOS_COMP_V2_0
+
+Top level modules:
+	C_TWOS_COMP_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_V2_0
+
+Top level modules:
+	C_GATE_BIT_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_FD_V2_0
+
+Top level modules:
+	C_SHIFT_FD_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V2_0
+
+Top level modules:
+	C_DIST_MEM_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ADDSUB_V2_0
+
+Top level modules:
+	C_ADDSUB_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COMPARE_V2_0
+
+Top level modules:
+	C_COMPARE_V2_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ASYNC_FIFO_V5_1
+
+Top level modules:
+	ASYNC_FIFO_V5_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ASYNC_FIFO_V5_0
+
+Top level modules:
+	ASYNC_FIFO_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ASYNC_FIFO_V4_0
+-- Compiling module fifoctlr_ns_v4
+-- Compiling module memory_v4
+-- Compiling module bcount_up_ainit_v4
+-- Compiling module binary_to_gray_v4
+-- Compiling module eq_compare_v4
+-- Compiling module reg_ainit_v4
+-- Compiling module and_a_notb_v4
+-- Compiling module and_a_notb_fd_v4
+-- Compiling module nand_a_notb_fd_v4
+-- Compiling module and_a_b_notc_v4
+-- Compiling module and_a_b_c_notd_v4
+-- Compiling module or_fd_v4
+-- Compiling module and_fd_v4
+-- Compiling module nand_fd_v4
+-- Compiling module almost_reg_v4
+-- Compiling module and_a_b_v4
+-- Compiling module or3_fd_v4
+-- Compiling module count_sub_reg_v4
+-- Compiling module or_a_b_v4
+-- Compiling module xor_gate_bit_v4
+-- Compiling module gray_to_binary_v4
+-- Compiling module full_flag_reg_v4
+-- Compiling module empty_flag_reg_v4
+-- Compiling module almst_full_v4
+-- Compiling module almst_empty_v4
+
+Top level modules:
+	ASYNC_FIFO_V4_0
+	eq_compare_v4
+	and_a_b_notc_v4
+	and_a_b_c_notd_v4
+	or_fd_v4
+	almost_reg_v4
+	xor_gate_bit_v4
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module SYNC_FIFO_V5_0
+-- Compiling module MEM_BLK_V5_0
+
+Top level modules:
+	SYNC_FIFO_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module TRIG_TABLE_V5_0
+
+Top level modules:
+	TRIG_TABLE_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPE_BHV_V5_0
+
+Top level modules:
+	PIPE_BHV_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SIN_COS_V5_0
+
+Top level modules:
+	C_SIN_COS_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V7_0_SEQ
+
+Top level modules:
+	MULT_GEN_V7_0_SEQ
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V7_0
+
+Top level modules:
+	MULT_GEN_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module MULT_GEN_V7_0_NON_SEQ
+
+Top level modules:
+	MULT_GEN_V7_0_NON_SEQ
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FIFO_GENERATOR_V1_1
+-- Compiling module fifo_generator_v1_1_bhv_ver_as
+-- Compiling module fifo_generator_v1_1_bhv_ver_ss
+-- Compiling module fifo_generator_v1_1_bhv_ver_fifo16
+
+Top level modules:
+	FIFO_GENERATOR_V1_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ENCODE_8B10B_V5_0
+-- Compiling module encode_8b10b_v5_0_base
+
+Top level modules:
+	ENCODE_8B10B_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module DECODE_8B10B_V6_0
+-- Compiling module decode_8b10b_v6_0_base
+
+Top level modules:
+	DECODE_8B10B_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DA_FIR_V9_0
+
+Top level modules:
+	C_DA_FIR_V9_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module CAM_V5_0
+
+Top level modules:
+	CAM_V5_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V7_1
+
+Top level modules:
+	C_DIST_MEM_V7_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMSP_V6_1
+
+Top level modules:
+	BLKMEMSP_V6_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMDP_V6_1
+
+Top level modules:
+	BLKMEMDP_V6_1
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module ASYNC_FIFO_V6_0
+
+Top level modules:
+	ASYNC_FIFO_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DIST_MEM_V7_0
+
+Top level modules:
+	C_DIST_MEM_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMSP_V6_0
+
+Top level modules:
+	BLKMEMSP_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module BLKMEMDP_V6_0
+
+Top level modules:
+	BLKMEMDP_V6_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BUS_V7_0
+
+Top level modules:
+	C_GATE_BUS_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ACCUM_V7_0
+
+Top level modules:
+	C_ACCUM_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_LD_V7_0
+
+Top level modules:
+	C_REG_LD_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_REG_FD_V7_0
+
+Top level modules:
+	C_REG_FD_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COMPARE_V7_0
+
+Top level modules:
+	C_COMPARE_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BUS_V7_0
+
+Top level modules:
+	C_MUX_BUS_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_V7_0
+
+Top level modules:
+	C_GATE_BIT_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_FD_V7_0
+
+Top level modules:
+	C_SHIFT_FD_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFT_V7_0
+
+Top level modules:
+	C_MUX_SLICE_BUFT_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_TWOS_COMP_V7_0
+
+Top level modules:
+	C_TWOS_COMP_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_SLICE_BUFE_V7_0
+
+Top level modules:
+	C_MUX_SLICE_BUFE_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_MUX_BIT_V7_0
+
+Top level modules:
+	C_MUX_BIT_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_COUNTER_BINARY_V7_0
+
+Top level modules:
+	C_COUNTER_BINARY_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_DECODE_BINARY_V7_0
+
+Top level modules:
+	C_DECODE_BINARY_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_GATE_BIT_BUS_V7_0
+
+Top level modules:
+	C_GATE_BIT_BUS_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_ADDSUB_V7_0
+
+Top level modules:
+	C_ADDSUB_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module C_SHIFT_RAM_V7_0
+
+Top level modules:
+	C_SHIFT_RAM_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module PIPELINE_V7_0
+
+Top level modules:
+	PIPELINE_V7_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module FIFO_GENERATOR_V1_0
+-- Compiling module fifo_generator_v1_0_bhv_ver_as
+-- Compiling module fifo_generator_v1_0_bhv_ver_ss
+-- Compiling module fifo_generator_v1_0_bhv_ver_fifo16
+
+Top level modules:
+	FIFO_GENERATOR_V1_0
+Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+-- Compiling module RS_ENCODER_V4_1
+
+Top level modules:
+	RS_ENCODER_V4_1
+
+Compilation Done.
+
+
+**************************************************************************
+*                         COMPILATION SUMMARY                            *
+*                                                                        *
+*  Simulator used: MODELSIM SE/EE                                        *
+*  Compiled on: Sat Jan 15 23:32:45 2005                                 *
+*                                                                        *
+**************************************************************************
+*     Library      |  Lang   |  Mapped Name(s)   | Err#(s)  |  Warn#(s)  * 
+*------------------------------------------------------------------------*
+*  unisim          | verilog | unisims_ver       | 0        | 0          *
+*------------------------------------------------------------------------*
+*  simprim         | verilog | simprims_ver      | 0        | 0          *
+*------------------------------------------------------------------------*
+*  smartmodel      | verilog | unisims_ver       | 0        | 0          *
+*------------------------------------------------------------------------*
+*  smartmodel      | verilog | simprims_ver      | 0        | 0          *
+*------------------------------------------------------------------------*
+*  XilinxCoreLib   | verilog | XilinxCoreLib_ver | 0        | 0          *
+*------------------------------------------------------------------------*
+
+Log file closed.

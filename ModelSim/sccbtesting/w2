@@ -1,0 +1,49 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate -format Literal -radix hexadecimal /pcpacket_testbench/dut/outfifoin
+add wave -noupdate -format Logic /pcpacket_testbench/dut/outfifoen
+add wave -noupdate -format Logic /pcpacket_testbench/dut/readenpack
+add wave -noupdate -format Literal -radix unsigned /pcpacket_testbench/dut/outfifocount
+add wave -noupdate -format Literal -radix hexadecimal /pcpacket_testbench/dut/outfifodata
+add wave -noupdate -format Logic /pcpacket_testbench/dut/outfifoready
+add wave -noupdate -format Logic /pcpacket_testbench/dut/camclk
+add wave -noupdate -format Logic /pcpacket_testbench/dut/rxclk
+add wave -noupdate -format Logic /pcpacket_testbench/dut/rxreset
+add wave -noupdate -format Logic /pcpacket_testbench/dut/rx_valid
+add wave -noupdate -format Logic /pcpacket_testbench/dut/valid_pulse
+add wave -noupdate -format Literal -radix hexadecimal /pcpacket_testbench/dut/rx_data
+add wave -noupdate -format Logic /pcpacket_testbench/dut/fifowriteen
+add wave -noupdate -format Logic /pcpacket_testbench/dut/fiforeaden
+add wave -noupdate -format Literal -radix unsigned /pcpacket_testbench/dut/cpackcount12
+add wave -noupdate -format Literal -radix unsigned /pcpacket_testbench/dut/fifocount
+add wave -noupdate -format Literal -radix hexadecimal /pcpacket_testbench/dut/fifo_out
+add wave -noupdate -format Logic /pcpacket_testbench/dut/fifoready
+add wave -noupdate -format Logic /pcpacket_testbench/dut/iswrite
+add wave -noupdate -format Logic /pcpacket_testbench/dut/write_request
+add wave -noupdate -format Logic /pcpacket_testbench/dut/read_request
+add wave -noupdate -format Logic /pcpacket_testbench/dut/request_ack
+add wave -noupdate -format Literal -radix hexadecimal /pcpacket_testbench/dut/address
+add wave -noupdate -format Literal -radix hexadecimal /pcpacket_testbench/dut/read_data
+add wave -noupdate -format Literal -radix hexadecimal /pcpacket_testbench/dut/write_data
+add wave -noupdate -color Gold -format Literal -radix unsigned /pcpacket_testbench/dut/state
+add wave -noupdate -format Logic /pcpacket_testbench/dut/sccb_d
+add wave -noupdate -format Logic /pcpacket_testbench/dut/sccb_c
+add wave -noupdate -format Logic /pcpacket_testbench/dut/done
+add wave -noupdate -format Logic /pcpacket_testbench/dut/donepulse
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {5980280 ps} 0}
+WaveRestoreZoom {0 ps} {105 us}
+configure wave -namecolwidth 307
+configure wave -valuecolwidth 144
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+bookmark add wave firstpacket {{2955621 ps} {3532544 ps}} 0
+bookmark add wave packet2 {{205833474 ps} {206457312 ps}} 0

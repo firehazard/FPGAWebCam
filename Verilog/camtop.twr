@@ -1,0 +1,108 @@
+--------------------------------------------------------------------------------
+Release 6.3.03i Trace G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx/bin/nt/trce.exe -intstyle ise -e 3 -l 3 -xml camtop camtop.ncd -o
+camtop.twr camtop.pcf
+
+
+Design file:              camtop.ncd
+Physical constraint file: camtop.pcf
+Device,speed:             xc2vp30,-7 (PRODUCTION 1.90 2004-11-02)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock rx_clk
+-------------+------------+------------+------------------+--------+
+             |  Setup to  |  Hold to   |                  |  Clock |
+Source       | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+-------------+------------+------------+------------------+--------+
+rx_data<0>   |   -0.309(R)|    1.329(R)|rx_clk_BUFGP      |   0.000|
+rx_data<1>   |    0.087(R)|    1.012(R)|rx_clk_BUFGP      |   0.000|
+rx_data<2>   |   -0.284(R)|    1.309(R)|rx_clk_BUFGP      |   0.000|
+rx_data<3>   |   -0.034(R)|    1.108(R)|rx_clk_BUFGP      |   0.000|
+rx_data<4>   |   -0.189(R)|    1.233(R)|rx_clk_BUFGP      |   0.000|
+rx_data<5>   |   -0.355(R)|    1.366(R)|rx_clk_BUFGP      |   0.000|
+rx_data<6>   |   -0.355(R)|    1.366(R)|rx_clk_BUFGP      |   0.000|
+rx_data<7>   |   -0.017(R)|    1.095(R)|rx_clk_BUFGP      |   0.000|
+rx_data_valid|    2.407(R)|    0.965(R)|rx_clk_BUFGP      |   0.000|
+-------------+------------+------------+------------------+--------+
+
+Setup/Hold to clock tx_clk
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  |  Clock |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) |  Phase |
+------------+------------+------------+------------------+--------+
+reset       |    1.242(R)|   -0.006(R)|tx_clk_BUFGP      |   0.000|
+tx_ack      |    2.182(R)|   -0.434(R)|tx_clk_BUFGP      |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock camclkin to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  |  Clock |
+Destination | to PAD     |Internal Clock(s) |  Phase |
+------------+------------+------------------+--------+
+goo         |    5.505(R)|camclkin_BUFGP    |   0.000|
+stopo       |    6.205(R)|camclkin_BUFGP    |   0.000|
+------------+------------+------------------+--------+
+
+Clock tx_clk to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  |  Clock |
+Destination  | to PAD     |Internal Clock(s) |  Phase |
+-------------+------------+------------------+--------+
+tx_data<0>   |   13.436(R)|tx_clk_BUFGP      |   0.000|
+tx_data<1>   |   12.460(R)|tx_clk_BUFGP      |   0.000|
+tx_data<2>   |   12.888(R)|tx_clk_BUFGP      |   0.000|
+tx_data<3>   |   12.711(R)|tx_clk_BUFGP      |   0.000|
+tx_data<4>   |   13.194(R)|tx_clk_BUFGP      |   0.000|
+tx_data<5>   |   12.942(R)|tx_clk_BUFGP      |   0.000|
+tx_data<6>   |   13.496(R)|tx_clk_BUFGP      |   0.000|
+tx_data<7>   |   14.522(R)|tx_clk_BUFGP      |   0.000|
+tx_data_valid|    9.547(R)|tx_clk_BUFGP      |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock camclkin
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+camclkin       |    5.567|         |         |         |
+rx_clk         |    3.257|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock rx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+camclkin       |    1.808|         |         |         |
+rx_clk         |    4.126|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock tx_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+tx_clk         |    9.746|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Analysis completed Sun Feb 06 00:20:37 2005
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 128 MB

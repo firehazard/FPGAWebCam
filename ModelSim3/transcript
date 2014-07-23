@@ -1,0 +1,686 @@
+# Reading C:/Modeltech_5.7a/tcl/vsim/pref.tcl 
+# //  ModelSim SE Viewer 5.7a Dec 15 2002 
+# //
+# //  Copyright Model Technology, a Mentor Graphics Corporation company, 2003
+# //                         All Rights Reserved.
+# //                   UNPUBLISHED, LICENSED SOFTWARE.
+# //         CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+# //        PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS.
+# //
+#  OpenFile "C:/EE109/Lab3/ModelSim3/camsim.mpf" 
+# Loading project camsim
+# compile Main C:/Modeltech_5.7a/win32/vlog -work work -refresh 
+# Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+# -- Refreshing module bigfifo
+# -- Refreshing module camtop
+# -- Refreshing module clk_half
+# -- Refreshing module clkgen
+# -- Refreshing module counter
+# -- Refreshing module dff
+# -- Refreshing module dffar
+# -- Refreshing module dffr
+# -- Refreshing module dffre
+# -- Refreshing module dffrei
+# -- Refreshing module edge_detect
+# -- Refreshing module fakeov8610
+# -- Refreshing module fifo
+# -- Refreshing module fifo_ov_shift
+# -- Refreshing module frame_typ
+# -- Refreshing module glbl
+# -- Refreshing module inputfifo
+# -- Refreshing module outputfifo
+# -- Refreshing module packetizer
+# -- Refreshing module pcpacket
+# -- Refreshing module resetsync
+# -- Refreshing module sccb
+# -- Refreshing module smallfifo
+# -- Refreshing module synchronizer
+# -- Refreshing module temac1
+# -- Refreshing module temac1_top
+# -- Refreshing module testbench
+# -- Refreshing module video_timer
+# compile Main C:/Modeltech_5.7a/win32/vcom -work work -refresh 
+# Model Technology ModelSim SE vcom 5.7a Compiler 2002.12 Jan  3 2003
+# -- Skipping module bigfifo
+# -- Skipping module camtop
+# -- Skipping module clk_half
+# -- Skipping module clkgen
+# -- Skipping module counter
+# -- Skipping module dff
+# -- Skipping module dffar
+# -- Skipping module dffr
+# -- Skipping module dffre
+# -- Skipping module dffrei
+# -- Skipping module edge_detect
+# -- Skipping module fakeov8610
+# -- Skipping module fifo
+# -- Skipping module fifo_ov_shift
+# -- Skipping module frame_typ
+# -- Skipping module glbl
+# -- Skipping module inputfifo
+# -- Skipping module outputfifo
+# -- Skipping module packetizer
+# -- Skipping module pcpacket
+# -- Skipping module resetsync
+# -- Skipping module sccb
+# -- Skipping module smallfifo
+# -- Skipping module synchronizer
+# -- Skipping module temac1
+# -- Skipping module temac1_top
+# -- Skipping module testbench
+# -- Skipping module video_timer
+# Compile of pcpacket.v was successful.
+# Compile of clk_half.v was successful.
+# Compile of temac1_mod.v was successful.
+# Compile of temac1.v was successful.
+# Compile of counter.v was successful.
+# Compile of ff.v was successful.
+# Compile of resetsync.v was successful.
+# Compile of synchronizer.v was successful.
+# Compile of edge_detect.v was successful.
+# Compile of clkgen.v was successful.
+# Compile of demo_tb2.v was successful.
+# Compile of bigfifo.v was successful.
+# Compile of video_timer.v was successful.
+# Compile of inputfifo.v was successful.
+# Compile of outputfifo.v was successful.
+# Compile of sccb.v was successful.
+# Compile of fakeov8610.v was successful.
+# Compile of big_tb.v was successful.
+# Compile of temac1_top.v was successful.
+# Compile of packetizer.v was successful.
+# Compile of camtop.v was successful.
+# 21 compiles, 0 failed with no errors. 
+do sb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.testbench work.glbl 
+# Loading work.testbench
+# Loading work.temac1_top
+# Loading work.clk_half
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.BUFG
+# ** Warning: (vsim-3010) [TSCALE] - Module 'BUFG' has a `timescale directive in effect, but previous modules do not.
+#         Region: /testbench/dut/clkbuff1
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.INV
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.FDDRRSE
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.OBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUFG
+# Loading work.temac1
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ONE
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ZERO
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT3
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_BUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_MUX2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_FF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_XOR2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_AND2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SFF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_RAMB16_S36_S36
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SRLC16E
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_OR2
+# Loading work.clkgen
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clkgen' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/gen40
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.DCM
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_divide_by_2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_maximum_period_check
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_lost
+# Loading work.camtop
+# ** Warning: (vsim-3009) [TSCALE] - Module 'camtop' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera
+# Loading work.resetsync
+# ** Warning: (vsim-3009) [TSCALE] - Module 'resetsync' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/stxreset
+# Loading work.fakeov8610
+# Loading work.video_timer
+# Loading work.dffrei
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffrei' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffxstart1
+# Loading work.dffre
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffre' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/serialCount
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffgodff
+# Loading work.pcpacket
+# ** Warning: (vsim-3009) [TSCALE] - Module 'pcpacket' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming
+# Loading work.dff
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dff' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/masterfsm
+# Loading work.edge_detect
+# ** Warning: (vsim-3009) [TSCALE] - Module 'edge_detect' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/done_edge
+# Loading work.sccb
+# ** Warning: (vsim-3009) [TSCALE] - Module 'sccb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/controlsccb
+# Loading work.counter
+# ** Warning: (vsim-3009) [TSCALE] - Module 'counter' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/controlsccb/clk400counter
+# Loading work.inputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'inputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/infifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.packetizer
+# ** Warning: (vsim-3009) [TSCALE] - Module 'packetizer' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/makepackets
+# Loading work.bigfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'bigfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/myfifo
+# Loading work.glbl
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/big_tb.v(103): [TFMPC] - Too few port connections. Expected 26, found 22.
+#         Region: /testbench/dut
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/temac1_top.v(385): [TFMPC] - Too few port connections. Expected 34, found 30.
+#         Region: /testbench/dut/trimac_core
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut3_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut4_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut2_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.mux
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.ffsrce
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.sffsrce
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/temac1_top.v(412): [TFMPC] - Too few port connections. Expected 16, found 14.
+#         Region: /testbench/dut/camera
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/camtop.v(117): [TFMPC] - Too few port connections. Expected 13, found 8.
+#         Region: /testbench/dut/camera/fakecamera
+# ** Warning: (vsim-WLF-5000) Log file vsim.wlf currently in use.
+# File in use by: EE109-3  Hostname: EE109-3  ProcessID: 1532
+# ** Warning: (vsim-WLF-5001) Could not open log file vsim.wlf.  Using C:\DOCUME~1\Tom\LOCALS~1\Temp\wlft5.wlf instead.
+# .structure .signals
+run 10us
+destroy .wave
+quit -sim
+# compile Main C:/Modeltech_5.7a/win32/vlog -work work -refresh 
+# Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+# -- Refreshing module bigfifo
+# -- Refreshing module camtop
+# -- Refreshing module clk_half
+# -- Refreshing module clkgen
+# -- Refreshing module counter
+# -- Refreshing module dff
+# -- Refreshing module dffar
+# -- Refreshing module dffr
+# -- Refreshing module dffre
+# -- Refreshing module dffrei
+# -- Refreshing module edge_detect
+# -- Refreshing module fakeov8610
+# -- Refreshing module fifo
+# -- Refreshing module fifo_ov_shift
+# -- Refreshing module frame_typ
+# -- Refreshing module glbl
+# -- Refreshing module inputfifo
+# -- Refreshing module outputfifo
+# -- Refreshing module packetizer
+# -- Refreshing module pcpacket
+# -- Refreshing module resetsync
+# -- Refreshing module sccb
+# -- Refreshing module smallfifo
+# -- Refreshing module synchronizer
+# -- Refreshing module temac1
+# -- Refreshing module temac1_top
+# -- Refreshing module testbench
+# -- Refreshing module video_timer
+# compile Main C:/Modeltech_5.7a/win32/vcom -work work -refresh 
+# Model Technology ModelSim SE vcom 5.7a Compiler 2002.12 Jan  3 2003
+# -- Skipping module bigfifo
+# -- Skipping module camtop
+# -- Skipping module clk_half
+# -- Skipping module clkgen
+# -- Skipping module counter
+# -- Skipping module dff
+# -- Skipping module dffar
+# -- Skipping module dffr
+# -- Skipping module dffre
+# -- Skipping module dffrei
+# -- Skipping module edge_detect
+# -- Skipping module fakeov8610
+# -- Skipping module fifo
+# -- Skipping module fifo_ov_shift
+# -- Skipping module frame_typ
+# -- Skipping module glbl
+# -- Skipping module inputfifo
+# -- Skipping module outputfifo
+# -- Skipping module packetizer
+# -- Skipping module pcpacket
+# -- Skipping module resetsync
+# -- Skipping module sccb
+# -- Skipping module smallfifo
+# -- Skipping module synchronizer
+# -- Skipping module temac1
+# -- Skipping module temac1_top
+# -- Skipping module testbench
+# -- Skipping module video_timer
+do sb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.testbench work.glbl 
+# Loading work.testbench
+# Loading work.temac1_top
+# Loading work.clk_half
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.BUFG
+# ** Warning: (vsim-3010) [TSCALE] - Module 'BUFG' has a `timescale directive in effect, but previous modules do not.
+#         Region: /testbench/dut/clkbuff1
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.INV
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.FDDRRSE
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.OBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUFG
+# Loading work.temac1
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ONE
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ZERO
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT3
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_BUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_MUX2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_FF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_XOR2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_AND2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SFF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_RAMB16_S36_S36
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SRLC16E
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_OR2
+# Loading work.clkgen
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clkgen' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/gen40
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.DCM
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_divide_by_2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_maximum_period_check
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_lost
+# Loading work.camtop
+# ** Warning: (vsim-3009) [TSCALE] - Module 'camtop' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera
+# Loading work.resetsync
+# ** Warning: (vsim-3009) [TSCALE] - Module 'resetsync' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/stxreset
+# Loading work.fakeov8610
+# Loading work.video_timer
+# Loading work.dffrei
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffrei' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffxstart1
+# Loading work.dffre
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffre' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/serialCount
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffgodff
+# Loading work.pcpacket
+# ** Warning: (vsim-3009) [TSCALE] - Module 'pcpacket' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming
+# Loading work.dff
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dff' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/masterfsm
+# Loading work.edge_detect
+# ** Warning: (vsim-3009) [TSCALE] - Module 'edge_detect' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/done_edge
+# Loading work.sccb
+# ** Warning: (vsim-3009) [TSCALE] - Module 'sccb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/controlsccb
+# Loading work.counter
+# ** Warning: (vsim-3009) [TSCALE] - Module 'counter' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/controlsccb/clk400counter
+# Loading work.inputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'inputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/infifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.packetizer
+# ** Warning: (vsim-3009) [TSCALE] - Module 'packetizer' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/makepackets
+# Loading work.bigfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'bigfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/myfifo
+# Loading work.glbl
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/big_tb.v(103): [TFMPC] - Too few port connections. Expected 26, found 22.
+#         Region: /testbench/dut
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/temac1_top.v(385): [TFMPC] - Too few port connections. Expected 34, found 30.
+#         Region: /testbench/dut/trimac_core
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut3_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut4_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut2_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.mux
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.ffsrce
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.sffsrce
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/temac1_top.v(412): [TFMPC] - Too few port connections. Expected 16, found 14.
+#         Region: /testbench/dut/camera
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/camtop.v(117): [TFMPC] - Too few port connections. Expected 13, found 8.
+#         Region: /testbench/dut/camera/fakecamera
+# ** Warning: (vsim-WLF-5000) Log file vsim.wlf currently in use.
+# File in use by: EE109-3  Hostname: EE109-3  ProcessID: 1532
+# ** Warning: (vsim-WLF-5001) Could not open log file vsim.wlf.  Using C:\DOCUME~1\Tom\LOCALS~1\Temp\wlft7.wlf instead.
+# .structure .signals
+run 10us
+destroy .wave
+quit -sim
+do sb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.testbench work.glbl 
+# Loading work.testbench
+# Loading work.temac1_top
+# Loading work.clk_half
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.BUFG
+# ** Warning: (vsim-3010) [TSCALE] - Module 'BUFG' has a `timescale directive in effect, but previous modules do not.
+#         Region: /testbench/dut/clkbuff1
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.INV
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.FDDRRSE
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.OBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUFG
+# Loading work.temac1
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ONE
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ZERO
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT3
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_BUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_MUX2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_FF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_XOR2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_AND2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SFF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_RAMB16_S36_S36
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SRLC16E
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_OR2
+# Loading work.clkgen
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clkgen' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/gen40
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.DCM
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_divide_by_2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_maximum_period_check
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_lost
+# Loading work.camtop
+# ** Warning: (vsim-3009) [TSCALE] - Module 'camtop' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera
+# Loading work.resetsync
+# ** Warning: (vsim-3009) [TSCALE] - Module 'resetsync' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/stxreset
+# Loading work.fakeov8610
+# Loading work.video_timer
+# Loading work.dffrei
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffrei' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffxstart1
+# Loading work.dffre
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffre' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/serialCount
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffgodff
+# Loading work.pcpacket
+# ** Warning: (vsim-3009) [TSCALE] - Module 'pcpacket' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming
+# Loading work.dff
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dff' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/masterfsm
+# Loading work.edge_detect
+# ** Warning: (vsim-3009) [TSCALE] - Module 'edge_detect' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/done_edge
+# Loading work.sccb
+# ** Warning: (vsim-3009) [TSCALE] - Module 'sccb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/controlsccb
+# Loading work.counter
+# ** Warning: (vsim-3009) [TSCALE] - Module 'counter' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/controlsccb/clk400counter
+# Loading work.inputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'inputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/infifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.packetizer
+# ** Warning: (vsim-3009) [TSCALE] - Module 'packetizer' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/makepackets
+# Loading work.bigfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'bigfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/myfifo
+# Loading work.glbl
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/big_tb.v(103): [TFMPC] - Too few port connections. Expected 26, found 22.
+#         Region: /testbench/dut
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/temac1_top.v(385): [TFMPC] - Too few port connections. Expected 34, found 30.
+#         Region: /testbench/dut/trimac_core
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut3_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut4_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut2_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.mux
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.ffsrce
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.sffsrce
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/temac1_top.v(412): [TFMPC] - Too few port connections. Expected 16, found 14.
+#         Region: /testbench/dut/camera
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/camtop.v(117): [TFMPC] - Too few port connections. Expected 13, found 8.
+#         Region: /testbench/dut/camera/fakecamera
+# ** Warning: (vsim-WLF-5000) Log file vsim.wlf currently in use.
+# File in use by: EE109-3  Hostname: EE109-3  ProcessID: 1532
+# ** Warning: (vsim-WLF-5001) Could not open log file vsim.wlf.  Using C:\DOCUME~1\Tom\LOCALS~1\Temp\wlft9.wlf instead.
+# .structure .signals
+run 10us
+destroy .wave
+quit sim
+# unknown switch: sim
+quit -sim
+# Compile of pcpacket.v was successful.
+# Compile of clk_half.v was successful.
+# Compile of temac1_mod.v was successful.
+# Compile of temac1.v was successful.
+# Compile of counter.v was successful.
+# Compile of ff.v was successful.
+# Compile of resetsync.v was successful.
+# Compile of synchronizer.v was successful.
+# Compile of edge_detect.v was successful.
+# Compile of clkgen.v was successful.
+# Compile of demo_tb2.v was successful.
+# Compile of bigfifo.v was successful.
+# Compile of video_timer.v was successful.
+# Compile of inputfifo.v was successful.
+# Compile of outputfifo.v was successful.
+# Compile of sccb.v was successful.
+# Compile of fakeov8610.v was successful.
+# Compile of big_tb.v was successful.
+# Compile of temac1_top.v was successful.
+# Compile of packetizer.v was successful.
+# Compile of camtop.v was successful.
+# 21 compiles, 0 failed with no errors. 
+# compile Main C:/Modeltech_5.7a/win32/vlog -work work -refresh 
+# Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+# -- Refreshing module bigfifo
+# -- Refreshing module camtop
+# -- Refreshing module clk_half
+# -- Refreshing module clkgen
+# -- Refreshing module counter
+# -- Refreshing module dff
+# -- Refreshing module dffar
+# -- Refreshing module dffr
+# -- Refreshing module dffre
+# -- Refreshing module dffrei
+# -- Refreshing module edge_detect
+# -- Refreshing module fakeov8610
+# -- Refreshing module glbl
+# -- Refreshing module inputfifo
+# -- Refreshing module outputfifo
+# -- Refreshing module packetizer
+# -- Refreshing module pcpacket
+# -- Refreshing module resetsync
+# -- Refreshing module sccb
+# -- Refreshing module synchronizer
+# -- Refreshing module temac1
+# -- Refreshing module temac1_top
+# -- Refreshing module testbench
+# -- Refreshing module video_timer
+# compile Main C:/Modeltech_5.7a/win32/vcom -work work -refresh 
+# Model Technology ModelSim SE vcom 5.7a Compiler 2002.12 Jan  3 2003
+# -- Skipping module bigfifo
+# -- Skipping module camtop
+# -- Skipping module clk_half
+# -- Skipping module clkgen
+# -- Skipping module counter
+# -- Skipping module dff
+# -- Skipping module dffar
+# -- Skipping module dffr
+# -- Skipping module dffre
+# -- Skipping module dffrei
+# -- Skipping module edge_detect
+# -- Skipping module fakeov8610
+# -- Skipping module glbl
+# -- Skipping module inputfifo
+# -- Skipping module outputfifo
+# -- Skipping module packetizer
+# -- Skipping module pcpacket
+# -- Skipping module resetsync
+# -- Skipping module sccb
+# -- Skipping module synchronizer
+# -- Skipping module temac1
+# -- Skipping module temac1_top
+# -- Skipping module testbench
+# -- Skipping module video_timer
+do sb.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Modifying C:/EE109/Lab3/ModelSim3/camsim.mpf
+# Model Technology ModelSim SE vlog 5.7a Compiler 2002.12 Jan  3 2003
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# vsim -L simprims_ver -L unisims_ver -L XilinxCoreLib_ver work.testbench work.glbl 
+# Loading work.testbench
+# Loading work.temac1_top
+# Loading work.clk_half
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.BUFG
+# ** Warning: (vsim-3010) [TSCALE] - Module 'BUFG' has a `timescale directive in effect, but previous modules do not.
+#         Region: /testbench/dut/clkbuff1
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.INV
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.FDDRRSE
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.OBUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.IBUFG
+# Loading work.temac1
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ONE
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_ZERO
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT3
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_BUF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_LUT2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_MUX2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_FF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_XOR2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_AND2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SFF
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_RAMB16_S36_S36
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_SRLC16E
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.X_OR2
+# Loading work.clkgen
+# ** Warning: (vsim-3009) [TSCALE] - Module 'clkgen' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/gen40
+# Loading C:/Modeltech_5.7a/xilinx_libs/unisims_ver.DCM
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_divide_by_2
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_maximum_period_check
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.dcm_clock_lost
+# Loading work.camtop
+# ** Warning: (vsim-3009) [TSCALE] - Module 'camtop' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera
+# Loading work.resetsync
+# ** Warning: (vsim-3009) [TSCALE] - Module 'resetsync' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/stxreset
+# Loading work.fakeov8610
+# Loading work.video_timer
+# Loading work.dffrei
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffrei' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffxstart1
+# Loading work.dffre
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffre' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/serialCount
+# Loading work.dffr
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dffr' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/fakecamera/ffgodff
+# Loading work.pcpacket
+# ** Warning: (vsim-3009) [TSCALE] - Module 'pcpacket' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming
+# Loading work.dff
+# ** Warning: (vsim-3009) [TSCALE] - Module 'dff' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/masterfsm
+# Loading work.edge_detect
+# ** Warning: (vsim-3009) [TSCALE] - Module 'edge_detect' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/done_edge
+# Loading work.sccb
+# ** Warning: (vsim-3009) [TSCALE] - Module 'sccb' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/controlsccb
+# Loading work.counter
+# ** Warning: (vsim-3009) [TSCALE] - Module 'counter' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/controlsccb/clk400counter
+# Loading work.inputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'inputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/infifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.SYNC_FIFO_V5_0
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.MEM_BLK_V5_0
+# Loading work.outputfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'outputfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/incoming/outfifo
+# Loading C:/Modeltech_5.7a/xilinx_libs/XilinxCoreLib_ver.ASYNC_FIFO_V6_0
+# Loading work.packetizer
+# ** Warning: (vsim-3009) [TSCALE] - Module 'packetizer' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/makepackets
+# Loading work.bigfifo
+# ** Warning: (vsim-3009) [TSCALE] - Module 'bigfifo' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /testbench/dut/camera/myfifo
+# Loading work.glbl
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/big_tb.v(103): [TFMPC] - Too few port connections. Expected 26, found 22.
+#         Region: /testbench/dut
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/temac1_top.v(385): [TFMPC] - Too few port connections. Expected 34, found 30.
+#         Region: /testbench/dut/trimac_core
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut3_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut4_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.x_lut2_mux4
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.mux
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.ffsrce
+# Loading C:/Modeltech_5.7a/xilinx_libs/simprims_ver.sffsrce
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/temac1_top.v(412): [TFMPC] - Too few port connections. Expected 16, found 14.
+#         Region: /testbench/dut/camera
+# ** Warning: (vsim-3017) C:/EE109/Lab3/ModelSim3/camtop.v(117): [TFMPC] - Too few port connections. Expected 13, found 8.
+#         Region: /testbench/dut/camera/fakecamera
+# ** Warning: (vsim-WLF-5000) Log file vsim.wlf currently in use.
+# File in use by: EE109-3  Hostname: EE109-3  ProcessID: 1532
+# ** Warning: (vsim-WLF-5001) Could not open log file vsim.wlf.  Using C:\DOCUME~1\Tom\LOCALS~1\Temp\wlft11.wlf instead.
+# .structure .signals
+run 10us
+destroy .wave
+quit -sim
+edit sb.do

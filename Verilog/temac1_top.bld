@@ -1,0 +1,247 @@
+Release 6.3.03i - ngdbuild G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Command Line: ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc
+temac1_top.ucf -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd 
+
+Reading NGO file "Z:/2/Lab2HW/temac/temac1_top.ngc" ...
+Reading component libraries for design expansion...
+Launcher: "temac1.ngo" is up to date.
+Loading design module "z:\2\lab2hw\temac\_ngo\temac1.ngo"...
+tri_mode_eth_mac_v1_1, Coregen 6.3.03i_ip4
+Loading design module "Z:\2\Lab2HW\temac/temac1_trimac_gen_1.ngc"...
+tri_mode_eth_mac_v1_1, Coregen 6.3.03i_ip4
+Launcher: "bigfifo.ngo" is up to date.
+Loading design module "z:\2\lab2hw\temac\_ngo\bigfifo.ngo"...
+fifo_generator_v2_0, Coregen 6.3.03i_ip4
+Loading design module
+"Z:\2\Lab2HW\temac/bigfifo_fifo_generator_v2_0_as_1.ngc"...
+fifo_generator_v2_0, Coregen 6.3.03i_ip4
+Launcher: "smallfifo.ngo" is up to date.
+Loading design module "z:\2\lab2hw\temac\_ngo\smallfifo.ngo"...
+async_fifo_v6_1, Coregen 6.3.03i_ip4
+
+Annotating constraints to design from file "temac1_top.ucf" ...
+
+Checking timing specifications ...
+WARNING:XdmHelpers:625 - No instances driven from signal "gtx_clk" are valid for
+   inclusion in TNM group "clk_tx". A TNM property on a pin or signal marks only
+   the flip-flops, latches and/or RAMs which are directly or indirectly driven
+   by that pin or signal.
+INFO:XdmHelpers:851 - TNM "clk100", used in period specification "TS_clk100",
+   was traced into DCM instance "gen40_clk_dcm_inst1". The following new TNM
+   groups and period specifications were generated at the DCM output(s):
+   CLK0: TS_camclk=PERIOD camclk TS_clk100*1.000000 HIGH 50.000000%
+WARNING:XdmHelpers:644 - No appropriate elements were found for the TNM group
+   "clk_tx". This group has been removed from the design.
+WARNING:XdmHelpers:646 - The user-defined group "tx_clock" has been removed,
+   since every group that it includes was removed.
+WARNING:XdmHelpers:663 - Period specification "TS_rx_clk_core" references the
+   group "rx_clock_core", which contains both pads and synchronous elements.
+   Analysis of this period specification will ignore these pad elements.
+WARNING:XdmHelpers:663 - Period specification "TS_tx_clk_core" references the
+   group "tx_clock_core", which contains both pads and synchronous elements.
+   Analysis of this period specification will ignore these pad elements.
+Checking expanded design ...
+WARNING:NgdBuild:440 - FF primitive 'camera_incoming_fifoshift/BU150' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive 'camera_incoming_fifoshift/BU345' has
+   unconnected output pin
+WARNING:NgdBuild:454 - logical net 'icon_control0<10>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<11>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<15>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<16>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<17>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<18>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<21>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<7>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<22>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<23>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<24>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<25>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<26>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<27>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<30>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<28>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<31>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<29>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<32>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<33>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<34>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control0<35>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<10>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<11>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<15>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<16>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<17>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<18>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<21>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<7>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<22>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<23>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<24>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<25>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<26>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<27>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<30>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<28>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<31>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<29>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<32>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<33>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<34>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control1<35>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<10>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<11>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<15>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<16>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<17>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<18>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<21>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<7>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<22>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<23>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<24>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<25>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<26>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<27>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<30>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<28>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<31>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<29>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<32>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<33>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<34>' has no load
+WARNING:NgdBuild:454 - logical net 'icon_control2<35>' has no load
+WARNING:NgdBuild:454 - logical net 'trimac_core/N0' has no load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxcollision' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxretransmit' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstatsvld' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxbadframe' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxgoodframe' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/speedis100' has no load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<26>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<25>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<24>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<23>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<22>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<21>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<20>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<19>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<18>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<17>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<16>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<15>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<14>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<13>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<12>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<11>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<10>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<9>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<8>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<7>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<6>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<5>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<4>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<3>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclientrxstats<2>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<31>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<30>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<28>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<27>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<26>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<25>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<23>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<22>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<21>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<20>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<19>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<18>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<17>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<16>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<15>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<14>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<13>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<12>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<11>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<10>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<9>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<8>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<7>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<6>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<5>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<4>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<3>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<2>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<1>' has no
+   load
+WARNING:NgdBuild:454 - logical net 'trimac_core/emacclienttxstats<0>' has no
+   load
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings: 135
+
+Total memory usage is 59756 kilobytes
+
+Writing NGD file "temac1_top.ngd" ...
+
+Writing NGDBUILD log file "temac1_top.bld"...

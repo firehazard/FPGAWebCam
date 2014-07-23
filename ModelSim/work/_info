@@ -1,0 +1,289 @@
+m255
+cModel Technology
+dZ:\private\EE109\Lab2\simulate
+vbigfifo
+IF:WR6:SiReUJ6WaFDAAX13
+VTci2iV]CRL5K>el@77X`o0
+dC:\EE109\Lab3\ModelSim
+w1107757387
+FC:/EE109/Lab3/ModelSim/bigfifo.v
+L0 38
+OE;L;5.7a;17
+r1
+31
+o-work work
+vcamtop
+I06aHO8nVf0JLofUHc9eGm1
+VnkTBMk1:OhFm45PYo@98X2
+dC:\EE109\Lab3\ModelSim
+w1109322312
+FC:/EE109/Lab3/ModelSim/camtop.v
+L0 8
+OE;L;5.7a;17
+r1
+31
+o-work work
+vclk_half
+I:;i:58cKmoE@n<^KSozS81
+VZdOXlcnlfG[BNaRlLFzHV2
+dC:\EE109\Lab3\ModelSim
+w1105834268
+FC:/EE109/Lab3/ModelSim/clk_half.v
+L0 14
+OE;L;5.7a;17
+r1
+31
+o-work work
+vclkgen
+IF8d=^;OOgab:MP^>5lz_h1
+V8JPkGEdDW6eRV_63`zUJ[0
+dC:\EE109\Lab3\ModelSim
+w1107674806
+FC:/EE109/Lab3/ModelSim/clkgen.v
+L0 1
+OE;L;5.7a;17
+r1
+31
+o-work work
+vcounter
+IEaTz]6QiTmSN^GI0N^`6V0
+VHlFM3JSUD_VM`2k1z3XaO1
+dC:\EE109\Lab3\ModelSim
+w1107146466
+FC:/EE109/Lab3/ModelSim/counter.v
+L0 1
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdff
+IJS7hN;[;e]k[W@UmSi2e62
+VNgFFmHY6iPY0^C4LU:8jX0
+dC:\EE109\Lab3\ModelSim
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 15
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdffar
+I_Lj^kDZ7>Gj7CRgzO?XlF3
+V=O[LahbZl5BJjGlNjmEid2
+dC:\EE109\Lab3\ModelSim
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 106
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdffr
+I3H[mnTM3aFdVVSF4JWkf^3
+V^YozXo?`iaCAEBH2O38mZ2
+dC:\EE109\Lab3\ModelSim
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 32
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdffre
+I27M6>>i4zfOA0YjC>UcN61
+Vf9_O]P>6;HNhTiEhKXGRg1
+dC:\EE109\Lab3\ModelSim
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 56
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdffrei
+IW^^^i9RSCG@:`]=akeJ7D1
+V=znHH8P<`kGK0f?8[QUTY3
+dC:\EE109\Lab3\ModelSim
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 80
+OE;L;5.7a;17
+r1
+31
+o-work work
+vedge_detect
+I<2aK;20MQZ4MLFO9C7::z0
+Vb]?JJ7UcLl^<j7CA?WaQ11
+dC:\EE109\Lab3\ModelSim
+w1107550890
+FC:/EE109/Lab3/ModelSim/edge_detect.v
+L0 1
+OE;L;5.7a;17
+r1
+31
+o-work work
+vfakeov8610
+IUZ`Q`z0]GJH2czIYXJ2K70
+VzKm89JKeT2@1EaW;[552H3
+dC:\EE109\Lab3\ModelSim
+w1109321523
+FC:/EE109/Lab3/ModelSim/fakeov8610.v
+L0 59
+OE;L;5.7a;17
+r1
+31
+o-work work
+vfifo
+InNQNQ6g`gOCG7G:zzG;TR1
+V8S^fHCNU3O_V[a8NX4So90
+dZ:\private\EE109\Lab2friday\simulate
+w1107306936
+FZ:/private/EE109/Lab2friday/simulate/fifo.v
+L0 38
+OE;L;5.7a;17
+r1
+31
+o-work work
+vfifo_ov_shift
+I8R0<^>b80:5gL9XXMah=I0
+Vo=1QGdEo`Z2>QXN_06o]10
+dZ:\private\EE109\Lab2friday\simulate
+w1107326968
+FZ:/private/EE109/Lab2friday/simulate/fifo_ov_shift.v
+L0 38
+OE;L;5.7a;17
+r1
+31
+o-work work
+vframe_typ
+Il:ND48DgPW>YMPN49nKlH2
+ViH<XVK=ILCjD68ES7Y9QJ1
+dY:\ee109\Lab2New\simulate
+w1107320182
+FY:/ee109/demo_tb.v
+L0 9
+OE;L;5.7a;17
+r1
+31
+o-work work
+vglbl
+I;3bdO6U;R_i?oXm0zZ=6m3
+V]6_PH00iDgcD`AVz9`gA:0
+dC:\EE109\Lab3\ModelSim
+w1090510499
+FC:\Xilinx/verilog/src/glbl.v
+L0 5
+OE;L;5.7a;17
+r1
+31
+o-work work
+vpacketizer
+IaoAZcz>@bBYJWPhD52hd;2
+Vi^4OjT>YFENQQb1a]H5ZD1
+dC:\EE109\Lab3\ModelSim
+w1109321167
+FC:/EE109/Lab3/ModelSim/packetizer.v
+L0 15
+OE;L;5.7a;17
+r1
+31
+o-work work
+vpcpacket
+I:O7NO3:fI9jn@15eRW]`80
+Ve7d<]hVE_BoTQ<<m]SF9I0
+dC:\EE109\Lab3\ModelSim
+w1108034148
+FC:/EE109/Lab3/ModelSim/pcpacket.v
+L0 1
+OE;L;5.7a;17
+r1
+31
+o-work work
+vresetsync
+IMo7?A3oh7d^OmM>fhOPSm3
+V<h_^dl0?B3g[I6i`3kcYc3
+dC:\EE109\Lab3\ModelSim
+w1107219890
+FC:/EE109/Lab3/ModelSim/resetsync.v
+L0 1
+OE;L;5.7a;17
+r1
+31
+o-work work
+vsccb
+IQLX9R1o;TkK;N>NbFG::F3
+V^f9l<<QLYn6Cn@2CAh><C1
+dC:\EE109\Lab3\ModelSim
+w1109493998
+FC:/EE109/Lab3/ModelSim/sccb.v
+L0 38
+OE;L;5.7a;17
+r1
+31
+o-work work
+vsmallfifo
+IX:9A^VTiE7H=l0Non5T`m3
+VVocEdMYSXeeH:4aczKA7j1
+dC:\EE109\Lab3\ModelSim
+w1107756703
+FC:/EE109/Lab3/ModelSim/smallfifo.v
+L0 38
+OE;L;5.7a;17
+r1
+31
+o-work work
+vsynchronizer
+I<_2YC7U>?Xnen?:O=P[?70
+V[60KBY;Y9Cg9Z0HecgJP43
+dC:\EE109\Lab3\ModelSim
+w1107256044
+FC:/EE109/Lab3/ModelSim/synchronizer.v
+L0 1
+OE;L;5.7a;17
+r1
+31
+o-work work
+vtemac1
+IL<W3[3TB65Wi3YY8EeTVl3
+VCJ0kMICB=Ed:Zd4S7@hoP3
+dC:\EE109\Lab3\ModelSim
+w1106464440
+FC:/EE109/Lab3/ModelSim/temac1.v
+L0 18
+OE;L;5.7a;17
+r1
+31
+o-work work
+vtemac1_top
+IEh1`I5fc<;YB;nLOeImlS1
+VON35hCCQ02bI_U1G?7OE;3
+dC:\EE109\Lab3\ModelSim
+w1109476388
+FC:/EE109/Lab3/ModelSim/temac1_top.v
+L0 57
+OE;L;5.7a;17
+r1
+31
+o-work work
+vtestbench
+I?2E>O_kbTc5D<@9F^jhYF2
+Vz;@l2`0^ZXnlK@=ji12>f3
+dC:\EE109\Lab3\ModelSim
+w1107757105
+FC:/EE109/Lab3/ModelSim/demo_tb2.v
+L0 5
+OE;L;5.7a;17
+r1
+31
+o-work work
+vvideo_timer
+I8h>h@cK^PQ_B5TRoI^X653
+V0QEMQeOcoFGm^[Of^CLaa3
+dC:\EE109\Lab3\ModelSim
+w1108018944
+FC:/EE109/Lab3/ModelSim/video_timer.v
+L0 30
+OE;L;5.7a;17
+r1
+31
+o-work work

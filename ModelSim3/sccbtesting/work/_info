@@ -1,0 +1,179 @@
+m255
+cModel Technology
+dC:\EE109\Lab3\ModelSim
+vcamtop
+I;]mH9diJ?m;DjVG]:_>XS3
+Vf2@?>5UgU0m3T;JXiBn8B0
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1109744643
+FC:/EE109/Lab3/ModelSim/sccbtesting/camtop.v
+L0 8
+OE;L;5.7a;17
+r1
+31
+o-work work
+vcounter
+IEaTz]6QiTmSN^GI0N^`6V0
+VHlFM3JSUD_VM`2k1z3XaO1
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1107146466
+FC:/EE109/Lab3/ModelSim/counter.v
+L0 1
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdff
+IJS7hN;[;e]k[W@UmSi2e62
+VNgFFmHY6iPY0^C4LU:8jX0
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 15
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdffar
+I_Lj^kDZ7>Gj7CRgzO?XlF3
+V=O[LahbZl5BJjGlNjmEid2
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 106
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdffr
+I3H[mnTM3aFdVVSF4JWkf^3
+V^YozXo?`iaCAEBH2O38mZ2
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 32
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdffre
+I27M6>>i4zfOA0YjC>UcN61
+Vf9_O]P>6;HNhTiEhKXGRg1
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 56
+OE;L;5.7a;17
+r1
+31
+o-work work
+vdffrei
+IW^^^i9RSCG@:`]=akeJ7D1
+V=znHH8P<`kGK0f?8[QUTY3
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1107166904
+FC:/EE109/Lab3/ModelSim/ff.v
+L0 80
+OE;L;5.7a;17
+r1
+31
+o-work work
+vedge_detect
+I<2aK;20MQZ4MLFO9C7::z0
+Vb]?JJ7UcLl^<j7CA?WaQ11
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1107550890
+FC:/EE109/Lab3/ModelSim/sccbtesting/edge_detect.v
+L0 1
+OE;L;5.7a;17
+r1
+31
+o-work work
+vglbl
+I;3bdO6U;R_i?oXm0zZ=6m3
+V]6_PH00iDgcD`AVz9`gA:0
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1090510499
+FC:\Xilinx/verilog/src/glbl.v
+L0 5
+OE;L;5.7a;17
+r1
+31
+o-work work
+vinputfifo
+I6DT2O_<BzWjQ7Wi7V2LA;2
+VnBcDQFUEoPbLiRKlfcXc42
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1109740631
+FC:/EE109/Lab3/ModelSim/sccbtesting/fifos/inputfifo.v
+L0 38
+OE;L;5.7a;17
+r1
+31
+o-work work
+voutputfifo
+I4KzVI01K5zUPWm2zIma7<1
+VYln2I@1VjC]i<_<7F;?7V2
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1109740768
+FC:/EE109/Lab3/ModelSim/sccbtesting/fifos/outputfifo.v
+L0 38
+OE;L;5.7a;17
+r1
+31
+o-work work
+vpacketizer
+Il5BocFh2kO1Vj4QoP;YCC3
+Vf>ci]ZN855g0^__Z0P=A_2
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1109744345
+FC:/EE109/Lab3/ModelSim/sccbtesting/packetizer.v
+L0 16
+OE;L;5.7a;17
+r1
+31
+o-work work
+vpcpacket
+I0P0=5]hh3fR=?Q;ZEIB>63
+VfNG[;eK@Aj<4Lkz`C1jE92
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1109843731
+FC:/EE109/Lab3/ModelSim/sccbtesting/pcpacket.v
+L0 11
+OE;L;5.7a;17
+r1
+31
+o-work work
+vpcpacket_testbench
+I1_Q46M8Rk5`aJ@K0Vjg]D0
+VRDf2D?1j9;B`ob2:end4P1
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1109844236
+FC:/EE109/Lab3/ModelSim/sccbtesting/pcpacket_tb.v
+L0 3
+OE;L;5.7a;17
+r1
+31
+o-work work
+vsccb
+IQgo@P:6kG_[4GL=Nb:9DS0
+VbmfZc_LL3S`RTDZFF2G1G3
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1109842893
+FC:/EE109/Lab3/ModelSim/sccbtesting/sccb.v
+L0 42
+OE;L;5.7a;17
+r1
+31
+o-work work
+vsccb_testbench
+I[@0kW4XH27a@Z9dEP@ble2
+VY0gJNUDYZ2ASR^K3a]FDP1
+dC:\EE109\Lab3\ModelSim\sccbtesting
+w1109731969
+FC:/EE109/Lab3/ModelSim/sccbtesting/sccb_tb.v
+L0 4
+OE;L;5.7a;17
+r1
+31
+o-work work

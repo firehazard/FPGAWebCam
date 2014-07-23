@@ -1,0 +1,6 @@
+# Output products list for <bigfifo>
+bigfifo.edn
+bigfifo.veo
+bigfifo.v
+bigfifo.xco
+bigfifo.xcp

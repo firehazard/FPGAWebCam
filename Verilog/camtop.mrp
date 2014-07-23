@@ -1,0 +1,623 @@
+Release 6.3.03i Map G.38
+Xilinx Mapping Report File for Design 'camtop'
+
+Design Information
+------------------
+Command Line   : C:/Xilinx/bin/nt/map.exe -intstyle ise -p xc2vp30-ff896-7 -cm
+area -pr b -k 4 -c 100 -tx off -o camtop_map.ncd camtop.ngd camtop.pcf 
+Target Device  : x2vp30
+Target Package : ff896
+Target Speed   : -7
+Mapper Version : virtex2p -- $Revision: 1.16.8.2 $
+Mapped Date    : Sun Feb 06 00:19:44 2005
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   69
+Logic Utilization:
+  Number of Slice Flip Flops:         451 out of  27,392    1%
+  Number of 4 input LUTs:             877 out of  27,392    3%
+Logic Distribution:
+  Number of occupied Slices:          648 out of  13,696    4%
+  Number of Slices containing only related logic:     648 out of     648  100%
+  Number of Slices containing unrelated logic:          0 out of     648    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:          1,017 out of  27,392    3%
+  Number used as logic:               877
+  Number used as a route-thru:        140
+
+  Number of bonded IOBs:               26 out of     556    4%
+    IOB Flip Flops:                     1
+  Number of PPC405s:                   0 out of       2    0%
+  Number of Block RAMs:                65 out of     136   47%
+  Number of GCLKs:                      3 out of      16   18%
+  Number of GTs:                        0 out of       8    0%
+  Number of GT10s:                      0 out of       0    0%
+
+Total equivalent gate count for design:  4,270,815
+Additional JTAG gate count for IOBs:  1,248
+Peak Memory Usage:  144 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Additional Device Resource Counts
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:51 - Pin I1 of MUXF6 symbol
+   "makepackets_Mmux__n0000_inst_mux_f7_7/MUXF6.I0/MUXF6" (output
+   signal=makepackets_Mmux__n0000_inst_mux_f7_7/F6.I0) is not connected.
+WARNING:LIT:51 - Pin I1 of MUXF6 symbol
+   "makepackets_Mmux__n0000_inst_mux_f7_0/MUXF6.I0/MUXF6" (output
+   signal=makepackets_Mmux__n0000_inst_mux_f7_0/F6.I0) is not connected.
+WARNING:LIT:51 - Pin I1 of MUXF6 symbol
+   "makepackets_Mmux__n0000_inst_mux_f7_6/MUXF6.I0/MUXF6" (output
+   signal=makepackets_Mmux__n0000_inst_mux_f7_6/F6.I0) is not connected.
+WARNING:LIT:53 - There are 3 pin connection warnings.
+WARNING:Pack:266 - The function generator makepackets_Mmux__n0000_inst_lut3_011
+   failed to merge with F5 multiplexer MUXF5.I0.  Tried to combine two
+   collections of symbols from different positions within the same layer.  The
+   design will exhibit suboptimal timing.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram10_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram11_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram12_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram20_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram13_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram21_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram14_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram22_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram30_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram0_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram15_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram23_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram31_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram1_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram16_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram24_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram32_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram40_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram2_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram17_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram25_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram33_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram41_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram3_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram18_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram26_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram34_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram42_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram50_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram4_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram19_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram27_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram35_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram43_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram51_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram5_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram28_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram36_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram44_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram52_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram60_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram6_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram29_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram37_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram45_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram53_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram61_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram7_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram38_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram46_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram54_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram62_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram8_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram39_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram47_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram55_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram63_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram9_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram48_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram56_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram49_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram57_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram58_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram59_by9 is not connected.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:95 - All of the external outputs in this design are using slew rate
+   limited output drivers. The delay on speed critical outputs can be
+   dramatically reduced by designating them as fast outputs in the schematic.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:535 - The following Virtex BUFG(s) is/are being retargetted to
+   Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+   BUFGP symbol "camclkin_BUFGP" (output signal=camclkin_BUFGP),
+   BUFGP symbol "rx_clk_BUFGP" (output signal=rx_clk_BUFGP),
+   BUFGP symbol "tx_clk_BUFGP" (output signal=tx_clk_BUFGP)
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  88 block(s) removed
+   6 block(s) optimized away
+  80 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "incoming_fifoshift/BU150" (FF) removed.
+Loadless block "incoming_fifoshift/BU183" (ROM) removed.
+Loadless block "incoming_fifoshift/BU345" (FF) removed.
+Loadless block "incoming_fifoshift/BU378" (ROM) removed.
+Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mcy8" (MUX) removed.
+ The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_carrynet<7>" is loadless and
+has been removed.
+  Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mcy7" (MUX) removed.
+   The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_carrynet<6>" is loadless and
+has been removed.
+    Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mcy6" (MUX) removed.
+     The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_carrynet<5>" is loadless and
+has been removed.
+      Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mcy5" (MUX) removed.
+       The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_carrynet<4>" is loadless and
+has been removed.
+        Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mcy4" (MUX) removed.
+         The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_carrynet<3>" is loadless and
+has been removed.
+          Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mcy3" (MUX) removed.
+           The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_carrynet<2>" is loadless and
+has been removed.
+            Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mcy2" (MUX) removed.
+             The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_carrynet<1>" is loadless and
+has been removed.
+              Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mcy1" (MUX) removed.
+               The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n0017" is loadless and has
+been removed.
+                Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_mfirst0" (MUX) removed.
+                 The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n0072" is loadless and has
+been removed.
+                  Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00721" (ROM) removed.
+               The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_v1<1>" is loadless and has
+been removed.
+                Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00731" (ROM) removed.
+             The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_v1<2>" is loadless and has
+been removed.
+              Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00741" (ROM) removed.
+           The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_v1<3>" is loadless and has
+been removed.
+            Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00751" (ROM) removed.
+         The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_v1<4>" is loadless and has
+been removed.
+          Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00761" (ROM) removed.
+       The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_v1<5>" is loadless and has
+been removed.
+        Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00771" (ROM) removed.
+     The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_v1<6>" is loadless and has
+been removed.
+      Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00781" (ROM) removed.
+   The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_v1<7>" is loadless and has
+been removed.
+    Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00791" (ROM) removed.
+ The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1_v1<8>" is loadless and has
+been removed.
+  Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae1__n00801" (ROM) removed.
+Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mcy8" (MUX) removed.
+ The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_carrynet<7>" is loadless and
+has been removed.
+  Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mcy7" (MUX) removed.
+   The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_carrynet<6>" is loadless and
+has been removed.
+    Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mcy6" (MUX) removed.
+     The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_carrynet<5>" is loadless and
+has been removed.
+      Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mcy5" (MUX) removed.
+       The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_carrynet<4>" is loadless and
+has been removed.
+        Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mcy4" (MUX) removed.
+         The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_carrynet<3>" is loadless and
+has been removed.
+          Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mcy3" (MUX) removed.
+           The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_carrynet<2>" is loadless and
+has been removed.
+            Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mcy2" (MUX) removed.
+             The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_carrynet<1>" is loadless and
+has been removed.
+              Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mcy1" (MUX) removed.
+               The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n0017" is loadless and has
+been removed.
+                Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_mfirst0" (MUX) removed.
+                 The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n0072" is loadless and has
+been removed.
+                  Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00721" (ROM) removed.
+               The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_v1<1>" is loadless and has
+been removed.
+                Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00731" (ROM) removed.
+             The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_v1<2>" is loadless and has
+been removed.
+              Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00741" (ROM) removed.
+           The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_v1<3>" is loadless and has
+been removed.
+            Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00751" (ROM) removed.
+         The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_v1<4>" is loadless and has
+been removed.
+          Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00761" (ROM) removed.
+       The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_v1<5>" is loadless and has
+been removed.
+        Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00771" (ROM) removed.
+     The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_v1<6>" is loadless and has
+been removed.
+      Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00781" (ROM) removed.
+   The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_v1<7>" is loadless and has
+been removed.
+    Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00791" (ROM) removed.
+ The signal "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2_v1<8>" is loadless and has
+been removed.
+  Loadless block "myfifo/BU2/U0_flblk_thrmod_aelogic_cae2__n00801" (ROM) removed.
+Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mcy8" (MUX) removed.
+ The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_carrynet<7>" is loadless and
+has been removed.
+  Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mcy7" (MUX) removed.
+   The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_carrynet<6>" is loadless and
+has been removed.
+    Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mcy6" (MUX) removed.
+     The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_carrynet<5>" is loadless and
+has been removed.
+      Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mcy5" (MUX) removed.
+       The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_carrynet<4>" is loadless and
+has been removed.
+        Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mcy4" (MUX) removed.
+         The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_carrynet<3>" is loadless and
+has been removed.
+          Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mcy3" (MUX) removed.
+           The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_carrynet<2>" is loadless and
+has been removed.
+            Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mcy2" (MUX) removed.
+             The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_carrynet<1>" is loadless and
+has been removed.
+              Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mcy1" (MUX) removed.
+               The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n0017" is loadless and has
+been removed.
+                Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_mfirst0" (MUX) removed.
+                 The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n0072" is loadless and has
+been removed.
+                  Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00721" (ROM) removed.
+               The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_v1<1>" is loadless and has
+been removed.
+                Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00731" (ROM) removed.
+             The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_v1<2>" is loadless and has
+been removed.
+              Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00741" (ROM) removed.
+           The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_v1<3>" is loadless and has
+been removed.
+            Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00751" (ROM) removed.
+         The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_v1<4>" is loadless and has
+been removed.
+          Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00761" (ROM) removed.
+       The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_v1<5>" is loadless and has
+been removed.
+        Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00771" (ROM) removed.
+     The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_v1<6>" is loadless and has
+been removed.
+      Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00781" (ROM) removed.
+   The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_v1<7>" is loadless and has
+been removed.
+    Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00791" (ROM) removed.
+ The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1_v1<8>" is loadless and has
+been removed.
+  Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf1__n00801" (ROM) removed.
+Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mcy8" (MUX) removed.
+ The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_carrynet<7>" is loadless and
+has been removed.
+  Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mcy7" (MUX) removed.
+   The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_carrynet<6>" is loadless and
+has been removed.
+    Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mcy6" (MUX) removed.
+     The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_carrynet<5>" is loadless and
+has been removed.
+      Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mcy5" (MUX) removed.
+       The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_carrynet<4>" is loadless and
+has been removed.
+        Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mcy4" (MUX) removed.
+         The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_carrynet<3>" is loadless and
+has been removed.
+          Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mcy3" (MUX) removed.
+           The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_carrynet<2>" is loadless and
+has been removed.
+            Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mcy2" (MUX) removed.
+             The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_carrynet<1>" is loadless and
+has been removed.
+              Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mcy1" (MUX) removed.
+               The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n0017" is loadless and has
+been removed.
+                Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_mfirst0" (MUX) removed.
+                 The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n0072" is loadless and has
+been removed.
+                  Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00721" (ROM) removed.
+               The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_v1<1>" is loadless and has
+been removed.
+                Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00731" (ROM) removed.
+             The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_v1<2>" is loadless and has
+been removed.
+              Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00741" (ROM) removed.
+           The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_v1<3>" is loadless and has
+been removed.
+            Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00751" (ROM) removed.
+         The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_v1<4>" is loadless and has
+been removed.
+          Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00761" (ROM) removed.
+       The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_v1<5>" is loadless and has
+been removed.
+        Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00771" (ROM) removed.
+     The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_v1<6>" is loadless and has
+been removed.
+      Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00781" (ROM) removed.
+   The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_v1<7>" is loadless and has
+been removed.
+    Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00791" (ROM) removed.
+ The signal "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2_v1<8>" is loadless and has
+been removed.
+  Loadless block "myfifo/BU2/U0_flblk_thrmod_aflogic_caf2__n00801" (ROM) removed.
+The signal "incoming_fifoshift/N2334" is sourceless and has been removed.
+ Sourceless block "incoming_fifoshift/BU143" (MUX) removed.
+  The signal "incoming_fifoshift/BU143/O" is sourceless and has been removed.
+   Sourceless block "incoming_fifoshift/BU143/MUXCY_L_BUF" (BUF) removed.
+    The signal "incoming_fifoshift/BU143/LO" is sourceless and has been removed.
+The signal "incoming_fifoshift/N3420" is sourceless and has been removed.
+ Sourceless block "incoming_fifoshift/BU338" (MUX) removed.
+  The signal "incoming_fifoshift/BU338/O" is sourceless and has been removed.
+   Sourceless block "incoming_fifoshift/BU338/MUXCY_L_BUF" (BUF) removed.
+    The signal "incoming_fifoshift/BU338/LO" is sourceless and has been removed.
+The signal "incoming_fifoshift/BU138/LO" is sourceless and has been removed.
+The signal "incoming_fifoshift/BU138/O" is sourceless and has been removed.
+ Sourceless block "incoming_fifoshift/BU138/MUXCY_L_BUF" (BUF) removed.
+The signal "incoming_fifoshift/BU138/S" is sourceless and has been removed.
+ Sourceless block "incoming_fifoshift/BU138" (MUX) removed.
+The signal "incoming_fifoshift/BU333/LO" is sourceless and has been removed.
+The signal "incoming_fifoshift/BU333/O" is sourceless and has been removed.
+ Sourceless block "incoming_fifoshift/BU333/MUXCY_L_BUF" (BUF) removed.
+The signal "incoming_fifoshift/BU333/S" is sourceless and has been removed.
+ Sourceless block "incoming_fifoshift/BU333" (MUX) removed.
+Unused block "incoming_fifoshift/BU142" (ROM) removed.
+Unused block "incoming_fifoshift/BU337" (ROM) removed.
+Unused block "myfifo/GND" (ZERO) removed.
+Unused block "myfifo/VCC" (ONE) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND 		incoming_fifoshift/GND
+VCC 		incoming_fifoshift/VCC
+GND 		myfifo/BU2/XST_GND
+VCC 		myfifo/BU2/XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| camclkin                           | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| goo                                | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| overflow                           | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| reset                              | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_clk                             | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data<0>                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data<1>                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data<2>                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data<3>                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data<4>                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data<5>                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data<6>                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data<7>                         | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| rx_data_valid                      | IOB     | INPUT     | LVCMOS25    |          |      | INFF1    |          | IFD   |
+| stopo                              | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_ack                             | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| tx_clk                             | IOB     | INPUT     | LVCMOS25    |          |      |          |          |       |
+| tx_data<0>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_data<1>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_data<2>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_data<3>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_data<4>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_data<5>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_data<6>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_data<7>                         | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
+| tx_data_valid                      | IOB     | OUTPUT    | LVCMOS25    | 12       | SLOW |          |          |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group Summary
+------------------------------
+No area groups were found in this design.
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Additional Device Resource Counts
+----------------------------------------------
+Number of JTAG Gates for IOBs = 26
+Number of Equivalent Gates for Design = 4,270,815
+Number of RPM Macros = 0
+Number of Hard Macros = 0
+GT10 = 0
+GT = 0
+CAPTUREs = 0
+BSCANs = 0
+STARTUPs = 0
+PCILOGICs = 0
+DCMs = 0
+GCLKs = 3
+ICAPs = 0
+18X18 Multipliers = 0
+Block RAMs = 65
+TBUFs = 0
+JTAGPPCs = 0
+CLK_Ps = 0
+CLK_Ns = 0
+GTOPADs = 0
+GTIPADs = 0
+PPC405s = 0
+Total Registers (Flops & Latches in Slices & IOBs) not driven by LUTs = 261
+IOB Dual-Rate Flops not driven by LUTs = 0
+IOB Dual-Rate Flops = 0
+IOB Slave Pads = 0
+IOB Master Pads = 0
+IOB Latches not driven by LUTs = 0
+IOB Latches = 0
+IOB Flip Flops not driven by LUTs = 1
+IOB Flip Flops = 1
+Unbonded IOBs = 0
+Bonded IOBs = 26
+Total Shift Registers = 0
+Static Shift Registers = 0
+Dynamic Shift Registers = 0
+16x1 ROMs = 0
+16x1 RAMs = 0
+32x1 RAMs = 0
+Dual Port RAMs = 0
+MUXFs = 316
+MULT_ANDs = 0
+4 input LUTs used as Route-Thrus = 140
+4 input LUTs = 877
+Slice Latches not driven by LUTs = 0
+Slice Latches = 0
+Slice Flip Flops not driven by LUTs = 260
+Slice Flip Flops = 451
+Slices = 648
+Number of LUT signals with 4 loads = 26
+Number of LUT signals with 3 loads = 14
+Number of LUT signals with 2 loads = 51
+Number of LUT signals with 1 load = 737
+NGM Average fanout of LUT = 2.14
+NGM Maximum fanout of LUT = 123
+NGM Average fanin for LUT = 3.1391
+Number of LUT symbols = 877
+Number of IPAD symbols = 14
+Number of IBUF symbols = 14

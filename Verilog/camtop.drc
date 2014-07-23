@@ -1,0 +1,129 @@
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram10_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram11_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram12_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram20_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram13_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram21_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram14_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram22_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram30_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram0_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram15_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram23_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram31_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram1_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram16_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram24_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram32_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram40_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram2_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram17_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram25_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram33_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram41_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram3_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram18_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram26_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram34_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram42_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram50_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram4_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram19_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram27_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram35_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram43_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram51_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram5_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram28_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram36_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram44_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram52_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram60_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram6_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram29_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram37_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram45_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram53_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram61_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram7_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram38_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram46_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram54_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram62_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram8_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram39_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram47_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram55_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram63_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram9_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram48_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram56_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram49_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram57_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram58_by9 is not connected.
+WARNING:DesignRules:332 - Blockcheck: Dangling RAMB16A output. Pin DOPA0 of comp
+   myfifo/BU2/U0_memblk_coreinst_mextd30_ram59_by9 is not connected.
+DRC detected 0 errors and 64 warnings.

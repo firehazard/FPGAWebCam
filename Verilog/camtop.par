@@ -1,0 +1,135 @@
+Release 6.3.03i Par G.38
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+EE109-3::  Sun Feb 06 00:19:56 2005
+
+
+C:/Xilinx/bin/nt/par.exe -w -intstyle ise -ol std -t 1 camtop_map.ncd
+camtop.ncd camtop.pcf 
+
+
+Constraints file: camtop.pcf
+
+Loading device database for application Par from file "camtop_map.ncd".
+   "camtop" is an NCD, version 2.38, device xc2vp30, package ff896, speed -7
+Loading device for application Par from file '2vp30.nph' in environment
+C:/Xilinx.
+Device speed data version:  PRODUCTION 1.90 2004-11-02.
+
+
+Device utilization summary:
+
+   Number of External IOBs            26 out of 556     4%
+      Number of LOCed External IOBs    0 out of 26      0%
+
+   Number of RAMB16s                  65 out of 136    47%
+   Number of SLICEs                  648 out of 13696   4%
+
+   Number of BUFGMUXs                  3 out of 16     18%
+
+
+
+Overall effort level (-ol):   Standard (set by user)
+Placer effort level (-pl):    Standard (set by user)
+Placer cost table entry (-t): 1
+Router effort level (-rl):    Standard (set by user)
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98abae) REAL time: 4 secs 
+
+Phase 2.2
+.
+Phase 2.2 (Checksum:1312cfe) REAL time: 4 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 4 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 4 secs 
+
+Phase 5.8
+.................
+Phase 5.8 (Checksum:c2b51d) REAL time: 5 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 5 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 6 secs 
+
+Phase 8.24
+Phase 8.24 (Checksum:4c4b3f8) REAL time: 6 secs 
+
+Phase 9.27
+Phase 9.27 (Checksum:55d4a77) REAL time: 6 secs 
+
+Writing design to file camtop.ncd.
+
+Total REAL time to Placer completion: 7 secs 
+Total CPU time to Placer completion: 5 secs 
+
+
+Phase 1: 7214 unrouted;       REAL time: 7 secs 
+
+Phase 2: 6687 unrouted;       REAL time: 10 secs 
+
+Phase 3: 1990 unrouted;       REAL time: 12 secs 
+
+Phase 4: 0 unrouted;       REAL time: 14 secs 
+
+Total REAL time to Router completion: 14 secs 
+Total CPU time to Router completion: 12 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|      rx_clk_BUFGP       | BUFGMUX1S| No   |   29 |  0.079     |  1.194      |
++-------------------------+----------+------+------+------------+-------------+
+|    camclkin_BUFGP       | BUFGMUX5S| No   |   98 |  0.082     |  1.194      |
++-------------------------+----------+------+------+------------+-------------+
+|      tx_clk_BUFGP       | BUFGMUX4P| No   |  132 |  0.246     |  1.252      |
++-------------------------+----------+------+------+------------+-------------+
+|       camclk20reg       |   Local  |      |  140 |  0.495     |  2.901      |
++-------------------------+----------+------+------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 296
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.590
+   The MAXIMUM PIN DELAY IS:                               7.760
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   6.872
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 1.00   < d < 2.00  < d < 3.00  < d < 4.00  < d < 8.00  d >= 8.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+        2981        1871        1321         637         404           0
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 29 secs 
+Total CPU time to PAR completion: 16 secs 
+
+Peak Memory Usage:  170 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+
+Writing design to file camtop.ncd.
+
+
+PAR done.

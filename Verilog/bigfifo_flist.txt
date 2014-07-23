@@ -1,0 +1,7 @@
+# Output products list for <bigfifo>
+bigfifo.edn
+bigfifo.veo
+bigfifo.v
+bigfifo_fifo_generator_v2_0_as_1.ngc
+bigfifo.xco
+bigfifo.xcp

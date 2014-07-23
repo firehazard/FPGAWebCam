@@ -1,0 +1,27 @@
+# Current time Fri Feb 25 00:21:28 2005
+# ModelSim Stack Trace
+# Program = vsim
+# Id = "5.7a"
+# Version = "2002.12"
+# Date = "Jan  3 2003"
+# Platform = win32
+# 0    0x77c47b26: '<unknown (@0x77c47b26)>'
+# 1    0x005620ea: '<unknown (@0x5620ea)> + 0xbd0ba'
+# 2    0x0056229f: '<unknown (@0x56229f)> + 0xbd26f'
+# 3    0x00562489: '<unknown (@0x562489)> + 0xbd459'
+# 4    0x0050f55f: '<unknown (@0x50f55f)> + 0x6a52f'
+# 5    0x005109ae: '<unknown (@0x5109ae)> + 0x6b97e'
+# 6    0x1000c2bb: 'TclInvokeStringCommand + 0x6b'
+# 7    0x1003cce6: 'Tcl_EvalObjv + 0x3d6'
+# 8    0x1003d19a: 'Tcl_EvalEx + 0x11a'
+# 9    0x1003d436: 'Tcl_Eval + 0x16'
+# 10   0x1000df0c: 'Tcl_GlobalEval + 0x1c'
+# 11   0x0057e7b2: '<unknown (@0x57e7b2)> + 0xd9782'
+# 12   0x10031d39: 'Tcl_NotifyChannel + 0xd9'
+# 13   0x0058245d: '<unknown (@0x58245d)> + 0xdd42d'
+# 14   0x1003af30: 'Tcl_ServiceEvent + 0x60'
+# 15   0x1003b1a1: 'Tcl_DoOneEvent + 0x111'
+# 16   0x005892ac: '<unknown (@0x5892ac)> + 0xe427c'
+# 17   0x005152b9: '<unknown (@0x5152b9)> + 0x70289'
+# End of Stack Trace
+

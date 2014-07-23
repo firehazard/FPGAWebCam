@@ -1,0 +1,23 @@
+# Xilinx CORE Generator 6.3.03i
+# User = Tom
+Initializing default project...
+Loading plug-ins...
+All runtime messages will be recorded in C:\EE109\Lab3\Verilog\coregen.log
+# busformat=BusFormatAngleBracketNotRipped
+# designflow=VHDL
+# expandedprojectpath=C:\EE109\Lab3\Verilog
+# flowvendor=Foundation_iSE
+# formalverification=None
+# simulationoutputproducts=VHDL
+# xilinxfamily=Virtex2
+# outputoption=DesignFlow
+# overwritefiles=Default
+# simvendor=ModelSim
+# expandedprojectpath=C:\EE109\Lab3\Verilog
+SETPROJECT .
+Set current Project to C:\EE109\Lab3\Verilog
+SET BusFormat = BusFormatAngleBracketNotRipped
+SETXIPCPORTHOST 1592
+XIPCPJSENDCORES virtex2p
+ERROR: Errors occurred at line 3. XIPCPJSENDCORES virtex2p
+ERROR: Errors found during execution of command file __projnav\coregen.rsp

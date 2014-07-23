@@ -1,0 +1,727 @@
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\original/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\original/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\original/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\original/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\original/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\original/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-5 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd c:\ee109\temac1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\lab1\temac1_chipscope2/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -i  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -i  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd
+xst -intstyle ise -ifn __projnav/temac1_top.xst -ofn temac1_top.syr
+ngdbuild -intstyle ise -dd z:\2\lab2hw\temac/_ngo -uc temac1_top.ucf  -p xc2vp30-ff896-7 temac1_top.ngc temac1_top.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o temac1_top_map.ncd temac1_top.ngd temac1_top.pcf
+par -w -intstyle ise -ol std -t 1 temac1_top_map.ncd temac1_top.ncd temac1_top.pcf
+trce -intstyle ise -e 3 -l 3 -xml temac1_top temac1_top.ncd -o temac1_top.twr temac1_top.pcf
+bitgen -intstyle ise -f temac1_top.ut temac1_top.ncd

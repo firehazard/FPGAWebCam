@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn __projnav/camtop.xst -ofn camtop.syr
+xst -intstyle ise -ifn __projnav/camtop.xst -ofn camtop.syr
+ngdbuild -intstyle ise -dd y:\private\ee109\lab2hw\temac/_ngo -i  -p xc2vp30-ff896-7 camtop.ngc camtop.ngd
+map -intstyle ise -p xc2vp30-ff896-7 -cm area -pr b -k 4 -c 100 -tx off -o camtop_map.ncd camtop.ngd camtop.pcf
+par -w -intstyle ise -ol std -t 1 camtop_map.ncd camtop.ncd camtop.pcf
+trce -intstyle ise -e 3 -l 3 -xml camtop camtop.ncd -o camtop.twr camtop.pcf
+bitgen -intstyle ise -f camtop.ut camtop.ncd
+xst -intstyle ise -ifn __projnav/camtop.xst -ofn camtop.syr

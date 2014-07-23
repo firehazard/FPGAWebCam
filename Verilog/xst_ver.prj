@@ -1,0 +1,9 @@
+verilog work temac1_mod.v 
+verilog work client_loopback.v 
+verilog work fifo.v 
+verilog work address_swap_module.v 
+verilog work clk_half.v 
+verilog work tx_clk_gen.v 
+verilog work rx_clk_gen.v 
+verilog work clk_gen.v 
+verilog work temac1_top.v 
